@@ -18,14 +18,41 @@ This repository contains the code, executed notebooks, publication figures, and 
 
 The version folders are retained because later analyses refer to frozen inputs and earlier protocols. The large local artifacts were left in place on the research machine but are excluded from Git: raw corpora, downloaded dataset shards, caches, extracted embeddings, pretrained weights, checkpoints, archives, and most recording-level predictions. The committed outputs are intended for reviewing results, not for resuming a full training run from a fresh clone.
 
-## View the results
+## Results and figures
 
-1. Open [`v10/v10.4/RESULTS.md`](v10/v10.4/RESULTS.md) for the latest result table and interpretation.
-2. View the [V10 figures](v10/publication/figures/) and [V10 tables](v10/publication/tables/) for the main reference study.
-3. Open [`v10/dysarthria_10.ipynb`](v10/dysarthria_10.ipynb), [`v9/dysarthria_v9.ipynb`](v9/dysarthria_v9.ipynb), or [`v8/dysarthria_v8.ipynb`](v8/dysarthria_v8.ipynb) in Jupyter to inspect the saved code, charts, and tables.
-4. For earlier results, see the version READMEs and the [V8 publication products](v8/v8_publication_completion/publication/) and [V9 publication products](v9/v9_publication/).
+The figures below are included in this repository and display directly on GitHub. ROC-AUC measures how well scores rank speakers across possible thresholds; balanced accuracy averages sensitivity and specificity at a chosen threshold. The five TORGO seeds reuse the same 15 physical speakers, so they are repeated evaluations of one small cohort.
 
-No dataset is needed to read these saved outputs. For a rerun, use your own authorized copies of TORGO and UASpeech and restore the frozen artifacts named in the version documentation.
+### V10.4: threshold, duration, and background controls
+
+![Three V10.4 charts: threshold rule, duration increment, and background-edge control](v10/v10.4/outputs/figures/fig01_v10_4_saved_and_background.png)
+
+The left panel shows mean balanced accuracy of **0.854** with the original threshold and **0.818** with Youden J; the paired confidence interval for the change includes zero. In the middle, adding V10 scores to a fitted duration stack raises AUC from **0.896** to **0.921**, but the gain of **0.025** has a 95% speaker-bootstrap interval of **[-0.104, 0.196]**. At right, a classifier trained on low-energy recording edges reaches **0.804 AUC** versus **0.721** for locked speech heads on the same source recordings. The paired interval includes zero, and those edges may contain speech. See the [V10.4 analysis](v10/v10.4/RESULTS.md).
+
+### V10.4: duration-spread intervention
+
+![V10.4 locked-model response to changing duration spread and speaker-level effects](v10/v10.4/outputs/figures/fig02_v10_4_spread_intervention.png)
+
+Changing each speaker's within-speaker duration spread shifted the model's scores: mean high-spread minus low-spread logit was **-0.192**. Yet the same-length audio-processing control produced a larger typical absolute score shift (**0.690**) than the spread comparison (**0.065**), and its AUC fell from **0.864** to **0.761**. The predeclared artifact control failed, so the intervention is **inconclusive** as evidence of a duration mechanism.
+
+### V10: speech model versus duration-only comparator
+
+![TORGO ROC-AUC and balanced accuracy for V10 and the duration-only comparator](v10/publication/figures/fig16_paired_duration_v10_2.png)
+
+The duration-only comparator ranks TORGO speakers better by point estimate (**0.964 AUC** versus **0.850** for V10). At their selected thresholds, V10 has higher balanced accuracy (**0.854** versus **0.689**). The paired speaker-bootstrap intervals for both differences include zero. Ranking and thresholded classification therefore tell different parts of the story, and duration remains an important potential confound. See the [paired interval table](v10/outputs/v10_2/duration_paired_speaker_bootstrap_ci.csv).
+
+### V10: locked UASpeech M3 evaluation
+
+![V10 UASpeech M3 ROC and precision-recall curves across five seeds](v10/publication/figures/fig07_uaspeech_m3_roc_pr.png)
+
+Across **28 UASpeech speakers**, mean ROC-AUC is **0.966** and precision-recall AUC is **0.976**. At the locked threshold, balanced accuracy is **0.860**, sensitivity **0.720**, and specificity **1.000**: strong ranking still leaves some dysarthric speakers undetected at that threshold. This is a locked cross-corpus evaluation of a previously evaluated corpus, not a new prospective cohort. See the [M3 metric table](v10/publication/tables/table05_uaspeech_m3.md).
+
+### V9: why its M3 result is unavailable
+
+![V9 UASpeech M3 speakers below the required 20 eligible recordings](v9/v9_publication/figures/fig09_m3_fixed_budget_feasibility.png)
+
+V9 required **20 eligible one-second recordings per speaker**. The bars show the **15 of 28** M3 speakers below that line, including several with none. Thus V9 does **not** report an M3 performance estimate under this protocol. Its evidence requirement differs from V10's; the two versions' M3 results cannot be compared as if they used the same protocol. See the [V9 feasibility audit](v9/v9_publication/README.md).
+
+These results show discrimination under the evaluated V10 protocol, while the duration, background, and processing controls leave the source of that discrimination unresolved. A high AUC alone does not establish a clinical dysarthria mechanism. No dataset is needed to view these saved figures. For a rerun, use authorized TORGO and UASpeech copies and restore the frozen artifacts named in the version documentation. For more detail, browse the [V10 tables and figures](v10/publication/), [V9 publication outputs](v9/v9_publication/), or the executed [V10](v10/dysarthria_10.ipynb), [V9](v9/dysarthria_v9.ipynb), and [V8](v8/dysarthria_v8.ipynb) notebooks.
 
 ## Set up a local environment
 
@@ -56,18 +83,6 @@ The V10.4 runner is now located at:
 ```
 
 Its stages are `audit`, `reanalyses`, `background`, `spread`, and `report`. **The move has not yet been applied to the runner's repository-root calculation or its saved source manifest**, so this command does not currently complete a rerun. Even after those paths are repaired, a fresh GitHub clone will need the frozen V8/V10 caches and checkpoints excluded from Git, plus local TORGO WAV files and WavLM weights. See [`v10/v10.4/README.md`](v10/v10.4/README.md) and [`v10/v10.4/source_manifest.json`](v10/v10.4/source_manifest.json) for the required inputs. The saved V10.4 tables and figures remain available without rerunning it.
-
-## Main findings
-
-| Analysis | Saved result | What it supports |
-| --- | --- | --- |
-| V10 frozen TORGO reference | Mean five-seed speaker-level ROC-AUC **0.850** and balanced accuracy **0.854** across 15 physical speakers. | The reference separates speakers in this small, repeated speaker-held-out experiment. [Source](v10/publication/tables/table01_torgo_primary_v10.md) |
-| Locked UASpeech M3 evaluation | Mean ROC-AUC **0.966** and balanced accuracy **0.860** across 28 speakers; sensitivity **0.720** at the locked threshold. | Cross-corpus discrimination is strong under the V8/V10 protocol, while thresholded sensitivity is lower. This is a reproducibility rerun of a previously evaluated corpus, not a newly acquired prospective cohort. [Source](v10/publication/tables/table05_uaspeech_m3.md) |
-| V9 active-speech, fixed-evidence protocol | The TORGO experiment completed, but the locked UASpeech M3 benchmark was **not estimable** because 15 of 28 speakers lacked the required 20 eligible recordings. | No V9 UASpeech performance claim is made. [Source](v9/v9_publication/README.md) |
-| V10.4 duration increment | AUC **0.896** for a duration stack and **0.921** for duration plus V10; paired Δ **0.025**, 95% speaker-bootstrap interval **[-0.104, 0.196]**. | Incremental value beyond duration is not established. The original duration-only AUC was 0.964. [Source](v10/v10.4/RESULTS.md) |
-| V10.4 background and intervention controls | Background-edge classifier AUC **0.804** with a wide paired interval against speech heads; the duration-spread intervention was marked **inconclusive** by its artifact control. | Recording/background signal is a material concern; these tests do not identify a disease-specific mechanism. [Source](v10/v10.4/RESULTS.md) |
-
-The five seeds reuse the same 15 TORGO physical speakers, so they are repeated partitions of one cohort. Confidence intervals in V10.4 resample physical speakers, not seeds as independent people. A high AUC alone does not show that a model has learned a clinical dysarthria mechanism. The detailed caveats and exact comparisons are in the linked result documents.
 
 ## What GitHub contains
 
