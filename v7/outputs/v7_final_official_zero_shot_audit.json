@@ -1,0 +1,20 @@
+{
+  "model_lock_sha256": "b9c147ed1e763c7d552ca8ad45e90e69ea5d2f00470a55d101dbf1285d413260",
+  "official_metadata_sha256": "774bd438bd9d75983a8d6496f2d049b3a6809c159e831f1d9c76c7f2a8dd15fb",
+  "official_uaspeech_used_for_training": false,
+  "official_uaspeech_used_for_fine_tuning": false,
+  "official_uaspeech_used_for_threshold_selection": false,
+  "official_uaspeech_used_for_calibration": false,
+  "official_uaspeech_used_for_model_selection": false,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "primary_channel": "M3",
+  "matched_content_keys": 17553,
+  "matched_physical_speakers": 23,
+  "prediction_source": "v7_final_official_uaspeech_predictions.csv"
+}

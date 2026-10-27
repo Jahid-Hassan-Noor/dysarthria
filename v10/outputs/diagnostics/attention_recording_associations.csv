@@ -1,0 +1,5 @@
+feature,spearman_rho,naive_utterance_pvalue_not_for_inference,n_utterance_seed_rows
+duration,-0.2220475490418599,0.0,88150
+silence_ratio,-0.24770554872069114,0.0,88150
+RMS,0.22685976433917296,0.0,88150
+peak,0.20285647522070102,0.0,88150

@@ -1,0 +1,8 @@
+{
+  "median_inner_best_balanced_accuracy": 0.8535714285714286,
+  "pooled_one_se_balanced_accuracy": 0.6696428571428571,
+  "median_epoch_sd_across_folds": 10.935416468216166,
+  "one_se_epoch_sd_across_folds": 5.831523528775878,
+  "adopt_one_se": false,
+  "primary_model_changed": false
+}

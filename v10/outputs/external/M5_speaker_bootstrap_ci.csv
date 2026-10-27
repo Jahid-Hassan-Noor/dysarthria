@@ -1,0 +1,7 @@
+model_arm,metric,lower_95,upper_95,n_resamples,resampling_unit,stratified_by_diagnosis,same_speaker_draw_across_seeds,channel
+speech_only,ROC_AUC,0.9005128205128206,1.0,1000,physical_speaker,True,True,M5
+speech_only,PR_AUC,0.9394140883626177,1.0,1000,physical_speaker,True,True,M5
+speech_only,Balanced_Accuracy,0.8333333333333333,1.0,1000,physical_speaker,True,True,M5
+speech_only,Sensitivity,0.6666666666666666,1.0,1000,physical_speaker,True,True,M5
+speech_only,Specificity,1.0,1.0,1000,physical_speaker,True,True,M5
+speech_only,Brier,0.008621384341855411,0.17026414099083692,1000,physical_speaker,True,True,M5

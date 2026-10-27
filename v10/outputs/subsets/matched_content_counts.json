@@ -1,0 +1,11 @@
+{
+  "n_speakers": 25,
+  "n_recordings": 7650,
+  "n_matched_prompts": 306,
+  "source": "V8 verified official transcript match manifest; evaluated with frozen V10 heads",
+  "excluded_speakers": [
+    "CF05",
+    "CM01",
+    "F05"
+  ]
+}

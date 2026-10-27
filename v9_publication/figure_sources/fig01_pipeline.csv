@@ -1,0 +1,10 @@
+stage,name
+0,Raw audio
+1,Mono 16 kHz
+2,Energy VAD
+3,Active speech
+4,RMS normalize
+5,Fixed window
+6,Frozen WavLM
+7,K segments
+8,Speaker head

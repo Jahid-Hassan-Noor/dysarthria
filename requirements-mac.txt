@@ -1,0 +1,17 @@
+# Runtime and notebook dependencies for the local Apple Silicon setup.
+# These are installed only into this project's .venv.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+librosa
+soundfile
+tqdm
+torch
+torchvision
+torchaudio
+kagglehub
+jupyterlab
+ipykernel

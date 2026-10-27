@@ -1,0 +1,8 @@
+condition,duration_factor,n_cropped_to_12s
+original,1.0,0
+identity,1.0,0
+roundtrip,1.0,0
+rate_0.80,1.25,16
+rate_0.90,1.1111111111111112,12
+rate_1.11,0.8999999999999999,0
+rate_1.25,0.8,0

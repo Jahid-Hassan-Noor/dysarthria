@@ -1,0 +1,42 @@
+{
+  "sensitivity_below_group_thresholds": {
+    "0.9": [
+      {
+        "official_intelligibility_group": "High",
+        "intelligibility_min": 86.0,
+        "intelligibility_max": 95.0
+      },
+      {
+        "official_intelligibility_group": "Mid",
+        "intelligibility_min": 58.0,
+        "intelligibility_max": 62.0
+      }
+    ],
+    "0.8": [
+      {
+        "official_intelligibility_group": "High",
+        "intelligibility_min": 86.0,
+        "intelligibility_max": 95.0
+      },
+      {
+        "official_intelligibility_group": "Mid",
+        "intelligibility_min": 58.0,
+        "intelligibility_max": 62.0
+      }
+    ],
+    "0.7": [
+      {
+        "official_intelligibility_group": "High",
+        "intelligibility_min": 86.0,
+        "intelligibility_max": 95.0
+      },
+      {
+        "official_intelligibility_group": "Mid",
+        "intelligibility_min": 58.0,
+        "intelligibility_max": 62.0
+      }
+    ]
+  },
+  "warning": "Descriptive within-sample group rates; not validated clinical severity cutoffs.",
+  "metadata_source": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/doc/speaker_wordlist.xls"
+}

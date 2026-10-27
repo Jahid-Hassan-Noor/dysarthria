@@ -1,0 +1,76 @@
+# Local environments and editor files
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+*.py[cod]
+
+# Raw or downloaded corpora. Obtain these separately before running experiments.
+/UASpeech/
+/easycall-dysarthria/
+
+# Local working areas and generated graph index
+/outputs/
+/tmp/
+/graphify-out/
+**/backups/
+**/cache/
+**/external_cache/
+**/frozen_reference/
+**/external_features/
+**/embedding_shards/
+**/weights/
+**/checkpoints/
+**/pretrained/
+**/features/
+
+# Model parameters, extracted features, media, dataset shards, and archives
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.parquet
+*.zip
+*.tar
+*.gz
+*.log
+
+# V7 contains extensive per-fold training traces and recording-level scores.
+# Keep its paper figures and compact final tables/audits only.
+/v7/outputs/*
+!/v7/outputs/publication_figures/
+!/v7/outputs/v7_corrected_publication_figures/
+!/v7/outputs/*metrics.csv
+!/v7/outputs/*summary.csv
+!/v7/outputs/*ci.csv
+!/v7/outputs/*comparison.csv
+!/v7/outputs/*audit.json
+!/v7/outputs/*index.csv
+!/v7/outputs/*table.csv
+!/v7/outputs/*decision.json
+!/v7/outputs/*lock.json
+!/v7/outputs/final_master_report.txt
+
+# V8 publication products remain; large experiment detail stays local.
+/v8/v8_publication_completion/ablations/
+/v8/v8_publication_completion/budgets/
+/v8/v8_publication_completion/baselines/
+/v8/v8_publication_completion/diagnostics/
+/v8/v8_publication_completion/results/*/predictions.csv
+
+# Large recording-level products that are reproducible from the local datasets.
+/v6/outputs/official_uaspeech_external_results/uaspeech_official_metadata.csv
+/v6/outputs/official_uaspeech_external_results/per_utterance_predictions.csv
+/v10/outputs/subsets/uaspeech_m3_budget_predictions.csv
+/v10/release_v10_2/uaspeech_m3_budget_predictions.csv
+/v10/outputs/diagnostics/attention_utterance_weights.csv

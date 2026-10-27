@@ -1,0 +1,26 @@
+{
+  "training_on_official_uaspeech": false,
+  "fine_tuning_on_official_uaspeech": false,
+  "threshold_selection_on_official_uaspeech": false,
+  "calibration_on_official_uaspeech": false,
+  "model_selection_on_official_uaspeech": false,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "primary_channel": "M3",
+  "matched_channel_content_keys": 17553,
+  "matched_channel_physical_speakers": 23,
+  "official_metadata_sha256": "774bd438bd9d75983a8d6496f2d049b3a6809c159e831f1d9c76c7f2a8dd15fb",
+  "official_speaker_wordlist_sha256": "307a852d524d4b3354c5cacc796d4ebdf0c47167abfc6e34c7659e84e52673ed",
+  "frozen_checkpoint_sha256": {
+    "42": "c2b7f529ccdb6e84b1b12494078ccb59950a1e715490f699917ae3db2524950a",
+    "43": "e3040ba6b3db87477ab67d695eb9bfd96aec253efbcada236788226c8529f127",
+    "44": "6925a13f8e9b9990c7fbee0fab7089b4b6521470f1e769faf36198a59e1ca852",
+    "45": "4cd09b8f8a5a5c20a6437c91951f1cd3fb9872223372d3c424070bec59824a64",
+    "46": "849678e2f36fa4218287b2f55519772ce000ecc8bdc0ab1812a37371722f4319"
+  }
+}

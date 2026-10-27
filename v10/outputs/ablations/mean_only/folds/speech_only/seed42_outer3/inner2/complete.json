@@ -1,0 +1,146 @@
+{
+  "best_epoch": 2,
+  "best_validation_logloss": 0.6085039323632911,
+  "frozen_encoder": true,
+  "history": [
+    {
+      "best_epoch": 1,
+      "best_validation_logloss": 0.6357906749184035,
+      "epoch": 1,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.6561877429485321,
+      "validation_accuracy_0_5": 0.75,
+      "validation_logloss": 0.6357906749184035
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 2,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.5838265866041183,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.6085039323632911
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 3,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.49957264214754105,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.6179677720693779
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 4,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.413233146071434,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.6392913674882628
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 5,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.34993716329336166,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.6982760943548745
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 6,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.2844710648059845,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.7248015582863756
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 7,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.20869671180844307,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.7780922270194457
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 8,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.15503596514463425,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.8393329163817029
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 9,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.10824129357933998,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.9200033380273909
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 10,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.08843188732862473,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 1.0295738451474996
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 11,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.056207962334156036,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 1.1284317926762926
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6085039323632911,
+      "epoch": 12,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.03685191087424755,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 1.1940291774777487
+    }
+  ],
+  "history_file": "training_history.csv",
+  "signature": "45139f3c99a28e2348d48c65519f28249ff30ff81930fbedc96fa85638cad43d",
+  "train_speakers": [
+    "F01",
+    "F03",
+    "F04",
+    "FC03",
+    "M01",
+    "M05",
+    "MC03",
+    "MC04"
+  ],
+  "use_fusion": false,
+  "validation_speakers": [
+    "M02",
+    "M03",
+    "MC01",
+    "MC02"
+  ]
+}

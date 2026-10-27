@@ -1,0 +1,12 @@
+experiment,seed,Accuracy,F1_dysarthric,ROC_AUC,PR_AUC,Brier
+TORGO in-domain,42,0.841,0.8319,0.9831,0.9772,0.0611
+TORGO in-domain,43,0.8278,0.8176,0.971,0.9649,0.1847
+TORGO in-domain,44,0.7871,0.7776,0.9171,0.9014,0.1324
+TORGO in-domain,45,0.8217,0.8166,0.9954,0.9923,0.1262
+TORGO in-domain,46,0.7916,0.7881,0.9605,0.9474,0.1245
+Official UASpeech zero-shot,42,0.5998769289027739,0.7014234749743916,0.7082112246998056,0.7626409251429582,0.30107425982180974
+Preliminary UA-Speech Kaggle mirror (existing),42,0.5357,0.6977,0.3535,0.4477,0.4636
+Preliminary UA-Speech Kaggle mirror (existing),43,0.5357,0.6977,0.5575,0.5547,0.3598
+Preliminary UA-Speech Kaggle mirror (existing),44,0.5345,0.6967,0.5862,0.5964,0.4429
+Preliminary UA-Speech Kaggle mirror (existing),45,0.5357,0.6977,0.7298,0.7294,0.3278
+Preliminary UA-Speech Kaggle mirror (existing),46,0.5357,0.6977,0.5258,0.5437,0.4304

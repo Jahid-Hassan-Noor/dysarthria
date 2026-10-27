@@ -1,0 +1,47 @@
+V9 FINAL RESEARCH AUDIT
+=======================
+
+V8 reference preserved: PASS
+Physical-speaker mapping: PASS
+Physical-speaker leakage: PASS
+Five TORGO seeds: COMPLETE
+Nested evaluation: PASS
+VAD preprocessing: PASS
+Fixed active-speech duration: YES
+Fixed speaker evidence: YES
+Amplitude normalization: YES
+MFCC baseline: YES
+eGeMAPS baseline: DEPENDENCY UNAVAILABLE
+WavLM Logistic Regression baseline: YES
+Mean-only vs Mean+SD: YES
+Final-layer vs Last-4: YES
+Mean vs Attention: YES
+HuBERT comparison: YES
+Confound-only baselines: YES
+Strict V8/V9 matched protocol comparison: NO
+Incremental value beyond confounds: YES
+Consistently wrong speaker audit: YES
+Epoch stability: YES
+Calibration: YES
+Threshold audit: YES
+UASpeech primary M3: NO
+UASpeech all-available secondary: NO
+UASpeech used for V9 primary training: NO
+UASpeech used for V9 primary fine-tuning: NO
+UASpeech used for V9 primary threshold selection: NO
+UASpeech used for V9 primary calibration: NO
+UASpeech used for V9 primary model selection: NO
+Matched-content analysis: NO
+Severity/intelligibility analysis: NO
+Minimum detectable severity: NOT ESTIMABLE
+M2-M8 robustness: NO
+Silence/background control: YES
+Duration/artifact control: YES
+Layer interpretability: YES
+Attention diagnostic: YES
+Reverse transfer: NO
+Domain-invariant secondary arm: NO
+Third corpus: NOT AVAILABLE
+Publication tables: FAIL
+Publication figures: FAIL
+Traceability: PASS

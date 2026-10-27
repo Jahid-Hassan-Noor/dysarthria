@@ -1,0 +1,16 @@
+epoch,train_logloss,validation_logloss,validation_accuracy_0_5,best_epoch,best_validation_logloss,is_best,history_status
+1,0.677108570933342,,,1,,True,logged
+2,0.6427481770515442,,,2,,True,logged
+3,0.5731481909751892,,,3,,True,logged
+4,0.47787173837423325,,,4,,True,logged
+5,0.4350283443927765,,,5,,True,logged
+6,0.3558639958500862,,,6,,True,logged
+7,0.3068881779909134,,,7,,True,logged
+8,0.2345665991306305,,,8,,True,logged
+9,0.22269446775317192,,,9,,True,logged
+10,0.17195963114500046,,,10,,True,logged
+11,0.12782056629657745,,,11,,True,logged
+12,0.12191645614802837,,,12,,True,logged
+13,0.1181996576488018,,,13,,True,logged
+14,0.061373624950647354,,,14,,True,logged
+15,0.053757568821311,,,15,,True,logged

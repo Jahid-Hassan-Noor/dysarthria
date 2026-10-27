@@ -1,0 +1,20 @@
+{
+  "claim": "locked zero-shot cross-corpus evaluation on official UASpeech",
+  "primary_channel": "M3",
+  "primary_cohort_speakers": 28,
+  "primary_cohort_recordings": 21126,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "v10_primary_freeze_sha256": "9c410de55b4d01d57ee2a28726ddae71d5db53faa9db775d89ed3bf2cae1677f",
+  "UASpeech used for V10 training": "NO",
+  "UASpeech used for V10 fine-tuning": "NO",
+  "UASpeech used for V10 threshold selection": "NO",
+  "UASpeech used for V10 calibration": "NO",
+  "UASpeech used for V10 model selection": "NO",
+  "historically_untouched_prospective_validation": false
+}

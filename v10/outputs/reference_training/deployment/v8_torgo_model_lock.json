@@ -1,0 +1,78 @@
+{
+  "external_dataset_used_for_threshold_selection": false,
+  "external_dataset_used_for_training": false,
+  "model_selection": "all configured arms and seeds are evaluated; no external selection",
+  "models": [
+    {
+      "acoustic_scaler": "deployment/speech_only/seed42/final/acoustic_scaler.npz",
+      "acoustic_scaler_sha256": "590878a40196a9ed1e40b727e4045c18db7a2aa489d785e68171b16ce69e3b79",
+      "checkpoint": "deployment/speech_only/seed42/final/best.pt",
+      "checkpoint_sha256": "78b21568d0418ed2c48f0ebaa19b1de37f824bb3c16c5ba676920c5dba4dfd76",
+      "final_epochs": 39,
+      "inner_folds": 5,
+      "model_arm": "speech_only",
+      "seed": 42,
+      "threshold": 0.444499315821758,
+      "threshold_source": "TORGO grouped inner speaker OOF only",
+      "torgo_inner_oof": "deployment/speech_only/seed42/torgo_inner_oof_speakers.csv"
+    },
+    {
+      "acoustic_scaler": "deployment/speech_only/seed43/final/acoustic_scaler.npz",
+      "acoustic_scaler_sha256": "590878a40196a9ed1e40b727e4045c18db7a2aa489d785e68171b16ce69e3b79",
+      "checkpoint": "deployment/speech_only/seed43/final/best.pt",
+      "checkpoint_sha256": "370919ca7eb0779bf0c0e4ef9b5af78f72b04e9a398418a852227e8f8735c955",
+      "final_epochs": 12,
+      "inner_folds": 5,
+      "model_arm": "speech_only",
+      "seed": 43,
+      "threshold": 0.428864099074454,
+      "threshold_source": "TORGO grouped inner speaker OOF only",
+      "torgo_inner_oof": "deployment/speech_only/seed43/torgo_inner_oof_speakers.csv"
+    },
+    {
+      "acoustic_scaler": "deployment/speech_only/seed44/final/acoustic_scaler.npz",
+      "acoustic_scaler_sha256": "590878a40196a9ed1e40b727e4045c18db7a2aa489d785e68171b16ce69e3b79",
+      "checkpoint": "deployment/speech_only/seed44/final/best.pt",
+      "checkpoint_sha256": "fe3885badceb76e500ded7390252b40307ee73ebfee8845929dd4473ec2524bb",
+      "final_epochs": 34,
+      "inner_folds": 5,
+      "model_arm": "speech_only",
+      "seed": 44,
+      "threshold": 0.49155135775860415,
+      "threshold_source": "TORGO grouped inner speaker OOF only",
+      "torgo_inner_oof": "deployment/speech_only/seed44/torgo_inner_oof_speakers.csv"
+    },
+    {
+      "acoustic_scaler": "deployment/speech_only/seed45/final/acoustic_scaler.npz",
+      "acoustic_scaler_sha256": "590878a40196a9ed1e40b727e4045c18db7a2aa489d785e68171b16ce69e3b79",
+      "checkpoint": "deployment/speech_only/seed45/final/best.pt",
+      "checkpoint_sha256": "4933fae4283b48440224f624368a6a68b1c59aa1c8b948e82e9a73dd41a70ade",
+      "final_epochs": 14,
+      "inner_folds": 5,
+      "model_arm": "speech_only",
+      "seed": 45,
+      "threshold": 0.4679831816213803,
+      "threshold_source": "TORGO grouped inner speaker OOF only",
+      "torgo_inner_oof": "deployment/speech_only/seed45/torgo_inner_oof_speakers.csv"
+    },
+    {
+      "acoustic_scaler": "deployment/speech_only/seed46/final/acoustic_scaler.npz",
+      "acoustic_scaler_sha256": "590878a40196a9ed1e40b727e4045c18db7a2aa489d785e68171b16ce69e3b79",
+      "checkpoint": "deployment/speech_only/seed46/final/best.pt",
+      "checkpoint_sha256": "f79af4f2de4320fa226b6733bffd12894c6d648ab40be8e199573330ad17456b",
+      "final_epochs": 12,
+      "inner_folds": 5,
+      "model_arm": "speech_only",
+      "seed": 46,
+      "threshold": 0.43832720324552976,
+      "threshold_source": "TORGO grouped inner speaker OOF only",
+      "torgo_inner_oof": "deployment/speech_only/seed46/torgo_inner_oof_speakers.csv"
+    }
+  ],
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "pretrained_weight_sha256": "ee69baa3f5f2dd37493516acd5a5018797dd9fa25fedafc6c7f7ce53e7bd6ce3",
+  "primary_external_channel": "M3",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_corpus": "TORGO only",
+  "torgo_source_signature": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+}

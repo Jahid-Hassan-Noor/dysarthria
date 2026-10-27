@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-13T11:23:32.211038+00:00",
+  "external_model_selection": false,
+  "group_columns": [
+    "corpus",
+    "model_arm",
+    "channel",
+    "budget",
+    "repetition",
+    "seed"
+  ],
+  "metric_sha256": "9f2a1ca2681f4db4f3d03e13328da3f0db350915978551217cf7c08def6d3412",
+  "name": "budgets_uaspeech",
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "prediction_sha256": "3cb1ca73cd890350fc7c196cdc4cdc4d886b92fb89e1706f54e3289baeb76ef5",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_signatures": {
+    "TORGO": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-13T11:27:20.660562+00:00",
+  "external_model_selection": false,
+  "group_columns": [
+    "corpus",
+    "model_arm",
+    "channel",
+    "seed"
+  ],
+  "metric_sha256": "389499d688ad4f69c0f1f8db7cbc43078781bd94e2edf3e353a5bf0b4c6994c0",
+  "name": "channel_M8",
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "prediction_sha256": "cc7b9f45361a4c0aba6a076d510c89ac790d5db79e4bad70c763614120081914",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_signatures": {
+    "TORGO": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+  }
+}

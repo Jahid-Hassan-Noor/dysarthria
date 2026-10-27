@@ -1,0 +1,47 @@
+{
+  "config": {
+    "bags_per_epoch": 4,
+    "dataset_path": null,
+    "encoder_batch_size": 4,
+    "encoder_name": "WAVLM_BASE",
+    "inner_folds": 3,
+    "learning_rate": 0.0003,
+    "max_epochs": 40,
+    "max_seconds": 12.0,
+    "max_utterances_per_bag": 64,
+    "outer_folds": 5,
+    "patience": 10,
+    "sample_rate": 16000,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "selected_layers": 4,
+    "use_fusion": false,
+    "weight_decay": 0.001
+  },
+  "dataset_root": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1",
+  "external_dataset_used": false,
+  "feature_spec": {
+    "acoustic_recipe": "mfcc13_rms_zcr_centroid_bandwidth_rolloff_flatness_duration_v1",
+    "encoder": "WAVLM_BASE",
+    "librosa_version": "1.0.0",
+    "max_seconds": 12.0,
+    "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+    "pretrained_weight_sha256": "ee69baa3f5f2dd37493516acd5a5018797dd9fa25fedafc6c7f7ce53e7bd6ce3",
+    "sample_rate": 16000,
+    "selected_layers": 4,
+    "torchaudio_version": "2.11.0",
+    "waveform_preprocessing": "mono_resample_trim_normalize_array_gate_center_crop_v1"
+  },
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "pretrained_encoder_frozen": true,
+  "pretrained_weight_path": "/Users/Noor/Documents/projects/dysarthia/v8/outputs/cache/dysarthria_detection_v8/pretrained/WAVLM_BASE/wavlm_base.pth",
+  "pretrained_weight_sha256": "ee69baa3f5f2dd37493516acd5a5018797dd9fa25fedafc6c7f7ce53e7bd6ce3",
+  "previous_version_cache_used": false,
+  "raw_source_signature": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758"
+}

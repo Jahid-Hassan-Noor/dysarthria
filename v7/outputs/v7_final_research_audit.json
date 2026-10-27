@@ -1,0 +1,48 @@
+{
+  "status": {
+    "Physical-speaker mapping verified": "PASS",
+    "Physical-speaker leakage": "PASS",
+    "Classical baselines rerun on identical physical-speaker folds": "YES",
+    "Neural architecture ablation rerun on identical physical-speaker folds": "YES",
+    "Five seeds completed": "YES",
+    "Training convergence verified": "YES",
+    "Controlled session-vs-physical-speaker experiment completed": "YES",
+    "Pooled out-of-fold TORGO speaker metrics completed": "YES",
+    "Official UASpeech zero-shot five-seed evaluation completed": "YES",
+    "Official UASpeech used for training": "NO",
+    "Official UASpeech used for fine-tuning": "NO",
+    "Official UASpeech used for threshold selection": "NO",
+    "Official UASpeech used for calibration": "NO",
+    "Official UASpeech used for model selection": "NO",
+    "Calibration evaluated": "YES",
+    "Cross-microphone evaluation": "YES",
+    "Noise robustness evaluation": "YES",
+    "Subgroup estimability audit": "PASS",
+    "Publication figures regenerated": "YES"
+  },
+  "remaining_limitations": [
+    "The highest-ranked neural architecture varies across the five TORGO seeds; no single-seed winner is treated as definitive.",
+    "Dual-Stream (Full) used 50 training-speaker-only pretraining epochs in addition to the matched 20-epoch supervised cap; total optimization steps therefore differ by the pretraining treatment.",
+    "TORGO pooled speaker ROC-AUC across seeds: 0.621 \u00b1 0.087 (15 speakers per seed).",
+    "Five seed estimates reuse the same 15 TORGO speakers; seed SD measures run variation, while speaker bootstrap reflects subject sampling uncertainty.",
+    "The prespecified sensitivity-constrained TORGO threshold yields pooled speaker specificity 0.343 across seeds.",
+    "TORGO-only prespecified threshold policies yield held-out speaker specificity from 0.286 to 0.800; the external threshold was never adjusted.",
+    "Official UASpeech had already been evaluated in historical V7; this is a provenance-checked rerun of the same frozen model, not a new prospective external cohort.",
+    "Frozen official UASpeech speaker specificity at TORGO-locked thresholds: 0.200 across seeds; no external threshold adjustment was made.",
+    "Official five-seed estimates reuse the same 28 physical speakers; the cluster bootstrap resamples speakers jointly across seeds.",
+    "Matched M2\u2013M8 channel diagnostics include 23 of 28 primary M3 speakers; channel curves use this common-content subset.",
+    "Official speaker ROC-AUC varies by seed from 0.333 to 0.877 (SD 0.193).",
+    "Undefined official speaker metrics from empty predicted or diagnosis classes are retained as missing values: {'Precision': 1, 'NPV': 4}.",
+    "Existing 0 dB TORGO noise Balanced Accuracy: 0.503 (seed 42 diagnostic).",
+    "Gender subgroup fold estimates use only folds containing both diagnoses; female: 8 valid folds, male: 14 valid folds. Diagnosis-specific groups have one class and no estimable ROC-AUC or fairness conclusion.",
+    "TORGO cross-microphone and noise diagnostics cover seeds [42] and [42], respectively; they are diagnostic rather than five-seed model-selection evidence.",
+    "Classical Random Forest TORGO speaker Brier worsened after temperature scaling (0.160 to 0.194); both variants are retained for audit.",
+    "Convergence replay: 0/25 completed outer folds hit 20 epochs; 24/25 fail the stability-and-replay criterion."
+  ],
+  "source_files": {
+    "pooled_predictions": "v7_pooled_oof_torgo_predictions.csv",
+    "pooled_speakers": "v7_pooled_oof_torgo_speakers.csv",
+    "final_official": "v7_final_official_uaspeech_predictions.csv",
+    "historical_official": "official_per_seed_metrics.csv"
+  }
+}

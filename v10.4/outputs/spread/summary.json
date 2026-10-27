@@ -1,0 +1,35 @@
+{
+  "artifact_gate_passed": false,
+  "group_logit_gap_by_condition": {
+    "identity": 3.5585667671835273,
+    "original": 3.558604073065461,
+    "roundtrip": 2.3327036173748152,
+    "spread_0.88": 2.5568155952330156,
+    "spread_1.12": 2.698055897919197
+  },
+  "maximum_absolute_target_duration_error_seconds": 3.1250000000149214e-05,
+  "mean_auc_by_condition": {
+    "identity": 0.8642857142857142,
+    "original": 0.8642857142857142,
+    "roundtrip": 0.7607142857142857,
+    "spread_0.88": 0.8,
+    "spread_1.12": 0.825
+  },
+  "mean_spread_1_12_minus_0_88_logit": -0.19247032960256139,
+  "median_abs_roundtrip_artifact_logit_shift": 0.6899508237838744,
+  "median_abs_spread_logit_shift": 0.06451272964477522,
+  "n_cropped_by_condition": {
+    "identity": 0,
+    "roundtrip": 0,
+    "spread_0.88": 0,
+    "spread_1.12": 0
+  },
+  "n_recordings_per_speaker": 50,
+  "n_speakers": 15,
+  "note": "Phase-vocoder processing may change acoustic cues besides duration spread; the artifact gate is necessary but not sufficient for a causal interpretation.",
+  "physical_speaker_bootstrap_95": [
+    -0.29606259501973914,
+    -0.09863513041039809
+  ],
+  "verdict": "inconclusive_artifact_control"
+}

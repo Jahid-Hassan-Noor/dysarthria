@@ -1,0 +1,4 @@
+model,ROC_AUC
+A_confound_only,0.5464285714285714
+B_V9_probability_only,0.725
+C_confound_plus_V9,0.6571428571428571

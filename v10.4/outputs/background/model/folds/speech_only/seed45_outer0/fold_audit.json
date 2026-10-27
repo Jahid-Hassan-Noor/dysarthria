@@ -1,0 +1,94 @@
+{
+  "complete": true,
+  "final_epochs": 21,
+  "fold_signature": "64a7409da74c147b710933df86cb7af5ea396f776b85256489a9237c26b6ee4b",
+  "frozen_pretrained_encoder": true,
+  "inner_folds": [
+    {
+      "best_epoch": 39,
+      "inner_fold": 0,
+      "train_physical_speakers": [
+        "F04",
+        "FC02",
+        "FC03",
+        "M01",
+        "M02",
+        "M04",
+        "MC02",
+        "MC03"
+      ],
+      "validation_physical_speakers": [
+        "F03",
+        "FC01",
+        "M05",
+        "MC01"
+      ]
+    },
+    {
+      "best_epoch": 21,
+      "inner_fold": 1,
+      "train_physical_speakers": [
+        "F03",
+        "F04",
+        "FC01",
+        "FC02",
+        "M04",
+        "M05",
+        "MC01",
+        "MC02"
+      ],
+      "validation_physical_speakers": [
+        "FC03",
+        "M01",
+        "M02",
+        "MC03"
+      ]
+    },
+    {
+      "best_epoch": 10,
+      "inner_fold": 2,
+      "train_physical_speakers": [
+        "F03",
+        "FC01",
+        "FC03",
+        "M01",
+        "M02",
+        "M05",
+        "MC01",
+        "MC03"
+      ],
+      "validation_physical_speakers": [
+        "F04",
+        "FC02",
+        "M04",
+        "MC02"
+      ]
+    }
+  ],
+  "min_inner_sensitivity": 0.9,
+  "model_arm": "speech_only",
+  "outer_fold": 0,
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "seed": 45,
+  "selected_threshold": 0.3271811162023403,
+  "test_physical_speakers": [
+    "F01",
+    "M03",
+    "MC04"
+  ],
+  "threshold_source": "inner_oof_train_speakers_only",
+  "train_physical_speakers": [
+    "F03",
+    "F04",
+    "FC01",
+    "FC02",
+    "FC03",
+    "M01",
+    "M02",
+    "M04",
+    "M05",
+    "MC01",
+    "MC02",
+    "MC03"
+  ]
+}

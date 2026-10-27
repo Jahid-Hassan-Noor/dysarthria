@@ -1,0 +1,195 @@
+{
+  "best_epoch": 17,
+  "best_validation_logloss": null,
+  "frozen_encoder": true,
+  "history": [
+    {
+      "best_epoch": 1,
+      "best_validation_logloss": null,
+      "epoch": 1,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.6848194897174835,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": null,
+      "epoch": 2,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.6294517368078232,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": null,
+      "epoch": 3,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.5582503080368042,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 4,
+      "best_validation_logloss": null,
+      "epoch": 4,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.4514194056391716,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 5,
+      "best_validation_logloss": null,
+      "epoch": 5,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.37078385055065155,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 6,
+      "best_validation_logloss": null,
+      "epoch": 6,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.3061908185482025,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 7,
+      "best_validation_logloss": null,
+      "epoch": 7,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.23982397094368935,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 8,
+      "best_validation_logloss": null,
+      "epoch": 8,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.18791711330413818,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 9,
+      "best_validation_logloss": null,
+      "epoch": 9,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.1405971497297287,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 10,
+      "best_validation_logloss": null,
+      "epoch": 10,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.1005993653088808,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 11,
+      "best_validation_logloss": null,
+      "epoch": 11,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.0745653510093689,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 12,
+      "best_validation_logloss": null,
+      "epoch": 12,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.05202812980860472,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 13,
+      "best_validation_logloss": null,
+      "epoch": 13,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.03611441608518362,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 14,
+      "best_validation_logloss": null,
+      "epoch": 14,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.022061676252633333,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 15,
+      "best_validation_logloss": null,
+      "epoch": 15,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.01695061707869172,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 16,
+      "best_validation_logloss": null,
+      "epoch": 16,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.012774498434737325,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    },
+    {
+      "best_epoch": 17,
+      "best_validation_logloss": null,
+      "epoch": 17,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.012757451506331563,
+      "validation_accuracy_0_5": null,
+      "validation_logloss": null
+    }
+  ],
+  "history_file": "training_history.csv",
+  "signature": "e015c25d3bb7c60bea79b7bdb3993ea7bdb131d74ca1400cf83aec83942b83ae",
+  "train_speakers": [
+    "F01",
+    "F03",
+    "F04",
+    "FC01",
+    "FC02",
+    "FC03",
+    "M01",
+    "M02",
+    "M05",
+    "MC01",
+    "MC03",
+    "MC04"
+  ],
+  "use_fusion": false,
+  "validation_speakers": []
+}

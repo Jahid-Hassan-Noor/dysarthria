@@ -1,0 +1,21 @@
+{
+  "training_corpus": "TORGO",
+  "external_corpus": "Official UASpeech",
+  "training_on_uaspeech": false,
+  "fine_tuning_on_uaspeech": false,
+  "threshold_tuning_on_uaspeech": false,
+  "model_selection_on_uaspeech": false,
+  "evaluation_type": "Zero-shot external validation",
+  "primary_channel": "M3",
+  "evaluated_seeds": [
+    42
+  ],
+  "missing_seed_checkpoints": [
+    43,
+    44,
+    45,
+    46
+  ],
+  "official_data_only_in_new_section": true,
+  "old_kaggle_mirror_outputs_overwritten": false
+}

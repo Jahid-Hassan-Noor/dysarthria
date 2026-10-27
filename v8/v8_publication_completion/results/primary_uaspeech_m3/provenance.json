@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-13T11:23:21.045320+00:00",
+  "external_model_selection": false,
+  "group_columns": [
+    "corpus",
+    "model_arm",
+    "channel",
+    "seed"
+  ],
+  "metric_sha256": "1a39baf9c6ae700436c69b621b0c6d10785b798e19149ddd5659108b0b7f8d85",
+  "name": "primary_uaspeech_m3",
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "prediction_sha256": "5eaaf6d14a928fc21b7ba7f0a47c434150facd29f1bc4bd65b23d2a85d47693d",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_signatures": {
+    "TORGO": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+  }
+}

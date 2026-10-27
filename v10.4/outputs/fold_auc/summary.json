@@ -1,0 +1,11 @@
+{
+  "auc_value_counts": {
+    "0.5": 1,
+    "1.0": 24
+  },
+  "mean_of_fold_auc_descriptive": 0.98,
+  "mean_seed_pooled_auc_primary": 0.85,
+  "n_folds": 25,
+  "n_tied_pairs": 0,
+  "note": "Three speakers per fold yield two class-discordant pairs. The 25 folds reuse 15 speakers across five seeds."
+}

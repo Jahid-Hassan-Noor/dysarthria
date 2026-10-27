@@ -1,0 +1,5 @@
+variable,spearman_rho,n_segment_seed_rows,n_physical_speakers,interpretation
+original_duration,-0.0004674201031595,960,15,"descriptive, not causal"
+active_speech_duration,-0.0213224318834228,960,15,"descriptive, not causal"
+silence_ratio,0.0633847804096077,960,15,"descriptive, not causal"
+pre_normalization_rms,-0.062205329936846,960,15,"descriptive, not causal"

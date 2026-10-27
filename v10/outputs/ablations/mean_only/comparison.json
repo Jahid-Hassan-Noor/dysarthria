@@ -1,0 +1,5 @@
+{
+  "controlled_change": "Zero temporal SD components, keeping dimensions, initialization, splits and training recipe",
+  "balanced_accuracy_difference_mean_only_minus_mean_plus_sd": -0.026785714285714413,
+  "primary_model_changed": false
+}

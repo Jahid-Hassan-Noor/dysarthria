@@ -1,0 +1,6 @@
+{
+  "calibration_training": "TORGO inner physical-speaker OOF predictions only",
+  "primary_predictions": "uncalibrated V8-preserving policy",
+  "external_threshold_or_temperature_selection": false,
+  "temperature_role": "diagnostic only; external labels used only for final Brier/ECE"
+}

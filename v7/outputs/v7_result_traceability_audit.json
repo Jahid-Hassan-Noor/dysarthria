@@ -1,0 +1,13 @@
+{
+  "classical": "PASS: 30 metric rows traced to v7_corrected_classical_predictions.csv",
+  "architecture": "PASS: 40 metric rows traced to v7_corrected_architecture_predictions.csv",
+  "classical_validation": "PASS: 75 grouped inner OOF calibration files traced to outer development speakers",
+  "official": "PASS: 10 metric rows traced to v7_final_official_uaspeech_predictions.csv",
+  "official_reproduction": "PASS: 35 channel-seed prediction sets exactly reproduce frozen historical outputs",
+  "primary_table": "PASS: 7 model rows traced to saved metric and prediction files",
+  "primary_paper_table": "PASS: requested ten-metric seven-model table matches traceable primary table",
+  "official_master_table": "PASS: 12 rows traced to official per-seed metrics",
+  "split_table": "PASS: three rows traced to paired per-seed metrics and predictions",
+  "split_paper_table": "PASS: requested split-effect table matches paired prediction metrics",
+  "figures": "PASS: 26 PNG/PDF pairs have saved source files"
+}

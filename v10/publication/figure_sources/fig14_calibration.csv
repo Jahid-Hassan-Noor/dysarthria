@@ -1,0 +1,5 @@
+corpus,calibration,Brier,label
+TORGO,temperature-scaled,0.1580658737644915,TORGO / temperature-scaled
+TORGO,uncalibrated,0.15984264028358922,TORGO / uncalibrated
+UASpeech M3,temperature-scaled,0.14377007647687307,UASpeech M3 / temperature-scaled
+UASpeech M3,uncalibrated,0.1304809285705817,UASpeech M3 / uncalibrated

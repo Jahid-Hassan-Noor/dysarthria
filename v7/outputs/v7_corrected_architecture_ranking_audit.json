@@ -1,0 +1,18 @@
+{
+  "metric": "pooled physical-speaker ROC_AUC",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "winner_varies_across_seeds": true,
+  "winners_by_seed": {
+    "42": "Stream 1 Only (CNN-BiLSTM)",
+    "43": "Stream 1 Only (CNN-BiLSTM)",
+    "44": "Dual-Stream (No Pretraining)",
+    "45": "Dual-Stream (No Pretraining)",
+    "46": "Stream 1 Only (CNN-BiLSTM)"
+  }
+}

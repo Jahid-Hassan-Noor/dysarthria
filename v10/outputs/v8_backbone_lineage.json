@@ -1,0 +1,26 @@
+{
+  "source_notebook": "v8/v8_publication_completion/frozen_reference/source/dysarthria_v8.ipynb",
+  "source_notebook_sha256": "9446af3bf65c69f6ab9646531cc020ee18f1788d263d82da8bba69da2719622f",
+  "backbone_path": "v10/dysarthria_10.ipynb :: embedded v10.v8_backbone source cell",
+  "backbone_sha256": "f97b8714deca24d0284655f219e46125bbe7bdd6607af8ca7992834d1910211c",
+  "copied_code_cell_indices": [
+    2,
+    5,
+    11,
+    13,
+    16,
+    17,
+    30
+  ],
+  "source_cell_sha256": {
+    "2": "03024c8ba9d425e37c2104b5627815f4f3db0ee34ee9de1ff55246f3955b1b93",
+    "5": "2fa0ede3a37feb9239fb7a016f1954b44c956f43c1f18f395aaf144cbefc1ce2",
+    "11": "d36df2550ac9df3b23c7f1517b83cc4e8214a8c7d1e2c9ea6cbcdb30bb2735f3",
+    "13": "593248756ab9d07f10dcc5e5ce1b7c32d7f9f7acad86e52f7d6c93b578f52403",
+    "16": "bf79b3e6d024eef6ec8ccd12b3a2e622ba50d181bbf1beb2e64991e42e54ef4f",
+    "17": "80a224857c57a0b30b4f0ecfef9e34528f8d4666f13fa96109deedf432a11573",
+    "30": "50661d082b2e765926093c9faff4105ab0978bf54068aa3b3e10ff87dd199748"
+  },
+  "algorithm_change": "none; output paths redirected to isolated v10 namespace",
+  "backbone_source_location": "notebook cell with %%v10_module v10.v8_backbone"
+}

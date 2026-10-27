@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-13T11:26:03.807392+00:00",
+  "external_model_selection": false,
+  "group_columns": [
+    "corpus",
+    "model_arm",
+    "channel",
+    "seed"
+  ],
+  "metric_sha256": "57e2215b5ed15b44f5b95e77cc8f8c2c0124a2e07136139d6d370c97cc175f6c",
+  "name": "channel_M6",
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "prediction_sha256": "45b5b3b6ae7997adcaf4196bc664528fb4c934bbf70f1c4b2e62670669114af1",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_signatures": {
+    "TORGO": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+  }
+}

@@ -1,0 +1,406 @@
+model_arm,metric,mean,lower_95,upper_95,n_resamples,n_speakers,resampling_unit,stratified_by_diagnosis,same_draw_across_arms,same_draw_across_seeds,same_draw_across_repetitions,bootstrap_random_seed,dataset,corpus,analysis,channel,budget
+A1,Accuracy,0.8266666666666668,0.68,0.9466666666666668,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A1,Balanced_Accuracy,0.8285714285714285,0.6838392857142858,0.9464732142857144,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A1,Sensitivity,0.8,0.5499999999999999,0.9750000000000001,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A1,Specificity,0.8571428571428571,0.7142857142857143,1.0,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A1,F1_dysarthric,0.8300000000000001,0.6475166010460127,0.9542483660130718,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A1,ROC_AUC,0.85,0.67125,0.9821428571428572,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A1,PR_AUC,0.9144711538461537,0.8079159867909868,0.9903846153846154,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A1,Brier,0.1577356778382823,0.04545937035381292,0.29158814291242763,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A1,ECE,0.2165347897899696,0.1004510162518787,0.3655928646015486,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,Accuracy,0.8266666666666668,0.6666666666666666,0.96,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,Balanced_Accuracy,0.825,0.6571428571428571,0.9589285714285715,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,Sensitivity,0.85,0.6499999999999999,0.9750000000000001,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,Specificity,0.8,0.5142857142857143,1.0,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,F1_dysarthric,0.8353408029878618,0.6799543756896698,0.9596638655462186,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,ROC_AUC,0.8214285714285715,0.6142857142857143,0.9821428571428572,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,PR_AUC,0.8551137751137752,0.7058497023809523,0.9900096153846154,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,Brier,0.18129612278607105,0.06190731339076693,0.32249299163971046,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+A2,ECE,0.28186661637276467,0.17781990364709183,0.42564073411624553,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,Accuracy,0.8266666666666668,0.6666666666666666,0.9600000000000001,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,Balanced_Accuracy,0.8267857142857142,0.6642410714285714,0.9607142857142857,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,Sensitivity,0.825,0.575,0.9750000000000001,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,Specificity,0.8285714285714286,0.6,1.0,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,F1_dysarthric,0.8347058823529412,0.6520193205487324,0.9647058823529412,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,ROC_AUC,0.8892857142857142,0.6927678571428572,1.0,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,PR_AUC,0.9366891441891442,0.8355693265068265,1.0,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,Brier,0.1401020159856355,0.04157882157235696,0.2696044142041783,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B1,ECE,0.19714708562601993,0.09426976958917653,0.34683585670872674,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,Accuracy,0.8533333333333333,0.7196666666666667,0.9600000000000001,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,Balanced_Accuracy,0.8535714285714286,0.7106696428571428,0.9607142857142859,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,Sensitivity,0.85,0.7,0.9750000000000001,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,Specificity,0.8571428571428571,0.6285714285714286,1.0,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,F1_dysarthric,0.8543277310924371,0.7174206349206349,0.9616666666666668,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,ROC_AUC,0.85,0.6785714285714286,0.9785714285714286,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,PR_AUC,0.8835981379731381,0.7736853476384725,0.9892857142857143,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,Brier,0.15984264028358922,0.05813027119660813,0.28060926242552675,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+B2,ECE,0.2300014902094673,0.15730845879186228,0.3664040428086269,1000,15,physical_speaker,True,True,True,True,20261013,ablations,,,,
+Artifact-only logistic regression,Accuracy,0.6,0.5333333333333333,0.6666666666666667,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,Balanced_Accuracy,0.575,0.5053124999999999,0.6464285714285714,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,Sensitivity,0.95,0.875,1.0,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,Specificity,0.2,0.08571428571428572,0.34285714285714286,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,F1_dysarthric,0.7163636363636364,0.6709798210942376,0.7632965792377557,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,ROC_AUC,0.9214285714285715,0.7641964285714286,1.0,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,PR_AUC,0.9470328282828284,0.8562230477855477,1.0,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,Brier,0.1232521749261513,0.05944481136420848,0.20674434866023034,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,ECE,0.18467391905367828,0.14693302610420184,0.29799057130034645,1000,15,physical_speaker,True,True,True,True,20261013,artifact,TORGO,artifact,,
+Artifact-only logistic regression,Accuracy,0.7785714285714287,0.6783928571428571,0.8858928571428571,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+Artifact-only logistic regression,Balanced_Accuracy,0.7933333333333333,0.6998333333333333,0.8934999999999998,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+Artifact-only logistic regression,Sensitivity,0.5866666666666667,0.39966666666666667,0.7869999999999998,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+Artifact-only logistic regression,Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+Artifact-only logistic regression,F1_dysarthric,0.7293901750423488,0.5375438596491228,0.879796450675761,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+Artifact-only logistic regression,ROC_AUC,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+Artifact-only logistic regression,PR_AUC,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+Artifact-only logistic regression,Brier,0.3111626509319128,0.24372512192850093,0.3760973259490569,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+Artifact-only logistic regression,ECE,0.3807753319919371,0.3210050755359677,0.4335720548598481,1000,28,physical_speaker,True,True,True,True,20261013,artifact,UASpeech,artifact,,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.6545333333333351,0.5971866666666666,0.710133333333331,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.638339285714287,0.5811933035714288,0.6938535714285724,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.88125,0.7887500000000015,0.96150625,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.3954285714285709,0.319714285714285,0.4717142857142855,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.731816508497858,0.6744272156679253,0.7819154729469275,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.7306071428571428,0.6072687499999998,0.8527187499999992,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.7827892392329892,0.7158884014769952,0.8905321147082088,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.2609654634752733,0.19765440285150998,0.3274398817707881,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.29403822036990696,0.25690405777832853,0.37301931748771777,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,1
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.796666666666673,0.6782633333333337,0.9025600000000038,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.7926071428571408,0.6738308035714291,0.8988611607142869,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.8535,0.7077499999999947,0.9710000000000027,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.7317142857142858,0.543392857142858,0.8934500000000021,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8162301267875561,0.7061118777159353,0.9148504980245097,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8302499999999989,0.6854874999999994,0.9442178571428563,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.8635403603341094,0.7757932571595072,0.9628844203192678,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.17159593356357722,0.08568780191800907,0.2768153570558283,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.23269641326828075,0.17238348006470938,0.35175982305062226,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,10
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8130666666666734,0.6862133333333365,0.9246700000000047,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8107499999999989,0.6792026785714296,0.9231428571428539,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.8455,0.6909999999999936,0.9727500000000029,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.7759999999999988,0.5784857142857163,0.9344357142857156,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8260279548796572,0.7017988540316776,0.9319492027863766,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8391428571428571,0.685680357142856,0.9582866071428606,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.8728319957819944,0.7773374104714726,0.9716570217282722,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.1650365810868287,0.07378296344597185,0.27378138431092863,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.2269972160148589,0.16439949290225708,0.35109936414476567,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,20
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.7638666666666715,0.6598266666666661,0.8629400000000027,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.7574642857142841,0.6522937500000006,0.8594901785714288,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.8535,0.7159999999999949,0.9700000000000019,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.6614285714285725,0.4936214285714293,0.8100000000000019,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7940359284334506,0.6930395205701042,0.8848463269900582,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8082500000000007,0.671961607142857,0.9237678571428555,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.8422487345987341,0.7596012688873635,0.946950869911341,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.18747067494361283,0.10454014581484118,0.28249154213052696,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.2417012781419054,0.18358021185390117,0.3525846313371772,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,5
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8294666666666731,0.6953333333333328,0.9430700000000038,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8285892857142849,0.6887714285714308,0.9421455357142879,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.84175,0.6740000000000005,0.9742500000000035,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.81542857142857,0.6045357142857138,0.9705714285714298,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8370770922404053,0.7028068926768948,0.9478983389232916,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8456428571428566,0.6841348214285718,0.9674937499999975,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.8794401445776442,0.7771068847818855,0.9788577524038483,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.16150434223408905,0.06648322860611562,0.2790303920888964,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.22682976944871858,0.1595683876518734,0.3558436205881757,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,50
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8533333333333333,0.7196666666666667,0.9600000000000001,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8535714285714286,0.7106696428571428,0.9607142857142859,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.85,0.7,0.9750000000000001,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.8571428571428571,0.6285714285714286,1.0,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8543277310924371,0.7174206349206349,0.9616666666666668,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.85,0.6785714285714286,0.9785714285714286,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.8835981379731381,0.7736853476384725,0.9892857142857143,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.15984264028358922,0.05813027119660813,0.28060926242552675,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.2300014902094673,0.15730845879186228,0.3664040428086269,1000,15,physical_speaker,True,True,True,True,20261013,budgets_torgo,TORGO,budgets_torgo,TORGO,all
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8184285714285697,0.7604874999999992,0.8682910714285699,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8242256410256384,0.7695208974359007,0.8729329487179532,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7430666666666705,0.6397166666666654,0.8274700000000011,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.905384615384614,0.8450730769230748,0.9492384615384604,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8114009940769024,0.7336711591962887,0.8660227732229916,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8805538461538456,0.8084738461538461,0.9376251282051272,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.918950828562937,0.8788105494657794,0.9568638040849143,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.15435512615726485,0.1101898583651562,0.20684455909603083,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.1738358558162237,0.13921176360959403,0.23516687233211994,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,1
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8432857142857125,0.7430553571428561,0.9330803571428559,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8535076923076921,0.7599480769230752,0.9374183333333377,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7104000000000034,0.5246400000000001,0.8767899999999994,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9966153846153843,0.9898461538461544,1.0000000000000007,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8261827944014497,0.6775293919594323,0.930238711724845,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9473333333333314,0.8651071794871801,0.9980515384615385,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9671670558577911,0.9202211906878118,0.9984891871158268,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.1361600858179369,0.05772908430822025,0.22449727417067972,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.16579043793544618,0.10243300914238097,0.257103517599365,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,10
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.848714285714282,0.7399517857142838,0.9453214285714272,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8587282051282049,0.7572847435897407,0.9488230769230818,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7185333333333364,0.5146233333333347,0.8997933333333361,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9989230769230769,0.9967692307692316,1.0000000000000007,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8333508280103527,0.6742386007552488,0.944063414717602,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9543179487179468,0.8732166666666672,0.9996617948717956,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9707802575737925,0.9217482868282455,0.9997413701840393,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.1319171527679741,0.04832128744045283,0.22341029697304324,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.1632311556239188,0.09470087622414795,0.2582912613821712,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,20
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8352142857142837,0.7431178571428567,0.9156732142857107,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8454717948717942,0.7588071794871808,0.9212765384615447,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7018666666666692,0.5326199999999996,0.8522966666666675,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9890769230769225,0.9675384615384613,1.0000000000000007,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8167902036782736,0.6783151000766534,0.911882612519038,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9360820512820508,0.8512794871794865,0.9932948717948724,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9598791456413502,0.9105068610453687,0.9949964851095165,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.14119221110306748,0.0693721619748305,0.22583819728226934,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.16907567473923296,0.11010715141509002,0.25641326023754285,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,5
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8493571428571385,0.7325428571428525,0.9523196428571415,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8594000000000009,0.7503733333333334,0.9554983333333377,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7188000000000023,0.5007466666666681,0.910996666666672,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0000000000000007,1.0000000000000007,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8345007909964479,0.6632634178845566,0.9523089400446346,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9603897435897415,0.8825589743589752,1.0000000000000007,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9736797256753302,0.9252772612969478,1.0000000000000007,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.13042412395885591,0.04547458386683045,0.22846500493777486,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.16299471168102395,0.09077836399650713,0.2622625816808304,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,50
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.85,0.7283928571428571,0.9571428571428572,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8600000000000001,0.7464999999999999,0.9600000000000001,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.72,0.493,0.92,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8362393162393161,0.652244494635799,0.9576354679802956,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9661538461538463,0.8963333333333333,1.0,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9763878159450915,0.9308892496392497,1.0,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.13048092857058174,0.043036744035106614,0.23304512215754322,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.16300726594988174,0.08846308539053922,0.2674009924560511,1000,28,physical_speaker,True,True,True,True,20261013,budgets_uaspeech,UASpeech,budgets_uaspeech,M3,all
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8260869565217392,0.7043478260869565,0.9304347826086957,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8,0.66,0.9200000000000002,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.6,0.32,0.8400000000000001,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7436974789915964,0.4612387612387613,0.9109047127622978,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9738461538461538,0.9138461538461539,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9688888888888888,0.9068777056277056,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.15125080360847581,0.06576370117143823,0.2529172005730642,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.20118474036616538,0.12322986112045872,0.2964159003227149,1000,23,physical_speaker,True,True,True,True,20261013,channel_M2,UASpeech,channel_M2,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.85,0.7283928571428571,0.9571428571428572,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8600000000000001,0.7464999999999999,0.9600000000000001,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.72,0.493,0.92,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8362393162393161,0.652244494635799,0.9576354679802956,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9661538461538463,0.8963333333333333,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9763878159450915,0.9308892496392497,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.13048092857058174,0.043036744035106614,0.23304512215754322,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.16300726594988174,0.08846308539053922,0.2674009924560511,1000,28,physical_speaker,True,True,True,True,20261013,channel_M3,UASpeech,channel_M3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.7923076923076924,0.6692307692307693,0.9078846153846153,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.7923076923076924,0.6692307692307693,0.9078846153846153,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.5846153846153845,0.3384615384615385,0.8157692307692304,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7371428571428572,0.496749226006192,0.8980239130434781,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8781065088757396,0.6923076923076923,1.0,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9307093196658414,0.8243720379734681,1.0,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.1727948796697256,0.07731770365747845,0.27268821176118,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.21049093420295373,0.11179704512456348,0.31356304372476607,1000,26,physical_speaker,True,True,True,True,20261013,channel_M4,UASpeech,channel_M4,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.9285714285714286,0.8214285714285714,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.9333333333333333,0.8333333333333333,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.8666666666666668,0.6666666666666666,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.9285714285714286,0.8,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9702564102564104,0.8974358974358974,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9808886346300534,0.9370274327122154,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.0744395782857584,0.007298433344468875,0.17173351128575623,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.09013762434618386,0.04985058775715804,0.18497342634628022,1000,28,physical_speaker,True,True,True,True,20261013,channel_M5,UASpeech,channel_M5,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8642857142857142,0.7428571428571428,0.9642857142857143,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8702564102564103,0.7538461538461539,0.9666666666666667,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7866666666666667,0.5866666666666667,0.9733333333333334,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9538461538461538,0.8615384615384616,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8612942612942612,0.7045150501672242,0.9655172413793103,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9743589743589745,0.918923076923077,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9792551098712089,0.936006884635832,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.11172840979569292,0.031440641899780616,0.21105737216750184,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.14376009551150876,0.06785938749605253,0.2553259403273685,1000,28,physical_speaker,True,True,True,True,20261013,channel_M6,UASpeech,channel_M6,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8571428571428571,0.7428571428571428,0.9642857142857143,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8666666666666668,0.76,0.9666666666666667,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7333333333333333,0.5199999999999999,0.9333333333333333,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8454700854700855,0.6816770186335404,0.9650246305418719,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9466666666666667,0.8492051282051283,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9656232355411248,0.9055309053691408,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.12658677161645063,0.03847957653037042,0.2262304336612733,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.15230332984408534,0.07836384370066912,0.2557139951023726,1000,28,physical_speaker,True,True,True,True,20261013,channel_M7,UASpeech,channel_M7,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8148148148148149,0.6887037037037037,0.9259259259259258,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8192307692307693,0.6965796703296704,0.9285714285714286,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7,0.4285714285714286,0.9142857142857144,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9384615384615385,0.8461538461538463,1.0,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7975473801560758,0.5885400038557933,0.9284212594557422,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8538461538461538,0.6722527472527473,0.9714560439560439,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9072365734951546,0.7961990471794982,0.980672379478107,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.15731627868725753,0.06628413138367246,0.2727114791678867,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.1769205636013126,0.09951166709430924,0.300295423410467,1000,27,physical_speaker,True,True,True,True,20261013,channel_M8,UASpeech,channel_M8,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8260869565217392,0.7043478260869565,0.9304347826086957,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8,0.66,0.9200000000000002,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.6,0.32,0.8400000000000001,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7436974789915964,0.4612387612387613,0.9109047127622978,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9738461538461538,0.9138461538461539,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9688888888888888,0.9068777056277056,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.15125080360847581,0.06576370117143823,0.2529172005730642,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.20118474036616538,0.12322986112045872,0.2964159003227149,1000,23,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.85,0.7283928571428571,0.9571428571428572,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8600000000000001,0.7464999999999999,0.9600000000000001,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.72,0.493,0.92,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8362393162393161,0.652244494635799,0.9576354679802956,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9661538461538463,0.8963333333333333,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9763878159450915,0.9308892496392497,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.13048092857058174,0.043036744035106614,0.23304512215754322,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.16300726594988174,0.08846308539053922,0.2674009924560511,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.7923076923076924,0.6692307692307693,0.9078846153846153,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.7923076923076924,0.6692307692307693,0.9078846153846153,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.5846153846153845,0.3384615384615385,0.8157692307692304,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7371428571428572,0.496749226006192,0.8980239130434781,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8781065088757396,0.6923076923076923,1.0,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9307093196658414,0.8243720379734681,1.0,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.1727948796697256,0.07731770365747845,0.27268821176118,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.21049093420295373,0.11179704512456348,0.31356304372476607,1000,26,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.9285714285714286,0.8214285714285714,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.9333333333333333,0.8333333333333333,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.8666666666666668,0.6666666666666666,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.9285714285714286,0.8,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9702564102564104,0.8974358974358974,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9808886346300534,0.9370274327122154,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.0744395782857584,0.007298433344468875,0.17173351128575623,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.09013762434618386,0.04985058775715804,0.18497342634628022,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8642857142857142,0.7428571428571428,0.9642857142857143,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8702564102564103,0.7538461538461539,0.9666666666666667,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7866666666666667,0.5866666666666667,0.9733333333333334,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9538461538461538,0.8615384615384616,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8612942612942612,0.7045150501672242,0.9655172413793103,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9743589743589745,0.918923076923077,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9792551098712089,0.936006884635832,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.11172840979569292,0.031440641899780616,0.21105737216750184,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.14376009551150876,0.06785938749605253,0.2553259403273685,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8571428571428571,0.7428571428571428,0.9642857142857143,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8666666666666668,0.76,0.9666666666666667,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7333333333333333,0.5199999999999999,0.9333333333333333,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8454700854700855,0.6816770186335404,0.9650246305418719,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9466666666666667,0.8492051282051283,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9656232355411248,0.9055309053691408,1.0,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.12658677161645063,0.03847957653037042,0.2262304336612733,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.15230332984408534,0.07836384370066912,0.2557139951023726,1000,28,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8148148148148149,0.6887037037037037,0.9259259259259258,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8192307692307693,0.6965796703296704,0.9285714285714286,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7,0.4285714285714286,0.9142857142857144,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9384615384615385,0.8461538461538463,1.0,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7975473801560758,0.5885400038557933,0.9284212594557422,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8538461538461538,0.6722527472527473,0.9714560439560439,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9072365734951546,0.7961990471794982,0.980672379478107,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.15731627868725753,0.06628413138367246,0.2727114791678867,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.1769205636013126,0.09951166709430924,0.300295423410467,1000,27,physical_speaker,True,True,True,True,20261013,channels,UASpeech,channels,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8260869565217392,0.7043478260869565,0.9304347826086957,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8,0.66,0.9200000000000002,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.6,0.32,0.8400000000000001,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7436974789915964,0.4612387612387613,0.9109047127622978,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9753846153846153,0.9153846153846155,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.971111111111111,0.9098333333333333,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.15066081446209945,0.06518230534165055,0.25173696759255,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.20082819737543942,0.12322254687374008,0.29570856924313343,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M2,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.817391304347826,0.6956521739130435,0.9391304347826088,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.79,0.65,0.9299999999999999,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.58,0.3,0.8600000000000001,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7313725490196078,0.4508658008658009,0.9239766081871343,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9492307692307692,0.8523076923076922,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9513288378288378,0.873115830574654,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.15517294621172187,0.06182282521343276,0.2553959830932851,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.18087819198070312,0.09980326856311174,0.2882923961642211,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.7652173913043478,0.6434782608695652,0.9043478260869565,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.7300000000000001,0.59,0.8899999999999999,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.45999999999999996,0.18,0.7799999999999999,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.6285714285714284,0.29370629370629375,0.873065015479876,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.8415384615384616,0.6260384615384615,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.8962455604251269,0.7682037171320925,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.1948813950822407,0.0834860747322255,0.2966001329358445,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.23344470745119272,0.13441465625369525,0.3306044715505937,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M4,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.9130434782608695,0.825,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.9,0.7987500000000001,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.8,0.5975000000000001,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.888888888888889,0.7479166666666668,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9553846153846155,0.8507307692307692,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9617604617604618,0.8824293546365914,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.0894849874608005,0.009506236960362048,0.17628379881199183,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.09875959101884549,0.05215248168016123,0.20134066132151893,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M5,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8347826086956521,0.7043478260869565,0.9567391304347824,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8169230769230769,0.666923076923077,0.957,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.6799999999999999,0.38,0.9604999999999997,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9538461538461538,0.8615384615384616,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.781372549019608,0.5285219780219781,0.9492261904761904,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9615384615384615,0.8753846153846154,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.954422854922855,0.8723434565434565,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.13548458796860274,0.03184634790519909,0.24212344920485002,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.16740510766713812,0.07182750236570276,0.28037120777082186,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M6,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.826086956521739,0.6956521739130435,0.9478260869565218,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8,0.65,0.94,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.6,0.30000000000000004,0.8800000000000001,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7480392156862744,0.45787545787545786,0.935672514619883,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9200000000000002,0.7938461538461539,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9310755584284995,0.8332387787650944,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.1535369583683887,0.05447131219834368,0.263921258979331,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.1761879936793802,0.09252013391145134,0.2874772936321959,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M7,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.782608695652174,0.6519565217391304,0.9130434782608696,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.7592307692307692,0.6038461538461539,0.9038461538461537,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.58,0.28,0.8800000000000001,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.9384615384615385,0.8461538461538463,1.0,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7,0.4112820512820513,0.8889473684210527,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.796923076923077,0.5906923076923076,0.9723076923076921,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.8379552289815448,0.6791217257158048,0.9697926073926073,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.18264716022829863,0.07686601908397422,0.2977760284262763,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.19913296088073285,0.1161026697127523,0.322009619332251,1000,23,physical_speaker,True,True,True,True,20261013,channels_matched,UASpeech,channels_matched,M8,
+Duration-only logistic regression,Accuracy,0.7066666666666667,0.6133333333333333,0.7866666666666667,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,Balanced_Accuracy,0.6892857142857143,0.5928571428571429,0.775,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,Sensitivity,0.95,0.8500000000000001,1.0,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,Specificity,0.42857142857142855,0.2571428571428571,0.6,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,F1_dysarthric,0.7767995746943115,0.6979183135704875,0.8427595121260487,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,ROC_AUC,0.9642857142857142,0.8606250000000001,1.0,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,PR_AUC,0.9726388888888888,0.9054545454545453,1.0,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,Brier,0.10885593367184374,0.0468740964920661,0.1802556206128124,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,ECE,0.20134509327637584,0.15164090601202013,0.31081844291716043,1000,15,physical_speaker,True,True,True,True,20261013,duration,TORGO,duration,,
+Duration-only logistic regression,Accuracy,0.6428571428571429,0.5357142857142857,0.7857142857142857,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+Duration-only logistic regression,Balanced_Accuracy,0.6666666666666666,0.5666666666666667,0.8,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+Duration-only logistic regression,Sensitivity,0.3333333333333333,0.13333333333333333,0.6,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+Duration-only logistic regression,Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+Duration-only logistic regression,F1_dysarthric,0.5,0.23529411764705882,0.75,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+Duration-only logistic regression,ROC_AUC,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+Duration-only logistic regression,PR_AUC,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+Duration-only logistic regression,Brier,0.27547550264976617,0.21104721172402144,0.3403085529201427,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+Duration-only logistic regression,ECE,0.3372972197916408,0.2811449289705141,0.3986851933725983,1000,28,physical_speaker,True,True,True,True,20261013,duration,UASpeech,duration,,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.8560000000000001,0.7280000000000001,0.96,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8714285714285716,0.7571428571428571,0.9642857142857143,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.7428571428571428,0.5142857142857142,0.9285714285714286,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8504704570791528,0.6693333333333333,0.9624074074074075,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9818181818181817,0.9324675324675324,1.0,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9875090036014406,0.9580296253668932,1.0,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.1270730847394789,0.042466489594393385,0.2325810779604273,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.1772371844925998,0.09783342073025973,0.28710569787323836,1000,25,physical_speaker,True,True,True,True,20261013,matched_content,UASpeech,matched_content,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.85,0.7283928571428571,0.9571428571428572,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.8600000000000001,0.7464999999999999,0.9600000000000001,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.72,0.493,0.92,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.8362393162393161,0.652244494635799,0.9576354679802956,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9661538461538463,0.8963333333333333,1.0,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9763878159450915,0.9308892496392497,1.0,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.13048092857058174,0.043036744035106614,0.23304512215754322,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.16300726594988174,0.08846308539053922,0.2674009924560511,1000,28,physical_speaker,True,True,True,True,20261013,primary_uaspeech_m3,UASpeech,primary_uaspeech_m3,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.48,0.3999999999999999,0.5466666666666666,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.45178571428571423,0.375,0.5160714285714286,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,0.875,0.7250000000000001,1.0,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.02857142857142857,0.0,0.08571428571428572,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.6412949369471108,0.5518958711006765,0.7019762845849802,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.46071428571428574,0.2569642857142857,0.6892857142857143,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.5570643939393939,0.47975575986513486,0.7853645035520035,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.3905374206641579,0.32570682885723806,0.45623074722352586,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.3972474477237865,0.33629125889176936,0.5201133729064805,1000,15,physical_speaker,True,True,True,True,20261013,silence,TORGO,silence,original_TORGO,
+WavLM Last-4 Mix + Attention (V8 Reference),Accuracy,0.5714285714285714,0.5428571428571428,0.6071428571428571,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Balanced_Accuracy,0.5384615384615384,0.5076923076923078,0.5769230769230769,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Sensitivity,1.0,1.0,1.0,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Specificity,0.07692307692307693,0.015384615384615385,0.15384615384615385,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),F1_dysarthric,0.7153079478660873,0.7009966777408638,0.7352713178294574,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ROC_AUC,0.9271794871794873,0.8266666666666667,1.0,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),PR_AUC,0.9386026388223183,0.8646385654364606,1.0,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),Brier,0.3128893673862544,0.26388668370002566,0.3574172041367467,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,
+WavLM Last-4 Mix + Attention (V8 Reference),ECE,0.36053846864288763,0.33035651964644747,0.39591883482316753,1000,28,physical_speaker,True,True,True,True,20261013,silence,UASpeech,silence,M3,

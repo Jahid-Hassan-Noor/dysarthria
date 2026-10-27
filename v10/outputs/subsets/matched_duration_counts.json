@@ -1,0 +1,11 @@
+{
+  "duration_range_seconds": [
+    1.465,
+    4.64504375
+  ],
+  "n_speakers": 15,
+  "n_recordings": 13418,
+  "n_matched_prompts": null,
+  "selection": "intersection of diagnosis-specific 10th to 90th percentile raw duration intervals on TORGO",
+  "model_retrained": false
+}

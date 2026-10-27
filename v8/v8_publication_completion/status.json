@@ -1,0 +1,112 @@
+{
+  "stages": {
+    "ablations": {
+      "n_prediction_rows": 300,
+      "n_speakers": 15,
+      "state": "complete",
+      "updated_utc": "2026-10-12T16:40:41.174946+00:00"
+    },
+    "artifact": {
+      "n_prediction_rows": 215,
+      "n_speakers": 38,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:23:33.813066+00:00"
+    },
+    "budgets_torgo": {
+      "n_prediction_rows": 37575,
+      "n_speakers": 15,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:23:26.208429+00:00"
+    },
+    "budgets_uaspeech": {
+      "n_prediction_rows": 70140,
+      "n_speakers": 28,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:23:32.212988+00:00"
+    },
+    "channel_M2": {
+      "n_prediction_rows": 115,
+      "n_speakers": 23,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:24:13.987739+00:00"
+    },
+    "channel_M3": {
+      "n_prediction_rows": 140,
+      "n_speakers": 28,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:24:19.484015+00:00"
+    },
+    "channel_M4": {
+      "n_prediction_rows": 130,
+      "n_speakers": 26,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:24:50.310930+00:00"
+    },
+    "channel_M5": {
+      "n_prediction_rows": 140,
+      "n_speakers": 28,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:25:25.228348+00:00"
+    },
+    "channel_M6": {
+      "n_prediction_rows": 140,
+      "n_speakers": 28,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:26:03.808704+00:00"
+    },
+    "channel_M7": {
+      "n_prediction_rows": 140,
+      "n_speakers": 28,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:26:42.796188+00:00"
+    },
+    "channel_M8": {
+      "n_prediction_rows": 135,
+      "n_speakers": 27,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:27:20.661933+00:00"
+    },
+    "channels": {
+      "n_prediction_rows": 940,
+      "n_speakers": 28,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:27:20.767961+00:00"
+    },
+    "channels_matched": {
+      "n_prediction_rows": 805,
+      "n_speakers": 23,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:27:48.447180+00:00"
+    },
+    "duration": {
+      "n_prediction_rows": 215,
+      "n_speakers": 38,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:23:33.085148+00:00"
+    },
+    "matched_content": {
+      "n_prediction_rows": 125,
+      "n_speakers": 25,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:23:37.114078+00:00"
+    },
+    "primary_torgo": {
+      "n_prediction_rows": 75,
+      "n_speakers": 15,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:23:20.844151+00:00"
+    },
+    "primary_uaspeech_m3": {
+      "n_prediction_rows": 140,
+      "n_speakers": 28,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:23:21.045854+00:00"
+    },
+    "silence": {
+      "n_prediction_rows": 215,
+      "n_speakers": 38,
+      "state": "complete",
+      "updated_utc": "2026-10-13T11:23:47.265684+00:00"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+model,metric,mean,sd_across_repeated_seeds,speaker_bootstrap_lower_95,speaker_bootstrap_upper_95,n_speakers,n_seeds
+MFCC Logistic Regression,Balanced_Accuracy,0.6875000000000001,0.0605565177064756,0.4963392857142857,0.8571875000000001,15,5
+MFCC RBF SVM,Balanced_Accuracy,0.4785714285714285,0.0337636971449804,0.4160714285714285,0.5321428571428571,15,5
+WavLM Final Layer Logistic Regression,Balanced_Accuracy,0.7125,0.0750743678913497,0.5195535714285715,0.8875000000000002,15,5

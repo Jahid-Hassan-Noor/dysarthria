@@ -1,0 +1,34 @@
+{
+  "version": "v10.4-1",
+  "scope": "Secondary analyses of the frozen V10 speech-only TORGO detector. All outputs are written inside v10.4.",
+  "source_policy": "V8, V9, V10, and V10.3 files are read-only inputs. No original checkpoint, result, or notebook is overwritten.",
+  "seeds": [42, 43, 44, 45, 46],
+  "uncertainty": "Diagnosis-stratified physical-speaker bootstrap, with each sampled speaker shared across all five repeated seeds; 2000 draws, RNG seed 20261021.",
+  "threshold": {
+    "rule": "Within each original outer fold, maximize Youden J on its 12 saved inner out-of-fold speaker scores. Tie-break by higher specificity, then higher threshold. Apply the selected threshold to unchanged outer scores.",
+    "primary_readout": "Mean of five seed-level pooled TORGO balanced accuracies, compared with the original sensitivity-constrained threshold. ROC-AUC is unchanged by construction."
+  },
+  "per_fold_auc": {
+    "rule": "Compute ROC-AUC for each original three-speaker outer test fold, report class counts and pairwise ranking wins. Retain pooled-per-seed AUC as the primary ranking summary.",
+    "interpretation": "Fold AUC is descriptive because each fold has only two positive-negative speaker pairs and seeds repeat the same 15 people."
+  },
+  "duration_increment": {
+    "rule": "For each original outer fold, fit two fixed StandardScaler plus class-balanced logistic stacks on the 12 outer-training speakers' saved inner out-of-fold probabilities: duration only and duration plus V10. Clip probabilities to [1e-6,1-1e-6] and use their logits. C=1, max_iter=2000, no tuning. Predict the three untouched outer speakers with the corresponding saved outer scores.",
+    "primary_readout": "Delta c = mean seed-pooled AUC(duration plus V10 stack) minus mean seed-pooled AUC(duration-only stack), with a paired physical-speaker bootstrap interval.",
+    "context": "Also report the original duration-only and V10 AUCs from their saved paired outer scores."
+  },
+  "background_classifier": {
+    "input": "Saved V8 objectively selected low-energy leading/trailing edge WavLM features: 50 segments per TORGO speaker. These edges are not guaranteed speech-free.",
+    "rule": "Retrain the original WavLM-last-four speaker-attention head on background features under the identical five outer and three inner physical-speaker folds, seeds, hyperparameters, epoch selection, and inner-OOF sensitivity-constrained threshold rule. Compare with the locked speech heads scored on the same 50 source recordings per speaker.",
+    "primary_readout": "Mean seed-pooled TORGO background-only AUC and its paired difference from matched-recording speech AUC, with physical-speaker bootstrap intervals."
+  },
+  "spread_intervention": {
+    "subset": "For each TORGO speaker, SHA-256 rank source IDs among recordings with source duration 1-6 s; take the first 50 whose frozen V8-preprocessed duration is 1-6 s. Selection uses no diagnosis label.",
+    "duration_target": "For each speaker and recording, target duration = speaker mean preprocessed duration + alpha*(original preprocessed duration - speaker mean), alpha in {0.88,1.12}. Thus the arithmetic mean is preserved and the within-speaker SD changes by exactly alpha before rounding.",
+    "conditions": ["original", "identity", "spread_0.88", "spread_1.12", "roundtrip"],
+    "preprocessing": "Apply frozen V8 preprocessing, then librosa pitch-preserving time_stretch at original_duration/target_duration. After stretching repeat V8 peak normalization, array microphone gate, and center crop. Identity uses one rate=1 phase-vocoder pass. Roundtrip applies each recording's spread_0.88 rate and reciprocal, preserving its original duration as an artifact control.",
+    "model": "Score only with the locked V10 speech-only outer-fold heads and thresholds; no model training or threshold selection on altered audio.",
+    "primary_readout": "Within-speaker difference in locked logit between spread_1.12 and spread_0.88, averaged across five seeds with diagnosis-stratified physical-speaker bootstrap. Also report group-gap and AUC changes.",
+    "artifact_gate": "If the median absolute roundtrip-versus-identity logit shift is at least half the median absolute spread_1.12-versus-spread_0.88 shift, label mechanistic interpretation inconclusive regardless of the bootstrap interval."
+  }
+}

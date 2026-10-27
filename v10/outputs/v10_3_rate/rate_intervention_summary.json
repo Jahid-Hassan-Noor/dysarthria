@@ -1,0 +1,88 @@
+{
+  "plan_sha256": "bfe2921312d2658761d048b5101bd61a81c4e6226cfab49b8631619210fcfe67",
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.14.0",
+    "librosa": "1.0.0",
+    "numpy": "2.5.3"
+  },
+  "device": "mps",
+  "model_arm": "speech_only",
+  "n_speakers": 15,
+  "n_recordings_per_speaker": 50,
+  "point": {
+    "duration_explained_fraction": 0.05293435988949288,
+    "pooled_slope": 1.1519891912265376,
+    "group_logit_gap": 3.3994656968063497,
+    "group_log2_duration_gap": 0.15620679603351095,
+    "slope_dysarthric": 0.7894587231060661,
+    "slope_control": 1.5663097262213619,
+    "rate_swap_delta_auc": -0.15000000000000002,
+    "reverse_swap_delta_auc": -0.0035714285714286698
+  },
+  "ci95": {
+    "duration_explained_fraction": [
+      -0.06597640524274911,
+      0.2620995365827064
+    ],
+    "pooled_slope": [
+      0.6496479545285331,
+      1.6790312417570705
+    ],
+    "group_logit_gap": [
+      1.2789029147110051,
+      5.320934977993096
+    ],
+    "group_log2_duration_gap": [
+      -0.14960676307636842,
+      0.4646843801771976
+    ],
+    "slope_dysarthric": [
+      0.19768877694076675,
+      1.4618134530173619
+    ],
+    "slope_control": [
+      0.7521138823874178,
+      2.411027574835253
+    ],
+    "rate_swap_delta_auc": [
+      -0.275,
+      -0.025000000000000133
+    ],
+    "reverse_swap_delta_auc": [
+      -0.08928571428571419,
+      0.08214285714285718
+    ]
+  },
+  "bootstrap_draws_fraction_undefined": 8,
+  "artifact_median_abs_delta_logit": {
+    "identity_vs_original": 2.384185791015625e-07,
+    "roundtrip_vs_identity": 1.0993492603302004,
+    "rate_0.80_vs_identity": 0.7670849561691282,
+    "rate_1.25_vs_identity": 0.5358541458845139
+  },
+  "auc_by_condition_five_seed_mean": {
+    "original": 0.8607142857142858,
+    "identity": 0.8607142857142858,
+    "roundtrip": 0.7392857142857142,
+    "rate_0.80": 0.7678571428571429,
+    "rate_0.90": 0.7857142857142857,
+    "rate_1.11": 0.8214285714285715,
+    "rate_1.25": 0.825
+  },
+  "n_cropped_to_12s": {
+    "original": 0,
+    "identity": 0,
+    "roundtrip": 0,
+    "rate_0.80": 16,
+    "rate_0.90": 12,
+    "rate_1.11": 0,
+    "rate_1.25": 0
+  },
+  "verdict": "inconclusive",
+  "verdict_rule": "inconclusive; report estimates and intervals only",
+  "pipeline_checks": {
+    "reextraction_relative_max_diff": 0.0,
+    "locked_scoring_max_abs_diff": 1.1102230246251565e-16
+  }
+}

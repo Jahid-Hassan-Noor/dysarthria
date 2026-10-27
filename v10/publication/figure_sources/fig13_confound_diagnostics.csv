@@ -1,0 +1,9 @@
+model,metric,mean,sd_across_repeated_seeds,speaker_bootstrap_lower_95,speaker_bootstrap_upper_95,n_speakers,n_seeds,short_label
+Combined measured confounds,ROC_AUC,0.8357142857142857,0.0597614304667196,,,15,5,Combined confounds
+Duration only,ROC_AUC,0.9642857142857142,0.0282346219657891,,,15,5,Duration only
+RMS energy only,ROC_AUC,0.6678571428571429,0.0270816980144697,,,15,5,RMS energy only
+Silence ratio only,ROC_AUC,0.4785714285714286,0.0718736135624932,,,15,5,Silence ratio only
+Spectral proxies only,ROC_AUC,0.625,0.0919252691159553,,,15,5,Spectral proxies only
+Confounds + V10 probability,ROC_AUC,0.8571428571428571,0.0656113323959779,,,15,5,Confounds + V10
+V10 probability only,ROC_AUC,0.85,0.1363472083487219,,,15,5,V10 probability
+Inherited V8 background-only diagnostic,ROC_AUC,0.4607142857142857,0.0989421084085362,,,15,5,Background-only (V8)

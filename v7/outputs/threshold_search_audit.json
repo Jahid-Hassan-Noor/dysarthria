@@ -1,0 +1,7 @@
+{
+  "threshold_search_signature": "exact_speaker_weighted_unique_score_search_v1",
+  "source": "TORGO grouped inner out-of-fold predictions only",
+  "n_outer_models": 25,
+  "n_deployment_models": 5,
+  "official_uaspeech_labels_used": false
+}

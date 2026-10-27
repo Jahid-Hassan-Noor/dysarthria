@@ -1,0 +1,9 @@
+{
+  "source_features": "SHA256-verified frozen V8 WavLM mean+SD and MFCC representations",
+  "same_outer_and_inner_speaker_folds_as_V8": true,
+  "threshold_source": "TORGO inner speaker OOF only",
+  "MFCC_columns": "first 26 V8 acoustic features: 13 mean and 13 SD coefficients",
+  "SSL_pooling": "mean over all available utterances for each physical speaker",
+  "eGeMAPS": "SKIPPED: openSMILE/eGeMAPS extraction is not present in this environment",
+  "selected_layer_probe_scope": "last four cached WavLM layers only; not all encoder layers"
+}

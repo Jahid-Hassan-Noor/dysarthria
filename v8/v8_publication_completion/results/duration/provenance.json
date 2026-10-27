@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-13T11:23:33.084205+00:00",
+  "external_model_selection": false,
+  "group_columns": [
+    "corpus",
+    "model_arm",
+    "seed"
+  ],
+  "metric_sha256": "aa650f23c7e61b7952fd95f65a1bd439c273bab9df662e3387087fce3f570752",
+  "name": "duration",
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "prediction_sha256": "4f5c423a34017fc6a4159db0ea102d4995f1b961ba9779beb99ff80766a32d49",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_signatures": {
+    "TORGO": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+  }
+}

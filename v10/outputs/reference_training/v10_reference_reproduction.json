@@ -1,0 +1,10 @@
+{
+  "comparison": "fresh V10-Reference retraining versus frozen historical V8",
+  "same_splits": true,
+  "same_five_seeds": true,
+  "same_pretrained_weights": true,
+  "max_absolute_probability_difference": 0.0,
+  "all_75_predictions_match": true,
+  "bitwise_probability_equivalence": true,
+  "numerical_tolerance_pass": true
+}

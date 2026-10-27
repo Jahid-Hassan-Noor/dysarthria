@@ -1,0 +1,7 @@
+Method,control,ROC_AUC
+Historical V8,Duration-only AUC,0.9642857142857142
+V9 primary,Duration-only AUC,0.6428571428571428
+Historical V8,Artifact-only AUC,0.9214285714285715
+V9 primary,Artifact-only AUC,0.5428571428571429
+Historical V8,Silence-only AUC,0.46071428571428574
+V9 primary,Silence-only AUC,0.6642857142857143

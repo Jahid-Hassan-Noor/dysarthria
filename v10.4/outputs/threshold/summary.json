@@ -1,0 +1,13 @@
+{
+  "mean_roc_auc_both_rules": 0.85,
+  "n_folds": 25,
+  "n_repeated_seeds": 5,
+  "n_speakers": 15,
+  "original_mean_balanced_accuracy": 0.8535714285714286,
+  "paired_bootstrap_delta_ba_95": [
+    -0.0964732142857143,
+    0.01607142857142856
+  ],
+  "youden_mean_balanced_accuracy": 0.8178571428571428,
+  "youden_minus_original_balanced_accuracy": -0.03571428571428581
+}

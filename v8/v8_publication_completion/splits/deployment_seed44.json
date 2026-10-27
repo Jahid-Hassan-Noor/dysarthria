@@ -1,0 +1,163 @@
+{
+  "checkpoint_sha256": "082536eb8ae75954c61dda4281ca85b107d2573c8128037924f1f7a99275e7de",
+  "evaluation_corpus": "UASpeech",
+  "evaluation_only": true,
+  "inner_folds": [
+    {
+      "train_physical_speakers": [
+        "TORGO:F01",
+        "TORGO:F03",
+        "TORGO:F04",
+        "TORGO:FC01",
+        "TORGO:FC03",
+        "TORGO:M01",
+        "TORGO:M02",
+        "TORGO:M04",
+        "TORGO:M05",
+        "TORGO:MC01",
+        "TORGO:MC02",
+        "TORGO:MC03"
+      ],
+      "validation_physical_speakers": [
+        "TORGO:FC02",
+        "TORGO:M03",
+        "TORGO:MC04"
+      ]
+    },
+    {
+      "train_physical_speakers": [
+        "TORGO:F01",
+        "TORGO:F03",
+        "TORGO:F04",
+        "TORGO:FC01",
+        "TORGO:FC02",
+        "TORGO:FC03",
+        "TORGO:M01",
+        "TORGO:M03",
+        "TORGO:M05",
+        "TORGO:MC01",
+        "TORGO:MC03",
+        "TORGO:MC04"
+      ],
+      "validation_physical_speakers": [
+        "TORGO:M02",
+        "TORGO:M04",
+        "TORGO:MC02"
+      ]
+    },
+    {
+      "train_physical_speakers": [
+        "TORGO:F03",
+        "TORGO:F04",
+        "TORGO:FC01",
+        "TORGO:FC02",
+        "TORGO:FC03",
+        "TORGO:M02",
+        "TORGO:M03",
+        "TORGO:M04",
+        "TORGO:M05",
+        "TORGO:MC02",
+        "TORGO:MC03",
+        "TORGO:MC04"
+      ],
+      "validation_physical_speakers": [
+        "TORGO:F01",
+        "TORGO:M01",
+        "TORGO:MC01"
+      ]
+    },
+    {
+      "train_physical_speakers": [
+        "TORGO:F01",
+        "TORGO:F03",
+        "TORGO:FC01",
+        "TORGO:FC02",
+        "TORGO:M01",
+        "TORGO:M02",
+        "TORGO:M03",
+        "TORGO:M04",
+        "TORGO:M05",
+        "TORGO:MC01",
+        "TORGO:MC02",
+        "TORGO:MC04"
+      ],
+      "validation_physical_speakers": [
+        "TORGO:F04",
+        "TORGO:FC03",
+        "TORGO:MC03"
+      ]
+    },
+    {
+      "train_physical_speakers": [
+        "TORGO:F01",
+        "TORGO:F04",
+        "TORGO:FC02",
+        "TORGO:FC03",
+        "TORGO:M01",
+        "TORGO:M02",
+        "TORGO:M03",
+        "TORGO:M04",
+        "TORGO:MC01",
+        "TORGO:MC02",
+        "TORGO:MC03",
+        "TORGO:MC04"
+      ],
+      "validation_physical_speakers": [
+        "TORGO:F03",
+        "TORGO:FC01",
+        "TORGO:M05"
+      ]
+    }
+  ],
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "selected_threshold": 0.49155135775860415,
+  "test_physical_speakers": [
+    "UASpeech:CF02",
+    "UASpeech:CF03",
+    "UASpeech:CF04",
+    "UASpeech:CF05",
+    "UASpeech:CM01",
+    "UASpeech:CM04",
+    "UASpeech:CM05",
+    "UASpeech:CM06",
+    "UASpeech:CM08",
+    "UASpeech:CM09",
+    "UASpeech:CM10",
+    "UASpeech:CM12",
+    "UASpeech:CM13",
+    "UASpeech:F02",
+    "UASpeech:F03",
+    "UASpeech:F04",
+    "UASpeech:F05",
+    "UASpeech:M01",
+    "UASpeech:M04",
+    "UASpeech:M05",
+    "UASpeech:M07",
+    "UASpeech:M08",
+    "UASpeech:M09",
+    "UASpeech:M10",
+    "UASpeech:M11",
+    "UASpeech:M12",
+    "UASpeech:M14",
+    "UASpeech:M16"
+  ],
+  "threshold_source": "TORGO grouped inner speaker OOF only",
+  "train_physical_speakers": [
+    "TORGO:F01",
+    "TORGO:F03",
+    "TORGO:F04",
+    "TORGO:FC01",
+    "TORGO:FC02",
+    "TORGO:FC03",
+    "TORGO:M01",
+    "TORGO:M02",
+    "TORGO:M03",
+    "TORGO:M04",
+    "TORGO:M05",
+    "TORGO:MC01",
+    "TORGO:MC02",
+    "TORGO:MC03",
+    "TORGO:MC04"
+  ],
+  "training_corpus": "TORGO"
+}

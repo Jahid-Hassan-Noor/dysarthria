@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-13T11:23:26.207087+00:00",
+  "external_model_selection": false,
+  "group_columns": [
+    "corpus",
+    "model_arm",
+    "channel",
+    "budget",
+    "repetition",
+    "seed"
+  ],
+  "metric_sha256": "2018e2215f50f649980852642c69e1402b69e002d03fb27600c7d1aba448b312",
+  "name": "budgets_torgo",
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "prediction_sha256": "707f315a3f1adc24d6769f06a52e9e8fc83ff9a0efd33efce4ddab11df369782",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_signatures": {
+    "TORGO": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+  }
+}

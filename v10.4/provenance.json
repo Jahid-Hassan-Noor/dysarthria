@@ -1,0 +1,22 @@
+{
+  "analysis_plan_sha256": "0a1c550800eb4ed842a202e7115fbdd9e15c039def835c04b257ac2e9bf42223",
+  "code_sha256": {
+    "background.py": "be6131ffda386f096e97ce0e150c28d18fd62d6ef3ae9d97add596acfd625207",
+    "common.py": "4f2e284d10e3ffddaeb13035a023cae3039a935e33d4ff56e1e5a1674f75bb6f",
+    "reanalyses.py": "141d4562ce816ee6f3bb9c7d981db738da1aa589130c68ec105d8a27e1b2b07c",
+    "report.py": "0aab8e4bad6e0d27ab7e4d9c964daad12bc2faeb7e0516737691fcc1bf573af1",
+    "run_v10_4.py": "56e1ea3d647323d3823ffb4163f5af5b4c7b38feea77f5403d8653b13d154851",
+    "spread.py": "d1d39accd2bd0f5d925a11759d5fd857971580970ff33280a088a020388609fb"
+  },
+  "n_read_only_input_artifacts": 159,
+  "result_sha256": {
+    "outputs/background/summary.json": "d2754afcb17490443603499746630a1f1b583f9f2aaa362870c83e74b8343f38",
+    "outputs/duration_increment/summary.json": "c4107aa6305b7ca58ad1dd4faa4b07bf6e4512bd571b6a7444a33f3a226446d6",
+    "outputs/fold_auc/summary.json": "4dcd987be08c7673a1850eb8179e17ff274958fb028b553d6cb8a16a10ae77be",
+    "outputs/spread/pipeline_checks.json": "fb315e7ec64d70d252bc8c05a78d06bacfe4ab011dd33c1bdf87ed73005a4595",
+    "outputs/spread/summary.json": "d73b60ec676d6275ce5c3e4fea8cf3f53c86815e46acbb1a6a4434c21f290db4",
+    "outputs/threshold/summary.json": "201b71e22e71130bc8486e0a5320ff4c3b0f6b6603e6e51f02b6cf2d9d099510"
+  },
+  "source_manifest_sha256": "4248734aa86c43722264aace619dd507222b9e0f0b256cc097301be7fe35373e",
+  "version": "v10.4-1"
+}

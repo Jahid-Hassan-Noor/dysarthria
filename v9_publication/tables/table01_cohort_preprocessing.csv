@@ -1,0 +1,2 @@
+corpus,n_physical_speakers,n_control,n_dysarthric,n_recordings,n_VAD_failed,n_no_active_speech,n_eligible_fixed_duration,n_selected_segments
+TORGO,15,7,8,17630,0,320,5005,300

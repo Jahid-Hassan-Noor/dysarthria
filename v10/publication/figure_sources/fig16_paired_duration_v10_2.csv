@@ -1,0 +1,5 @@
+metric,model,five_seed_mean
+ROC_AUC,V10,0.85
+ROC_AUC,duration,0.9642857142857142
+Balanced_Accuracy,V10,0.8535714285714286
+Balanced_Accuracy,duration,0.6892857142857143

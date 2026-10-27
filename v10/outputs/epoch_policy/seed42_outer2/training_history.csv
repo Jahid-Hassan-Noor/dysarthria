@@ -1,0 +1,4 @@
+epoch,train_logloss,validation_logloss,validation_accuracy_0_5,best_epoch,best_validation_logloss,is_best,history_status
+1,0.6791837215423584,,,1,,True,logged
+2,0.6240396648645401,,,2,,True,logged
+3,0.6052943766117096,,,3,,True,logged

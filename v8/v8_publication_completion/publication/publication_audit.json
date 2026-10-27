@@ -1,0 +1,156 @@
+{
+  "checks": {
+    "Artifact-only baseline": "YES",
+    "Attention-pooling contribution evaluated": "YES",
+    "Duration-only sanity baseline": "YES",
+    "Five TORGO seeds complete": "YES",
+    "Layer-mix contribution evaluated": "YES",
+    "Matched-content UASpeech analysis": "YES",
+    "Nested inner speaker validation": "PASS",
+    "Physical-speaker leakage checks": "PASS",
+    "Publication figures generated": "YES",
+    "Publication tables generated": "YES",
+    "Reference V8 frozen": "PASS",
+    "Silence/background sanity check": "YES",
+    "Speaker-bootstrap uncertainty complete": "YES",
+    "Traceability audit": "PASS",
+    "UASpeech M2-M8 diagnostic complete": "YES",
+    "UASpeech M3 locked zero-shot complete": "YES",
+    "UASpeech used for calibration": "NO",
+    "UASpeech used for fine-tuning": "NO",
+    "UASpeech used for model selection": "NO",
+    "UASpeech used for threshold selection": "NO",
+    "UASpeech used for training": "NO",
+    "Utterance-budget analysis complete": "YES",
+    "V8 component ablation complete": "YES"
+  },
+  "complete": true,
+  "errors": [],
+  "registered_results": {
+    "datasets": {
+      "ablations": {
+        "n_metric_groups": 20,
+        "n_predictions": 300,
+        "status": "PASS"
+      },
+      "artifact": {
+        "n_metric_groups": 10,
+        "n_predictions": 215,
+        "status": "PASS"
+      },
+      "budgets_torgo": {
+        "n_metric_groups": 2505,
+        "n_predictions": 37575,
+        "status": "PASS"
+      },
+      "budgets_uaspeech": {
+        "n_metric_groups": 2505,
+        "n_predictions": 70140,
+        "status": "PASS"
+      },
+      "channel_M2": {
+        "n_metric_groups": 5,
+        "n_predictions": 115,
+        "status": "PASS"
+      },
+      "channel_M3": {
+        "n_metric_groups": 5,
+        "n_predictions": 140,
+        "status": "PASS"
+      },
+      "channel_M4": {
+        "n_metric_groups": 5,
+        "n_predictions": 130,
+        "status": "PASS"
+      },
+      "channel_M5": {
+        "n_metric_groups": 5,
+        "n_predictions": 140,
+        "status": "PASS"
+      },
+      "channel_M6": {
+        "n_metric_groups": 5,
+        "n_predictions": 140,
+        "status": "PASS"
+      },
+      "channel_M7": {
+        "n_metric_groups": 5,
+        "n_predictions": 140,
+        "status": "PASS"
+      },
+      "channel_M8": {
+        "n_metric_groups": 5,
+        "n_predictions": 135,
+        "status": "PASS"
+      },
+      "channels": {
+        "n_metric_groups": 35,
+        "n_predictions": 940,
+        "status": "PASS"
+      },
+      "channels_matched": {
+        "n_metric_groups": 35,
+        "n_predictions": 805,
+        "status": "PASS"
+      },
+      "duration": {
+        "n_metric_groups": 10,
+        "n_predictions": 215,
+        "status": "PASS"
+      },
+      "matched_content": {
+        "n_metric_groups": 5,
+        "n_predictions": 125,
+        "status": "PASS"
+      },
+      "primary_torgo": {
+        "n_metric_groups": 5,
+        "n_predictions": 75,
+        "status": "PASS"
+      },
+      "primary_uaspeech_m3": {
+        "n_metric_groups": 5,
+        "n_predictions": 140,
+        "status": "PASS"
+      },
+      "silence": {
+        "n_metric_groups": 10,
+        "n_predictions": 215,
+        "status": "PASS"
+      }
+    },
+    "errors": [],
+    "status": "PASS"
+  },
+  "remaining_limitations": [
+    "Raw TORGO and UASpeech audio corpora remain external dependencies; saved inventories preserve absolute source paths.",
+    "Original source signatures use path, file size and modification time rather than waveform-content hashes.",
+    "Notebook source is captured as present at freeze time; the historical run did not record a full notebook-file SHA256.",
+    "A byte-identical snapshot and cached representations preserve the completed result; bitwise retraining depends on the original runtime and hardware, which were not fully locked.",
+    "Read-only permissions and SHA256 detect accidental modification; a privileged user can change permissions.",
+    "Official UASpeech was studied in earlier versions; use locked zero-shot cross-corpus evaluation wording, not historically untouched prospective validation.",
+    "Requested dysarthria_v8(1).ipynb was not present; snapshotted the available current V8 notebook: dysarthria_v8.ipynb.",
+    "All three ablation-minus-reference balanced-accuracy speaker-bootstrap intervals include zero. The observed five-seed results do not establish a clear advantage for the reference pooling and layer mix; they also do not prove equivalence.",
+    "TORGO balanced accuracy is lower with five utterances (0.757) than with all available utterances (0.854); brief-speech deployment performance is weaker in this sample.",
+    "Verified matched-content analysis includes 25 of 28 M3 physical speakers because official transcript metadata did not support the others; it is a descriptive subset.",
+    "Diagnostic M2\u2013M8 mean ROC-AUC spans 0.854\u20130.974; M3 remains the prespecified primary channel regardless of channel ranking.",
+    "UASpeech M3 threshold-free discrimination is strong (mean ROC-AUC 0.966), while the locked operating point is conservative (sensitivity 0.720, specificity 1.000); no UASpeech threshold adjustment was made.",
+    "POTENTIAL CONFOUND: silence control ('UASpeech', 'M3') achieves mean ROC-AUC 0.927. Recording artifacts or duration may explain part of discrimination; this is not evidence for disease specificity.",
+    "POTENTIAL CONFOUND: duration control ('TORGO',) achieves mean ROC-AUC 0.964. Recording artifacts or duration may explain part of discrimination; this is not evidence for disease specificity.",
+    "POTENTIAL CONFOUND: duration control ('UASpeech',) achieves mean ROC-AUC 1.000. Recording artifacts or duration may explain part of discrimination; this is not evidence for disease specificity.",
+    "POTENTIAL CONFOUND: artifact control ('TORGO',) achieves mean ROC-AUC 0.921. Recording artifacts or duration may explain part of discrimination; this is not evidence for disease specificity.",
+    "POTENTIAL CONFOUND: artifact control ('UASpeech',) achieves mean ROC-AUC 1.000. Recording artifacts or duration may explain part of discrimination; this is not evidence for disease specificity.",
+    "Speaker bootstrap intervals condition on the observed corpus, diagnosis strata and fixed trained seeds; they do not establish prospective clinical performance.",
+    "UASpeech was studied in earlier project versions. These are frozen-model external cross-corpus evaluations, not historically untouched prospective validation.",
+    "Calibration bins contain few independent speakers. Repeated seeds do not increase the number of independent participants."
+  ],
+  "table_traceability": {
+    "ABLATION TABLE": "PASS",
+    "BUDGET TABLE": "PASS",
+    "CHANNEL TABLE": "PASS",
+    "FIGURE SOURCES": "PASS",
+    "PRIMARY TORGO TABLE": "PASS",
+    "SANITY TABLE": "PASS",
+    "UASPEECH M3 TABLE": "PASS"
+  }
+}

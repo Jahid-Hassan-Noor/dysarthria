@@ -1,0 +1,5 @@
+{
+  "interpretation": "Attention weights are descriptive within-bag model diagnostics, not causal explanations.",
+  "prompt_column": "TORGO WAV filename stem, not a validated lexical transcript",
+  "attention_over_uniform": "weight multiplied by bag size to account for variable final bag size"
+}

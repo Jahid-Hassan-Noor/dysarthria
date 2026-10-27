@@ -1,0 +1,85 @@
+PHYSICAL-SPEAKER LEAKAGE CHECK: PASS
+Historical V6 session split physical-speaker leakage: FAIL (8 of 15 speakers overlap)
+TORGO MULTI-SEED (grouped outer evaluation):
+  Accuracy 0.477 ± 0.097
+  Balanced_Accuracy 0.538 ± 0.039
+  Sensitivity 0.689 ± 0.077
+  Specificity 0.388 ± 0.122
+  Precision 0.433 ± 0.085
+  NPV 0.697 ± 0.074
+  F1_dysarthric 0.419 ± 0.038
+  Macro_F1 0.408 ± 0.095
+  ROC_AUC 0.648 ± 0.051
+  PR_AUC 0.511 ± 0.062
+  Brier 0.276 ± 0.042
+  ECE 0.256 ± 0.074
+OFFICIAL UASPEECH ZERO-SHOT (M3):
+  Accuracy 0.511 ± 0.017
+  Balanced_Accuracy 0.494 ± 0.021
+  Sensitivity 0.788 ± 0.411
+  Specificity 0.200 ± 0.442
+  Precision 0.592 ± 0.157
+  NPV non-estimable in 1/5 seeds; estimable-seed mean 0.143 ± 0.229
+  F1_dysarthric 0.564 ± 0.259
+  Macro_F1 0.348 ± 0.015
+  ROC_AUC 0.586 ± 0.082
+  PR_AUC 0.661 ± 0.052
+  Brier 0.301 ± 0.056
+  ECE 0.220 ± 0.133
+OFFICIAL UASPEECH SPEAKER LEVEL:
+  Accuracy 0.521 ± 0.032
+  Balanced_Accuracy 0.500 ± 0.000
+  Sensitivity 0.800 ± 0.447
+  Specificity 0.200 ± 0.447
+  Precision non-estimable in 1/5 seeds; estimable-seed mean 0.536 ± 0.000
+  NPV non-estimable in 4/5 seeds; one estimable seed 0.464; SD unavailable
+  F1_dysarthric 0.558 ± 0.312
+  Macro_F1 0.342 ± 0.014
+  ROC_AUC 0.594 ± 0.193
+  PR_AUC 0.666 ± 0.128
+  Brier 0.291 ± 0.055
+  ECE 0.216 ± 0.151
+ Physical-speaker cluster bootstrap 95% CI:
+ seed            metric            level    point   ci_low  ci_high  n_physical_speakers
+   42           ROC_AUC physical_speaker 0.564103 0.338542 0.774375                   28
+   42            PR_AUC physical_speaker 0.690979 0.469968 0.868287                   28
+   42 Balanced_Accuracy physical_speaker 0.500000 0.500000 0.500000                   28
+   42     F1_dysarthric physical_speaker 0.697674 0.526316 0.833333                   28
+   43           ROC_AUC physical_speaker 0.600000 0.374359 0.810278                   28
+   43            PR_AUC physical_speaker 0.659842 0.440655 0.883225                   28
+   43 Balanced_Accuracy physical_speaker 0.500000 0.500000 0.500000                   28
+   43     F1_dysarthric physical_speaker 0.697674 0.526316 0.833333                   28
+   44           ROC_AUC physical_speaker 0.333333 0.138878 0.556178                   28
+   44            PR_AUC physical_speaker 0.533993 0.338642 0.752891                   28
+   44 Balanced_Accuracy physical_speaker 0.500000 0.500000 0.500000                   28
+   44     F1_dysarthric physical_speaker 0.697674 0.526316 0.833333                   28
+   45           ROC_AUC physical_speaker 0.876923 0.716520 0.989744                   28
+   45            PR_AUC physical_speaker 0.865169 0.676976 0.995119                   28
+   45 Balanced_Accuracy physical_speaker 0.500000 0.500000 0.500000                   28
+   45     F1_dysarthric physical_speaker 0.000000 0.000000 0.000000                   28
+   46           ROC_AUC physical_speaker 0.594872 0.358889 0.825703                   28
+   46            PR_AUC physical_speaker 0.580474 0.384907 0.869870                   28
+   46 Balanced_Accuracy physical_speaker 0.500000 0.500000 0.500000                   28
+   46     F1_dysarthric physical_speaker 0.697674 0.526316 0.833333                   28
+ Five-seed mean physical-speaker cluster bootstrap 95% CI:
+           metric  point_five_seed_mean   ci_low  ci_high  n_physical_speakers  resampling_unit  n_bootstrap
+          ROC_AUC              0.593846 0.423922 0.754091                   28 physical speaker         2000
+           PR_AUC              0.666092 0.504513 0.850516                   28 physical speaker         2000
+Balanced_Accuracy              0.500000 0.500000 0.500000                   28 physical speaker         2000
+    F1_dysarthric              0.558140 0.421053 0.666667                   28 physical speaker         2000
+EXTERNAL CALIBRATION (Brier / ECE): 0.301 ± 0.056 / 0.220 ± 0.133
+TORGO HELD-OUT CALIBRATION (uncalibrated vs TORGO temperature scaled):
+                    Brier    ECE  ROC_AUC  PR_AUC
+variant                                          
+temperature_scaled  0.276  0.256    0.648   0.511
+uncalibrated        0.300  0.290    0.648   0.511
+MICROPHONE ROBUSTNESS (matched-content ROC-AUC): {'M2': 0.406, 'M3': 0.628, 'M4': 0.468, 'M5': 0.854, 'M6': 0.68, 'M7': 0.543, 'M8': 0.582}
+NOISE ROBUSTNESS (SNR / Balanced Accuracy): {0: 0.503, 5: 0.502, 10: 0.503, 20: 0.511, 30: 0.51}
+TORGO CROSS-MICROPHONE: {('array', 'array'): 0.543, ('array', 'head'): 0.437, ('head', 'array'): 0.473, ('head', 'head'): 0.538}
+TORGO subgroup counts and non-estimable discrimination flags: /Users/Noor/Documents/projects/dysarthia/v7/outputs/torgo_outer_subgroup_counts.csv /Users/Noor/Documents/projects/dysarthia/v7/outputs/torgo_outer_subgroup_metrics.csv /Users/Noor/Documents/projects/dysarthia/v7/outputs/torgo_gender_subgroup_metrics.csv
+FIGURES GENERATED: 17
+Official UASpeech used for training: NO
+Official UASpeech used for fine-tuning: NO
+Official UASpeech used for threshold selection: NO
+Official UASpeech used for calibration: NO
+Official UASpeech used for model selection: NO

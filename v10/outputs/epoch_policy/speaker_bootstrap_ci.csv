@@ -1,0 +1,7 @@
+model_arm,metric,lower_95,upper_95,n_resamples,resampling_unit,stratified_by_diagnosis,same_speaker_draw_across_seeds
+Pooled one-SE epoch,ROC_AUC,0.628482142857143,0.9787499999999997,1000,physical_speaker,True,True
+Pooled one-SE epoch,PR_AUC,0.7038524080086579,0.9865277777777778,1000,physical_speaker,True,True
+Pooled one-SE epoch,Balanced_Accuracy,0.5856696428571427,0.7535714285714287,1000,physical_speaker,True,True
+Pooled one-SE epoch,Sensitivity,0.725,0.925,1000,physical_speaker,True,True
+Pooled one-SE epoch,Specificity,0.37142857142857144,0.6292857142857138,1000,physical_speaker,True,True
+Pooled one-SE epoch,Brier,0.13939509694239186,0.29155837926494144,1000,physical_speaker,True,True

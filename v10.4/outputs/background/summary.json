@@ -1,0 +1,19 @@
+{
+  "background_mean_auc": 0.8035714285714285,
+  "background_minus_matched_speech_auc": {
+    "draws": 2000,
+    "first_auc_lower_95": 0.5642857142857143,
+    "first_auc_upper_95": 1.0,
+    "lower_95": -0.1250892857142857,
+    "point_delta_auc": 0.08214285714285716,
+    "resampling_unit": "physical_speaker",
+    "second_auc_lower_95": 0.5,
+    "second_auc_upper_95": 0.9,
+    "seed_policy": "one draw shared across five repeated seeds",
+    "upper_95": 0.31080357142857107
+  },
+  "caveat": "The selected low-energy edges can contain speech. A background-only score is evidence about the selected segments, not proof of a recording-artifact mechanism.",
+  "matched_speech_mean_auc": 0.7214285714285713,
+  "n_torgo_speakers": 15,
+  "segments_per_speaker": 50
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "identity": [
+      1.0
+    ],
+    "original": null,
+    "rate_0.80": [
+      0.8
+    ],
+    "rate_0.90": [
+      0.9
+    ],
+    "rate_1.11": [
+      1.1111111111111112
+    ],
+    "rate_1.25": [
+      1.25
+    ],
+    "roundtrip": [
+      0.8,
+      1.25
+    ]
+  },
+  "decision_rules": {
+    "not_shown_rate_reliant": "F 95% CI upper bound < 0.25 (test-time duration change explains less than a quarter of the group logit gap)",
+    "note": "F linearly extrapolates the locked model response from +-25% stretches to the observed group duration difference",
+    "otherwise": "inconclusive; report estimates and intervals only",
+    "rate_reliant": "F 95% CI lower bound >= 0.25 AND both diagnosis slopes > 0 with CIs excluding 0 AND median roundtrip |delta logit| < 0.5 x median |delta logit| at rate_0.80/rate_1.25"
+  },
+  "models": "locked V10-Reference speech_only outer-fold heads (seed x outer) and frozen fold thresholds; no retraining",
+  "pipeline_checks": [
+    "re-extraction of 2 unmodified recordings per speaker reproduces frozen embeddings (relative max diff < 1e-3)",
+    "locked-fold scoring of all recordings reproduces published OOF probabilities (max abs diff < 1e-6)"
+  ],
+  "preprocessing": "frozen V8 preprocess_waveform, then time_stretch, then V8 peak-normalise, array gate and centre 12 s crop",
+  "primary_estimand": "duration-explained fraction F = S x dD / G, where S = speaker-weighted mean within-speaker slope of seed-mean logit on log2(duration factor) over the five DOSE conditions (both diagnoses pooled); dD = dysarthric minus control mean of speaker-mean log2(source_seconds) in the subset; G = dysarthric minus control mean seed-mean identity logit",
+  "secondary_estimands": [
+    "dose-response slope per diagnosis",
+    "rate-swap delta AUC = AUC(controls rate_0.80, dysarthric rate_1.25) - AUC(identity), five-seed mean",
+    "reverse swap delta AUC = AUC(controls rate_1.25, dysarthric rate_0.80) - AUC(identity)",
+    "artifact controls: |logit(identity) - logit(original)| and |logit(roundtrip) - logit(identity)|"
+  ],
+  "subset": "50 recordings per TORGO speaker, chosen by SHA-256 of source_id (label-blind); same subset in every condition",
+  "uncertainty": "physical-speaker bootstrap within diagnosis, one draw shared across seeds, 10000 resamples, seed 20261018; draws with G <= 0 give F = NaN and are counted",
+  "version": "v10.3-rate-intervention-1"
+}

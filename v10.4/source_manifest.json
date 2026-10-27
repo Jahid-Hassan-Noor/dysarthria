@@ -1,0 +1,801 @@
+{
+  "inputs": [
+    {
+      "bytes": 4351,
+      "path": "v10.4/analysis_plan.json",
+      "sha256": "0a1c550800eb4ed842a202e7115fbdd9e15c039def835c04b257ac2e9bf42223"
+    },
+    {
+      "bytes": 1261616,
+      "path": "v8/v8_publication_completion/frozen_reference/source/dysarthria_v8.ipynb",
+      "sha256": "9446af3bf65c69f6ab9646531cc020ee18f1788d263d82da8bba69da2719622f"
+    },
+    {
+      "bytes": 1630,
+      "path": "v8/v8_publication_completion/frozen_reference/run/features/manifest.json",
+      "sha256": "7d2cd2a71a1864faa562441fb7f13e42181ab1b6dd4181acb0e7568960d3867d"
+    },
+    {
+      "bytes": 5611,
+      "path": "v10/outputs/reference_training/v10_reference_speaker_oof_predictions.csv",
+      "sha256": "eb829bf2910097c910c7f3e302a5798d44708ec741813513cf4a22a9db063cbe"
+    },
+    {
+      "bytes": 125981,
+      "path": "v8/v8_publication_completion/results/duration/predictions.csv",
+      "sha256": "4f5c423a34017fc6a4159db0ea102d4995f1b961ba9779beb99ff80766a32d49"
+    },
+    {
+      "bytes": 2566,
+      "path": "v8/v8_publication_completion/external_cache/silence_TORGO/features/manifest.json",
+      "sha256": "5e9da248f90f2ad0a264100ffd3179d828f5c915d786e6c81003e702d83856ac"
+    },
+    {
+      "bytes": 18432128,
+      "path": "v8/v8_publication_completion/external_cache/silence_TORGO/features/speech_embeddings.npy",
+      "sha256": "7216b08190de9b6c71fb694f1be078c6dc237f799c3f23af4ef39843dac349df"
+    },
+    {
+      "bytes": 249887,
+      "path": "v8/v8_publication_completion/external_cache/silence_TORGO/features/usable_metadata.csv",
+      "sha256": "683aa4f335ff5acadb95a98753109fea981349a51ac63a06694c6220f620c720"
+    },
+    {
+      "bytes": 377603342,
+      "path": "v8/v8_publication_completion/frozen_reference/pretrained/wavlm_base.pth",
+      "sha256": "ee69baa3f5f2dd37493516acd5a5018797dd9fa25fedafc6c7f7ce53e7bd6ce3"
+    },
+    {
+      "bytes": 1688,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer0/fold_audit.json",
+      "sha256": "f2dba62aef9418ad9b5de9bf4446dbc7357e71c9d94482758eb054cbc5177b90"
+    },
+    {
+      "bytes": 498,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer0/inner_oof_speaker_predictions.csv",
+      "sha256": "64f08930af5a3dad8ed5265a76b3d8f922dea1859afece66a93f40a5054242f3"
+    },
+    {
+      "bytes": 349,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer0/outer_speaker_predictions.csv",
+      "sha256": "a57474d3d6c94e20d3d0f5c853dae94851522353ea6398d9f62252905675a68d"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer0/final/best.pt",
+      "sha256": "7f6523cd3a4c7d47fe031915c0fdd24c7a9ebc7ba04b6afd391105e956107b89"
+    },
+    {
+      "bytes": 412,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer0/inner_oof_predictions.csv",
+      "sha256": "bc731a3fcd6d70b95a59d21408d1c998efa4b252b07cdab0030147075528b279"
+    },
+    {
+      "bytes": 1796,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer0/split_manifest.json",
+      "sha256": "253585218ddc5af994a3f6d1829d15d72611632e7e97471ce0a8fe0415d0a227"
+    },
+    {
+      "bytes": 1686,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer1/fold_audit.json",
+      "sha256": "514bc59763b3984531ec66ea8381bbbbe64d846edfb8b682a77aa93af64b74c4"
+    },
+    {
+      "bytes": 494,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer1/inner_oof_speaker_predictions.csv",
+      "sha256": "f61089e6d4b04a51650ba7ff07d618e362b3720135959a801ce4d7bf2f469d59"
+    },
+    {
+      "bytes": 352,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer1/outer_speaker_predictions.csv",
+      "sha256": "1825cb88f2919c647f1a2adecffa90d4759460ab91f0dbdb79d43642afa64243"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer1/final/best.pt",
+      "sha256": "87415155b58a3d6891bb010fdcc2102f2be76543832050a5dae1fd81d4987a54"
+    },
+    {
+      "bytes": 411,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer1/inner_oof_predictions.csv",
+      "sha256": "5313a8d59bcd5c61227f66ac8f1ae0d1517ca9a6fd3a0655b06a7ada3895d758"
+    },
+    {
+      "bytes": 1796,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer1/split_manifest.json",
+      "sha256": "d4a140d684999b58b3505ac294f534e97e08090866f517f37fbe412d3e64c130"
+    },
+    {
+      "bytes": 1686,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer2/fold_audit.json",
+      "sha256": "02a1434e829491b54ad78938a61019d83410e3d3d2c4e2ca45f14464da8601c4"
+    },
+    {
+      "bytes": 496,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer2/inner_oof_speaker_predictions.csv",
+      "sha256": "3c0cf05124a71ea915edc30055759392a2ec8ae081cccdf7e0aed35d0fae3ce4"
+    },
+    {
+      "bytes": 346,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer2/outer_speaker_predictions.csv",
+      "sha256": "4114b40730d680b43680a0eaf8c5fc1f31c81f5650e9a42caf491ec005fb4bcf"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer2/final/best.pt",
+      "sha256": "ba72cf0cac58a9c58b740d4324b6165008d6b0b19f9c9e50c6a801aa036b7fb4"
+    },
+    {
+      "bytes": 417,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer2/inner_oof_predictions.csv",
+      "sha256": "580895fa685c008dbcb98f3af1bfa790fe31b0e566b52fe3faf3e932f37fb949"
+    },
+    {
+      "bytes": 1797,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer2/split_manifest.json",
+      "sha256": "3d1f561d0927f05c990b28cbd7cdb46cc60ce283add5f86e46c6f515559c81d5"
+    },
+    {
+      "bytes": 1684,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer3/fold_audit.json",
+      "sha256": "cb18518fa48c8ea1b34842364112d43bc0c17cf312ed1e8139d3c4af567bde55"
+    },
+    {
+      "bytes": 497,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer3/inner_oof_speaker_predictions.csv",
+      "sha256": "952340c01fdda5ca814ebb2a598db2f9f1048987d218588ff6850bbc434d86f6"
+    },
+    {
+      "bytes": 347,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer3/outer_speaker_predictions.csv",
+      "sha256": "30ebe0697532de48ea93eb8f07e15e221b6ffdd8a09e89dd89b6aa7672591487"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer3/final/best.pt",
+      "sha256": "c5882caa4dcff767759c5d458892e4c298096f258fa170dd8c9966fb1ad4edfd"
+    },
+    {
+      "bytes": 414,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer3/inner_oof_predictions.csv",
+      "sha256": "e1b9d819e1c69b6c1b6f869501d2aebca6f2a162df186d83315b4f02a364b74c"
+    },
+    {
+      "bytes": 1794,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer3/split_manifest.json",
+      "sha256": "d5c74b3b30b053531e8daaa9102617e87702ac95108cdc053f2f8fb9df9f4116"
+    },
+    {
+      "bytes": 1690,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer4/fold_audit.json",
+      "sha256": "c796f428667206f4e3c0e4a00f5ec4b6623f70b473035852fa281f91e3bcc9b8"
+    },
+    {
+      "bytes": 500,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer4/inner_oof_speaker_predictions.csv",
+      "sha256": "9c3dd74d2579152ceaab96ca5398cc1722d44e8bc3633a27af6d9908d93dfe0a"
+    },
+    {
+      "bytes": 353,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer4/outer_speaker_predictions.csv",
+      "sha256": "4aded71b2c894325ab2a610443f1fcca7ebfbc5e2a378279bd306e2937118c27"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed42_outer4/final/best.pt",
+      "sha256": "1e107ca88fb76454dcbb6302e4015a6b1c328db6fc7ad68a0b8b05ed40d47ede"
+    },
+    {
+      "bytes": 414,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer4/inner_oof_predictions.csv",
+      "sha256": "ef0d1a843988d4e4b8524ec190436baf856b7b3862225d3d9b82d143ce3bbf35"
+    },
+    {
+      "bytes": 1800,
+      "path": "v8/v8_publication_completion/baselines/duration/seed42_outer4/split_manifest.json",
+      "sha256": "bdb421ba59fa2a25bad5d0cf371ed25055edde5b68de1ab92918148af71dc3f1"
+    },
+    {
+      "bytes": 1685,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer0/fold_audit.json",
+      "sha256": "360e50bf2a6cdce3e3be705fe51b58677250059fbe5b14282875658375350ea1"
+    },
+    {
+      "bytes": 494,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer0/inner_oof_speaker_predictions.csv",
+      "sha256": "03b81bb5a3bb7f0c6840c66dd7ceb3ce338749d6b00b2fcea9eeb9043c271495"
+    },
+    {
+      "bytes": 352,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer0/outer_speaker_predictions.csv",
+      "sha256": "81fbc69c71b69512863ca1da0a489f5d39d698e9fe5a4e0444f2714b851ec54a"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer0/final/best.pt",
+      "sha256": "75576e3372b71743d9c57cef5013db80eca4e187d22ec9a88d86a888c9a3cee7"
+    },
+    {
+      "bytes": 417,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer0/inner_oof_predictions.csv",
+      "sha256": "82f7cd287027be797c93b76eb1c55e2aaf418b7d049fb07c47235da55e93fe05"
+    },
+    {
+      "bytes": 1796,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer0/split_manifest.json",
+      "sha256": "366f5d4962127ff3bf2f171e83beeddbc640e832c70a6e2047ffb88ed3eb6995"
+    },
+    {
+      "bytes": 1687,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer1/fold_audit.json",
+      "sha256": "e9716f08eb67faa0d1c353e8e04a7a3a84c3708544512240c24eea0d3d614acd"
+    },
+    {
+      "bytes": 497,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer1/inner_oof_speaker_predictions.csv",
+      "sha256": "c621ce8bbd444c4c856acfb07019c4d0bac95a79a147db787c42faebc7a1af73"
+    },
+    {
+      "bytes": 348,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer1/outer_speaker_predictions.csv",
+      "sha256": "0b51fd0f54e7eb2d6f83c721d97992433c6195d72fb68e75590942d9ab7e65c2"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer1/final/best.pt",
+      "sha256": "e5b9cf59e03c4ca12812a7fb7616c4d85985324c1ee87da2d227f050929d67ac"
+    },
+    {
+      "bytes": 414,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer1/inner_oof_predictions.csv",
+      "sha256": "1b2ab5fb0128e35a13e4589acd4cba41cb14be782a0d64141dea583b944fe72f"
+    },
+    {
+      "bytes": 1798,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer1/split_manifest.json",
+      "sha256": "6e2e597c225404594aecfb950ab5ffbfbb9f98ef99d0aa16fa9b967f81d8cc23"
+    },
+    {
+      "bytes": 1690,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer2/fold_audit.json",
+      "sha256": "6f63d087ec6056715d57afebad08e439cdbc7d15231f733c7f82ea1535415945"
+    },
+    {
+      "bytes": 501,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer2/inner_oof_speaker_predictions.csv",
+      "sha256": "1dc7c67d75acb24d13e61ad35ddfcecc86df40dc361575f14d296095d6683a63"
+    },
+    {
+      "bytes": 348,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer2/outer_speaker_predictions.csv",
+      "sha256": "734bf03ebedb0d93787b585194ab43199a596d759d22487ac10c9f5da2c65487"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer2/final/best.pt",
+      "sha256": "7c8bb8ce8ea8a41dfcd2159fa0c6cdeeae09b3118b47b4a1dbef68e865fcb7c7"
+    },
+    {
+      "bytes": 412,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer2/inner_oof_predictions.csv",
+      "sha256": "1d56fe05ad761e37d749560a9ef86d38f4a75320e590e65d1b61c21cb87e9e8a"
+    },
+    {
+      "bytes": 1799,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer2/split_manifest.json",
+      "sha256": "a09420c2a650fda34ff1e0b96c7844d649aa89b4c756f07cfcc9c382cf0e9eed"
+    },
+    {
+      "bytes": 1690,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer3/fold_audit.json",
+      "sha256": "9fb66ab1b11b92417dc6fe20a1e6824db63310fd23bfd97320c61ae18219c156"
+    },
+    {
+      "bytes": 504,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer3/inner_oof_speaker_predictions.csv",
+      "sha256": "677c68846bcd6be0144926ccbf57aac5bc5d241f9cf72d80618d4d73feab276d"
+    },
+    {
+      "bytes": 348,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer3/outer_speaker_predictions.csv",
+      "sha256": "1b7d805838b009f22bd192152413efa5e2c29acf7d8768b8c984c7771b60b108"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer3/final/best.pt",
+      "sha256": "c150665cf717831971091c9110cde78cb50fa4c929a074ede16d978590610a64"
+    },
+    {
+      "bytes": 416,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer3/inner_oof_predictions.csv",
+      "sha256": "f733fc4456018a1363fe549a2549d653df65039009bf9838f71743b8f245b5d7"
+    },
+    {
+      "bytes": 1800,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer3/split_manifest.json",
+      "sha256": "6bdd67097f88d3cb411b5b5b7c5f13d41115ecf4c63c225c9012ac21b9d24059"
+    },
+    {
+      "bytes": 1685,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer4/fold_audit.json",
+      "sha256": "464110416d2177507d67d2a34102ae5484195c24ba7267d9e46ce1a3ffe00e1e"
+    },
+    {
+      "bytes": 492,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer4/inner_oof_speaker_predictions.csv",
+      "sha256": "2b13df524b777fa4c70c766374e4716a111edf7c6556727b91939ec598e81b9d"
+    },
+    {
+      "bytes": 354,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer4/outer_speaker_predictions.csv",
+      "sha256": "557b943fd594dd60f03df92ac2303137d0d1f2aaecfa0234cb9c4f43480f4b85"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed43_outer4/final/best.pt",
+      "sha256": "22b70085ab50a7efa0dbe20dec49aeb98ec922fc79dfe2969ac190f3012c9bb1"
+    },
+    {
+      "bytes": 412,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer4/inner_oof_predictions.csv",
+      "sha256": "0eb8b512a1e4e39a0280e9c04dbca0fd9ec5ada4fbb64527e81e82d705e2406f"
+    },
+    {
+      "bytes": 1794,
+      "path": "v8/v8_publication_completion/baselines/duration/seed43_outer4/split_manifest.json",
+      "sha256": "09c0fdd98b8947567df1aab96b26abaa83faf559fec28a298662376dc154bb41"
+    },
+    {
+      "bytes": 1687,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer0/fold_audit.json",
+      "sha256": "57843b934d4bc31b9167ae12fc315a06cab7e9e8ac4599904ec6681963597789"
+    },
+    {
+      "bytes": 495,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer0/inner_oof_speaker_predictions.csv",
+      "sha256": "ada146c3e611686b58309eefe9b75e5bc8724f15eb183ff86c9a3c08352d8012"
+    },
+    {
+      "bytes": 351,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer0/outer_speaker_predictions.csv",
+      "sha256": "54f98e37474b933e1e5477367fc503c48850be845805ff37e5824b272b9a9416"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer0/final/best.pt",
+      "sha256": "4cab2192c864f594bbda8202be632cc48eafb1335e11b4cfce39815c6ccaedfa"
+    },
+    {
+      "bytes": 411,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer0/inner_oof_predictions.csv",
+      "sha256": "58ff3410123cc7e897e07b1bac589476ac34f1b38c89992c08c78c0a6a9202cf"
+    },
+    {
+      "bytes": 1795,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer0/split_manifest.json",
+      "sha256": "c3dd18e237497fe3e55f92b7933f13745bdc2e5123ae22a90584d890f5095964"
+    },
+    {
+      "bytes": 1687,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer1/fold_audit.json",
+      "sha256": "c5110362e3808a4db257d0406f130c2a06b538271ef06ad7db6d938d7b88f06a"
+    },
+    {
+      "bytes": 495,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer1/inner_oof_speaker_predictions.csv",
+      "sha256": "da67354ae349dc2b4915e82d968bb127ab8e45dc06a856123347c5c38c2f4fd5"
+    },
+    {
+      "bytes": 351,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer1/outer_speaker_predictions.csv",
+      "sha256": "3b68b6bee32300bb67c26e2e983febd2284e8fa19f7250791f45639980eb18a4"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer1/final/best.pt",
+      "sha256": "f8e10d134457c93742e0e659ff91e28eca30d74e93ea062e53c79368d5482991"
+    },
+    {
+      "bytes": 414,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer1/inner_oof_predictions.csv",
+      "sha256": "01a33d72829b6b6448c729580b5e4c0ea51608496acf1ef1a7c8f0c7ac35b80a"
+    },
+    {
+      "bytes": 1797,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer1/split_manifest.json",
+      "sha256": "605c62cf27f17a7fdd9f03f08324b65bf2f8c94b6ea99e0798de216d2ca089bc"
+    },
+    {
+      "bytes": 1687,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer2/fold_audit.json",
+      "sha256": "503d5c8bf0c226ad46454512d1ba71a7bdb53b68985b023abb4af45f147da4d5"
+    },
+    {
+      "bytes": 497,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer2/inner_oof_speaker_predictions.csv",
+      "sha256": "4babfd76b74ae1f5bb71910a5db2b93e7fd50876f9e22d3e573cd2f8fc8557fa"
+    },
+    {
+      "bytes": 346,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer2/outer_speaker_predictions.csv",
+      "sha256": "8f80f45d3656b51b6c572d99782aef3dc5267406c26f6418f54887498ebd037a"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer2/final/best.pt",
+      "sha256": "00d35a4c0941131af660bc3fa896f4f8590dc6be9e0587c41091ed7a3e4a2376"
+    },
+    {
+      "bytes": 417,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer2/inner_oof_predictions.csv",
+      "sha256": "bffde4cdfd52a9fa9e54ce3cffdf0f502ce828a6fee16bf5d26bf3d01e6b8b6f"
+    },
+    {
+      "bytes": 1797,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer2/split_manifest.json",
+      "sha256": "bb740c566dd527c568a5921445bae76927770f4091e93e819fb6118f9754b012"
+    },
+    {
+      "bytes": 1688,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer3/fold_audit.json",
+      "sha256": "ff69ce8abcd546d3aa64c13d3ecc3bef91fe02705896cc65930d7d9f21efa401"
+    },
+    {
+      "bytes": 498,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer3/inner_oof_speaker_predictions.csv",
+      "sha256": "ccf6930633fbb63df2a2fca9eaa822dee0663a8aa1479f0b3bbd27c13f09585e"
+    },
+    {
+      "bytes": 349,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer3/outer_speaker_predictions.csv",
+      "sha256": "16fd3af7f6691a5615c3e37fc91cce80c6e0cbb6b6c36fdd5e4a56afbcec8714"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer3/final/best.pt",
+      "sha256": "f960300573f38f64b272db25ed075bde8fecb2464cc5c91cab867fa52b4d16c9"
+    },
+    {
+      "bytes": 416,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer3/inner_oof_predictions.csv",
+      "sha256": "a507706c05b229ea2707370c1167b1389ec8cef99335370e47fe63321fc268eb"
+    },
+    {
+      "bytes": 1797,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer3/split_manifest.json",
+      "sha256": "2dafdc090a9da969052babeb678fa8b63a4621dde3aaefba3b0a1e7aa7bf37c7"
+    },
+    {
+      "bytes": 1686,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer4/fold_audit.json",
+      "sha256": "42b17621c5e78b913b3a7882d6d7daafb0e3ab6f3217eebe063b0166094dc7aa"
+    },
+    {
+      "bytes": 497,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer4/inner_oof_speaker_predictions.csv",
+      "sha256": "a973d2e4de6db58c565fc9ae76729818d499efe73a97e45e9fc2eca17003f52e"
+    },
+    {
+      "bytes": 353,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer4/outer_speaker_predictions.csv",
+      "sha256": "8290990b34282813f8b3bb5a346fe851e5944071a450a6cd0351f295241aaf35"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed44_outer4/final/best.pt",
+      "sha256": "17be06ffbbae3b7adc24a981a96682ec4676578c14ce5e4dbca31f002d3e4b3f"
+    },
+    {
+      "bytes": 413,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer4/inner_oof_predictions.csv",
+      "sha256": "bec287a1642bf25938dee8146c3b5f256b0d37a1e7ef16de3121b26033d02c0e"
+    },
+    {
+      "bytes": 1795,
+      "path": "v8/v8_publication_completion/baselines/duration/seed44_outer4/split_manifest.json",
+      "sha256": "b51f3d6d1bfe6dcb3a496b6d7c377d6d07f2e9658c03373ce09cb06ea21de00d"
+    },
+    {
+      "bytes": 1690,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer0/fold_audit.json",
+      "sha256": "548168e73bce2d3e86edac18c67241e03a077dc5abac57394e45f754a4164ed6"
+    },
+    {
+      "bytes": 498,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer0/inner_oof_speaker_predictions.csv",
+      "sha256": "8635867c163efb0238170659fe8d3d5b848f7aefff7af23159c8cd154d5b5988"
+    },
+    {
+      "bytes": 348,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer0/outer_speaker_predictions.csv",
+      "sha256": "c5d5a6f10d5cb0544b9ec652d102eb775a1b5b1821375e473f48e14abc4c51ef"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer0/final/best.pt",
+      "sha256": "a96a1cf95add617cc0b4a21d7f5e3187d48488a11147f2b2c557be45a64b8b2c"
+    },
+    {
+      "bytes": 413,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer0/inner_oof_predictions.csv",
+      "sha256": "7e37aa02915401610674ef3ef383114efcef3ce68a98f0bd0dc4e9da831fdaf2"
+    },
+    {
+      "bytes": 1799,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer0/split_manifest.json",
+      "sha256": "271b9c9df04d2e5b7c6df7f48316cc9b616eaece2a3a5eacc0f30edddbd352aa"
+    },
+    {
+      "bytes": 1690,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer1/fold_audit.json",
+      "sha256": "585280775085c8a423941b6ca7f81b456353f7f6387a948aa3a8b07cd05dbb80"
+    },
+    {
+      "bytes": 499,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer1/inner_oof_speaker_predictions.csv",
+      "sha256": "062e56ee3479796fbcd4b55883c734f5b0baf5e8ed21233e2e841536b84c3e5b"
+    },
+    {
+      "bytes": 355,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer1/outer_speaker_predictions.csv",
+      "sha256": "6bf21716424004b5309697a980e0d35a326bc8cd3b635a763a1652482b36520e"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer1/final/best.pt",
+      "sha256": "3472dd8d4aa47b4aab7b92ec520d51eb7bf8facda3eea1fe92afe68c9bd48ba6"
+    },
+    {
+      "bytes": 409,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer1/inner_oof_predictions.csv",
+      "sha256": "fc9328b3c41eff3b53b537245005a75273ff0924448c432441533f609135f338"
+    },
+    {
+      "bytes": 1798,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer1/split_manifest.json",
+      "sha256": "1d60fd53b0870385d67bb28141b885ce80a425d465558521b916e12bd4af301a"
+    },
+    {
+      "bytes": 1690,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer2/fold_audit.json",
+      "sha256": "cadced0c749935c8ca69dc02c8c7899d7eefba8e1cf632a90716b0fedce7a6a6"
+    },
+    {
+      "bytes": 501,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer2/inner_oof_speaker_predictions.csv",
+      "sha256": "629d65de69cda68ede4de11f13b07eac84e9b1b305992d139345848ce4920e0f"
+    },
+    {
+      "bytes": 352,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer2/outer_speaker_predictions.csv",
+      "sha256": "b55d4cf2fe0f7aa5c765d259537397cf8d4e0c5f89c30e3abdaf533f4e483c27"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer2/final/best.pt",
+      "sha256": "e216b9a9a461988eb88386410e842d298e425aa3f6c901d197060811db217ced"
+    },
+    {
+      "bytes": 413,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer2/inner_oof_predictions.csv",
+      "sha256": "bde5eb88bd5e229e2a4d707e0b88ca6b8b525d8ba10d80775d59312def9965a3"
+    },
+    {
+      "bytes": 1799,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer2/split_manifest.json",
+      "sha256": "4227eed4159b36e01ca1e48952c3567711c0055cf0717e6f5ef06e151df7ca21"
+    },
+    {
+      "bytes": 1686,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer3/fold_audit.json",
+      "sha256": "cad8533f73d94a3c084649bdbf011e59ce09732af8e9ab742e0e3148a7e9ddad"
+    },
+    {
+      "bytes": 496,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer3/inner_oof_speaker_predictions.csv",
+      "sha256": "9e0419eacca3615f2550ee5f0454638239010d66e06f80481d1dfbd7dfc09d52"
+    },
+    {
+      "bytes": 351,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer3/outer_speaker_predictions.csv",
+      "sha256": "a63c2f7c47fe4c08152c6479b6cfb8fc6ed30559606f976c14c8c467caef400e"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer3/final/best.pt",
+      "sha256": "94cb2a72405c7e6fade367acd6af364a8b27e9381d3f0d1f7a3a0ed4ce86de5a"
+    },
+    {
+      "bytes": 414,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer3/inner_oof_predictions.csv",
+      "sha256": "ef0f7fb3e0f197f0ca52fc7ff193e8db883f5e6229b812767c4c312e03e92237"
+    },
+    {
+      "bytes": 1795,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer3/split_manifest.json",
+      "sha256": "b74af3bba42aaacb00c4e1e0b168bda2638f1a907daaf3d3f8e949c923a7a4d1"
+    },
+    {
+      "bytes": 1686,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer4/fold_audit.json",
+      "sha256": "7e3d024075dfc153a9d4d3cbc89d949f7cb0da29bb0187b6b9dfae0daf6d73d7"
+    },
+    {
+      "bytes": 489,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer4/inner_oof_speaker_predictions.csv",
+      "sha256": "d93c212379bb3d0b5cd79660fd678279e1ca6d45acbba990ee1e579fe2318c60"
+    },
+    {
+      "bytes": 353,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer4/outer_speaker_predictions.csv",
+      "sha256": "31bea2ab7e9678c266def5d938d088a7ca7ece0b5f46ba80928b4578380a967c"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed45_outer4/final/best.pt",
+      "sha256": "56d023c80f572cf9f8879b175e395b887507db96783350e343ddd5f255c70eab"
+    },
+    {
+      "bytes": 414,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer4/inner_oof_predictions.csv",
+      "sha256": "82e802d95efcc5045005a3e7063aba155283827f961bf4e9405d4615fd8fbbec"
+    },
+    {
+      "bytes": 1796,
+      "path": "v8/v8_publication_completion/baselines/duration/seed45_outer4/split_manifest.json",
+      "sha256": "cd3b454ad2d564420801b4f2248bf22f4b26925a187a953918544897c8b3f7dc"
+    },
+    {
+      "bytes": 1687,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer0/fold_audit.json",
+      "sha256": "dae77a699b80d46d7c2e816414e4ba2223800627f928477079fe520e35a4edd1"
+    },
+    {
+      "bytes": 498,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer0/inner_oof_speaker_predictions.csv",
+      "sha256": "190cb35378c923a5cf718653e1117abd0d00b0a022bcc24df2f4e0d5ed76f0ac"
+    },
+    {
+      "bytes": 347,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer0/outer_speaker_predictions.csv",
+      "sha256": "ede076653cbd650010f6e11728508a4a2402685687590b3c70606f7d4f4f979e"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer0/final/best.pt",
+      "sha256": "7f3cd47dd43d67030f04f6c0cee91c276966338608559f62cfdb71d24a3c863d"
+    },
+    {
+      "bytes": 417,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer0/inner_oof_predictions.csv",
+      "sha256": "29cba1e925ade7e9496f23a7a085fa6b92fc93a4cb2e67bfdc873bd2b9702737"
+    },
+    {
+      "bytes": 1797,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer0/split_manifest.json",
+      "sha256": "c51e07262d53eea86bdfc42b9abf5fbb81e214a4abae81dd34f079da53eb517f"
+    },
+    {
+      "bytes": 1690,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer1/fold_audit.json",
+      "sha256": "aa77362fe64ed549c957dcf9ff7e437b5e1fa473093cb02ff6f0889040351235"
+    },
+    {
+      "bytes": 505,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer1/inner_oof_speaker_predictions.csv",
+      "sha256": "23cc184e7bba169a9b61a6533f4ca990bf5748ddf77b9a4c8719c7ce9cc99c67"
+    },
+    {
+      "bytes": 351,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer1/outer_speaker_predictions.csv",
+      "sha256": "09088291f991523b852064a18031af7899eeb12ae142301de5698383ed688942"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer1/final/best.pt",
+      "sha256": "26f8948999ed04fb43911fc6e491ecd814245edabebe93b80b447b27bbfc3205"
+    },
+    {
+      "bytes": 415,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer1/inner_oof_predictions.csv",
+      "sha256": "446f9379f4af4062000c711908e23b091afc1eadaa2187bac91796c0a8982233"
+    },
+    {
+      "bytes": 1800,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer1/split_manifest.json",
+      "sha256": "ceba3f1f3c12224b90f437ebf742a28d7b374100dc4cc399a0ee525ee6a1b8a1"
+    },
+    {
+      "bytes": 1687,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer2/fold_audit.json",
+      "sha256": "39a3010ce47317085b7e0efab6f69aefef63948cba174db7d10de32549715fce"
+    },
+    {
+      "bytes": 500,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer2/inner_oof_speaker_predictions.csv",
+      "sha256": "5b27e734a8341757e88de87939b129145973a5737a4dc6c38f4a91824c961500"
+    },
+    {
+      "bytes": 349,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer2/outer_speaker_predictions.csv",
+      "sha256": "9133d0d972c42ed033350105676e1b8ac4be1d7f88a502684303a3a1d78f6a82"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer2/final/best.pt",
+      "sha256": "42bdd9db5e9a9ac0b32ab058b80686e1d42915a7c6d3053d09d1a7250b62d05d"
+    },
+    {
+      "bytes": 410,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer2/inner_oof_predictions.csv",
+      "sha256": "1f2eb31a5c8809a092f29e833cd2582026ed60fa6eaadaa0eb2961b86370aae2"
+    },
+    {
+      "bytes": 1797,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer2/split_manifest.json",
+      "sha256": "5d4070635240a59e77303391a0c94169eccb3246a1140f7ec9f81282589d1df6"
+    },
+    {
+      "bytes": 1690,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer3/fold_audit.json",
+      "sha256": "849314bf80ecb8744e504e0cce567ef8ed4f240b02badeb5a05baf0989764dcd"
+    },
+    {
+      "bytes": 504,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer3/inner_oof_speaker_predictions.csv",
+      "sha256": "6973520a455bd6a562d6ed495c912457a4ad5ff09b92dad33e0ca16e80f51eec"
+    },
+    {
+      "bytes": 357,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer3/outer_speaker_predictions.csv",
+      "sha256": "d563322654c979a206c89c3ba3012582169743c4ea26566fc882fbe9949ebbdd"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer3/final/best.pt",
+      "sha256": "b743897d74527369a2db922ed8f0b87682b010050b4dee6b4be5fec7bc4c5fd0"
+    },
+    {
+      "bytes": 407,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer3/inner_oof_predictions.csv",
+      "sha256": "bc435c65090823c22453d54bc648ea6af4adb4087bdeaad7b1ed866bbb766847"
+    },
+    {
+      "bytes": 1799,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer3/split_manifest.json",
+      "sha256": "ec4d1a78cc3a1cc482bb5f14fa89af86ef624fc3460d91d54f4fd30d199ff54e"
+    },
+    {
+      "bytes": 1685,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer4/fold_audit.json",
+      "sha256": "e10cbec8b4d1987bc29b210d2c66ae59f28adadb68dd3c35f8285be14da03581"
+    },
+    {
+      "bytes": 495,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer4/inner_oof_speaker_predictions.csv",
+      "sha256": "0d578e3e14226e7b16fb8c38cb2691de265aff8292d5f93449372fb3834b7038"
+    },
+    {
+      "bytes": 348,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer4/outer_speaker_predictions.csv",
+      "sha256": "62c5aa9244da116ef9553ae9bc2040e3e3fb14cad5ffd745991f563875cbba18"
+    },
+    {
+      "bytes": 958152,
+      "path": "v10/outputs/reference_training/folds/speech_only/seed46_outer4/final/best.pt",
+      "sha256": "b26f1fe57cb20be6a68a1eb0d3034a6e253e009d0b76c3b6714ea56dffee153e"
+    },
+    {
+      "bytes": 415,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer4/inner_oof_predictions.csv",
+      "sha256": "ed9899a773388c062fdd8969d0594cf1dc1b7cb1f4c1f84e79b28b7c467a20aa"
+    },
+    {
+      "bytes": 1797,
+      "path": "v8/v8_publication_completion/baselines/duration/seed46_outer4/split_manifest.json",
+      "sha256": "20ba239f94ff1b4dccc4d80d2d01ccc91e738bac3b3ac5103534c116f6c5f4c5"
+    }
+  ],
+  "n_inputs": 159,
+  "version": "v10.4-1"
+}

@@ -1,0 +1,101 @@
+seed,outer_fold,stage,inner_fold,epoch,epochs_trained
+42,0,Final fit,,6,6
+42,0,Inner CV best,0,5,15
+42,0,Inner CV best,1,38,40
+42,0,Inner CV best,2,6,16
+42,1,Final fit,,21,21
+42,1,Inner CV best,0,6,16
+42,1,Inner CV best,1,35,40
+42,1,Inner CV best,2,21,31
+42,2,Final fit,,6,6
+42,2,Inner CV best,0,6,16
+42,2,Inner CV best,1,9,19
+42,2,Inner CV best,2,3,13
+42,3,Final fit,,5,5
+42,3,Inner CV best,0,3,13
+42,3,Inner CV best,1,34,40
+42,3,Inner CV best,2,5,15
+42,4,Final fit,,35,35
+42,4,Inner CV best,0,35,40
+42,4,Inner CV best,1,36,40
+42,4,Inner CV best,2,11,21
+43,0,Final fit,,8,8
+43,0,Inner CV best,0,22,32
+43,0,Inner CV best,1,8,18
+43,0,Inner CV best,2,4,14
+43,1,Final fit,,6,6
+43,1,Inner CV best,0,36,40
+43,1,Inner CV best,1,6,16
+43,1,Inner CV best,2,3,13
+43,2,Final fit,,26,26
+43,2,Inner CV best,0,31,40
+43,2,Inner CV best,1,26,36
+43,2,Inner CV best,2,21,31
+43,3,Final fit,,26,26
+43,3,Inner CV best,0,26,36
+43,3,Inner CV best,1,39,40
+43,3,Inner CV best,2,18,28
+43,4,Final fit,,8,8
+43,4,Inner CV best,0,8,18
+43,4,Inner CV best,1,11,21
+43,4,Inner CV best,2,2,12
+44,0,Final fit,,7,7
+44,0,Inner CV best,0,8,18
+44,0,Inner CV best,1,7,17
+44,0,Inner CV best,2,3,13
+44,1,Final fit,,16,16
+44,1,Inner CV best,0,12,22
+44,1,Inner CV best,1,16,26
+44,1,Inner CV best,2,27,37
+44,2,Final fit,,6,6
+44,2,Inner CV best,0,6,16
+44,2,Inner CV best,1,20,30
+44,2,Inner CV best,2,3,13
+44,3,Final fit,,8,8
+44,3,Inner CV best,0,40,40
+44,3,Inner CV best,1,8,18
+44,3,Inner CV best,2,5,15
+44,4,Final fit,,15,15
+44,4,Inner CV best,0,40,40
+44,4,Inner CV best,1,5,15
+44,4,Inner CV best,2,15,25
+45,0,Final fit,,17,17
+45,0,Inner CV best,0,17,27
+45,0,Inner CV best,1,16,26
+45,0,Inner CV best,2,37,40
+45,1,Final fit,,16,16
+45,1,Inner CV best,0,3,13
+45,1,Inner CV best,1,16,26
+45,1,Inner CV best,2,30,40
+45,2,Final fit,,18,18
+45,2,Inner CV best,0,37,40
+45,2,Inner CV best,1,18,28
+45,2,Inner CV best,2,9,19
+45,3,Final fit,,12,12
+45,3,Inner CV best,0,36,40
+45,3,Inner CV best,1,12,22
+45,3,Inner CV best,2,8,18
+45,4,Final fit,,10,10
+45,4,Inner CV best,0,10,20
+45,4,Inner CV best,1,2,12
+45,4,Inner CV best,2,11,21
+46,0,Final fit,,8,8
+46,0,Inner CV best,0,39,40
+46,0,Inner CV best,1,8,18
+46,0,Inner CV best,2,3,13
+46,1,Final fit,,32,32
+46,1,Inner CV best,0,32,40
+46,1,Inner CV best,1,38,40
+46,1,Inner CV best,2,19,29
+46,2,Final fit,,38,38
+46,2,Inner CV best,0,40,40
+46,2,Inner CV best,1,38,40
+46,2,Inner CV best,2,19,29
+46,3,Final fit,,39,39
+46,3,Inner CV best,0,38,40
+46,3,Inner CV best,1,40,40
+46,3,Inner CV best,2,39,40
+46,4,Final fit,,6,6
+46,4,Inner CV best,0,37,40
+46,4,Inner CV best,1,6,16
+46,4,Inner CV best,2,1,11

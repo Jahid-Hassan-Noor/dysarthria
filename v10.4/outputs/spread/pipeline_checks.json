@@ -1,0 +1,5 @@
+{
+  "locked_scoring_max_probability_difference": 1.1102230246251565e-16,
+  "pretrained_weights_sha256": "ee69baa3f5f2dd37493516acd5a5018797dd9fa25fedafc6c7f7ce53e7bd6ce3",
+  "reextraction_relative_max_difference": 0.0
+}

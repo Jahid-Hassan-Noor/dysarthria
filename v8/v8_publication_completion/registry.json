@@ -1,0 +1,206 @@
+{
+  "datasets": {
+    "ablations": {
+      "group_columns": [
+        "corpus",
+        "analysis",
+        "model_arm",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/ablations/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/ablations/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/ablations/provenance.json"
+    },
+    "artifact": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/artifact/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/artifact/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/artifact/provenance.json"
+    },
+    "budgets_torgo": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "budget",
+        "repetition",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/budgets_torgo/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/budgets_torgo/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/budgets_torgo/provenance.json"
+    },
+    "budgets_uaspeech": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "budget",
+        "repetition",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/budgets_uaspeech/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/budgets_uaspeech/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/budgets_uaspeech/provenance.json"
+    },
+    "channel_M2": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M2/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M2/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M2/provenance.json"
+    },
+    "channel_M3": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M3/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M3/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M3/provenance.json"
+    },
+    "channel_M4": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M4/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M4/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M4/provenance.json"
+    },
+    "channel_M5": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M5/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M5/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M5/provenance.json"
+    },
+    "channel_M6": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M6/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M6/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M6/provenance.json"
+    },
+    "channel_M7": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M7/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M7/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M7/provenance.json"
+    },
+    "channel_M8": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M8/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M8/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channel_M8/provenance.json"
+    },
+    "channels": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channels/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channels/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channels/provenance.json"
+    },
+    "channels_matched": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channels_matched/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channels_matched/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/channels_matched/provenance.json"
+    },
+    "duration": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/duration/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/duration/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/duration/provenance.json"
+    },
+    "matched_content": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/matched_content/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/matched_content/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/matched_content/provenance.json"
+    },
+    "primary_torgo": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/primary_torgo/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/primary_torgo/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/primary_torgo/provenance.json"
+    },
+    "primary_uaspeech_m3": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/primary_uaspeech_m3/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/primary_uaspeech_m3/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/primary_uaspeech_m3/provenance.json"
+    },
+    "silence": {
+      "group_columns": [
+        "corpus",
+        "model_arm",
+        "channel",
+        "seed"
+      ],
+      "metric_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/silence/per_seed_metrics.csv",
+      "prediction_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/silence/predictions.csv",
+      "provenance_file": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/results/silence/provenance.json"
+    }
+  },
+  "frozen_reference": "/Users/Noor/Documents/projects/dysarthia/v8/v8_publication_completion/frozen_reference",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "schema_version": 1
+}

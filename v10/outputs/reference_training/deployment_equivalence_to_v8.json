@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "seed": 42,
+      "checkpoint_file_sha256_v10": "78b21568d0418ed2c48f0ebaa19b1de37f824bb3c16c5ba676920c5dba4dfd76",
+      "checkpoint_file_sha256_v8": "83d3d69363cdf986fd2730e5c27430f557772041c450ed38a3fabee5cbd57df2",
+      "all_parameter_tensors_bitwise_equal": true,
+      "scaler_arrays_bitwise_equal": true,
+      "threshold_equal": true,
+      "epochs_equal": true
+    },
+    {
+      "seed": 43,
+      "checkpoint_file_sha256_v10": "370919ca7eb0779bf0c0e4ef9b5af78f72b04e9a398418a852227e8f8735c955",
+      "checkpoint_file_sha256_v8": "ede6280e383235b16ef2f8ebed68dba78e2e5e1466354eb64cc16620ba1bb50b",
+      "all_parameter_tensors_bitwise_equal": true,
+      "scaler_arrays_bitwise_equal": true,
+      "threshold_equal": true,
+      "epochs_equal": true
+    },
+    {
+      "seed": 44,
+      "checkpoint_file_sha256_v10": "fe3885badceb76e500ded7390252b40307ee73ebfee8845929dd4473ec2524bb",
+      "checkpoint_file_sha256_v8": "082536eb8ae75954c61dda4281ca85b107d2573c8128037924f1f7a99275e7de",
+      "all_parameter_tensors_bitwise_equal": true,
+      "scaler_arrays_bitwise_equal": true,
+      "threshold_equal": true,
+      "epochs_equal": true
+    },
+    {
+      "seed": 45,
+      "checkpoint_file_sha256_v10": "4933fae4283b48440224f624368a6a68b1c59aa1c8b948e82e9a73dd41a70ade",
+      "checkpoint_file_sha256_v8": "167c2c5ad78bc872eb5da13d11127fcce4eaacdb720493c40a8d5dc8e1ce0fe0",
+      "all_parameter_tensors_bitwise_equal": true,
+      "scaler_arrays_bitwise_equal": true,
+      "threshold_equal": true,
+      "epochs_equal": true
+    },
+    {
+      "seed": 46,
+      "checkpoint_file_sha256_v10": "f79af4f2de4320fa226b6733bffd12894c6d648ab40be8e199573330ad17456b",
+      "checkpoint_file_sha256_v8": "7d7238427f6a56bb121b34a1b7deb6199cad75d5710592c7f55ada089fc4e2dc",
+      "all_parameter_tensors_bitwise_equal": true,
+      "scaler_arrays_bitwise_equal": true,
+      "threshold_equal": true,
+      "epochs_equal": true
+    }
+  ],
+  "interpretation": "torch checkpoint serialization bytes differ; model tensors, scalers, thresholds and epochs are identical"
+}

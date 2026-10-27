@@ -1,0 +1,4 @@
+physical_speaker_id,label,probability,n_utterances,n_eval_bags,seed,outer_fold,model_arm,threshold,predicted_label,final_epochs
+M01,1,0.8002873877839984,772,13,44,2,speech_only,0.5130984728086215,1,6
+M05,1,0.7575182625585389,651,11,44,2,speech_only,0.5130984728086215,1,6
+MC03,0,0.3073146805601381,1728,27,44,2,speech_only,0.5130984728086215,0,6

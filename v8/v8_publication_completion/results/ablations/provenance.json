@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-12T16:40:41.174011+00:00",
+  "external_model_selection": false,
+  "group_columns": [
+    "corpus",
+    "analysis",
+    "model_arm",
+    "seed"
+  ],
+  "metric_sha256": "910f6e46fddcf0a4affe31e657092f4f750d92bd5dd08d13551bd8d08095e1b9",
+  "name": "ablations",
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "prediction_sha256": "7e6b4b86e44f3368d6fa2f76b23fc3f632cc3480b684e8a051ffcc552c39c606",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_signatures": {
+    "TORGO": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+  }
+}

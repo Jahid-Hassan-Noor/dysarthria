@@ -1,0 +1,7 @@
+model_arm,metric,lower_95,upper_95,n_resamples,resampling_unit,stratified_by_diagnosis,same_speaker_draw_across_seeds
+Mean-only Last-4 Attention,ROC_AUC,0.7677678571428571,0.9785714285714286,1000,physical_speaker,True,True
+Mean-only Last-4 Attention,PR_AUC,0.8527532779720279,0.9883571428571428,1000,physical_speaker,True,True
+Mean-only Last-4 Attention,Balanced_Accuracy,0.6910267857142856,0.9428571428571428,1000,physical_speaker,True,True
+Mean-only Last-4 Attention,Sensitivity,0.6,1.0,1000,physical_speaker,True,True
+Mean-only Last-4 Attention,Specificity,0.7128571428571429,0.9428571428571428,1000,physical_speaker,True,True
+Mean-only Last-4 Attention,Brier,0.05252287866037802,0.23938765355458283,1000,physical_speaker,True,True

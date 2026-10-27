@@ -1,0 +1,8 @@
+channel,observed_speakers,speakers_below_K,eligible_speakers,required_K,segment_seconds,observed_cohort_estimable
+M2,23,12,11,20,1.0,False
+M3,28,15,13,20,1.0,False
+M4,26,15,11,20,1.0,False
+M5,28,14,14,20,1.0,False
+M6,28,16,12,20,1.0,False
+M7,28,14,14,20,1.0,False
+M8,27,14,13,20,1.0,False

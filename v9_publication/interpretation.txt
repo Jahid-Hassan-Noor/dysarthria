@@ -1,0 +1,3 @@
+V9's ROC-AUC point estimate exceeds the combined measured-confound model, but the paired physical-speaker confidence interval includes zero. This cohort does not establish substantial incremental disease-relevant information beyond measured confounds. The locked UASpeech M3 fixed-K benchmark is non-estimable under this TORGO-selected one-second, K=20 protocol; no cross-corpus V9 performance claim is made. A V9 background-only linear probe has speaker ROC-AUC 0.664; non-speech information therefore remains a material diagnostic concern. The historical V8 background test used a different model protocol.
+
+Suggested framing: Beyond Speaker Leakage: Recording and Duration Confounds in Dysarthria Detection

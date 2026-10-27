@@ -1,0 +1,13 @@
+{
+  "official_root": "/Users/Noor/Documents/projects/dysarthia/UASpeech",
+  "selected_releases": [
+    "UASpeech_normalized_C",
+    "UASpeech_normalized_FM"
+  ],
+  "total_wav_files": 143565,
+  "parsed_metadata_rows": 143565,
+  "soundfile_info_usable": 143290,
+  "skipped_or_unparsed": 275,
+  "word_metadata_source": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/doc/speaker_wordlist.xls",
+  "no_kaggle_mirror_data_used": true
+}

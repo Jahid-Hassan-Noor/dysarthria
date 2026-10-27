@@ -1,0 +1,31 @@
+model_arm,metric,lower_95,upper_95,n_resamples,resampling_unit,stratified_by_diagnosis,same_speaker_draw_across_seeds
+Combined measured confounds,ROC_AUC,0.6392857142857142,0.9785714285714286,1000,physical_speaker,True,True
+Combined measured confounds,PR_AUC,0.76655890984016,0.9850329861111111,1000,physical_speaker,True,True
+Combined measured confounds,Balanced_Accuracy,0.49821428571428567,0.6857142857142857,1000,physical_speaker,True,True
+Combined measured confounds,Sensitivity,0.825,1.0,1000,physical_speaker,True,True
+Combined measured confounds,Specificity,0.11428571428571428,0.42857142857142855,1000,physical_speaker,True,True
+Combined measured confounds,Brier,0.07093919278461097,0.29373339660381453,1000,physical_speaker,True,True
+Duration only,ROC_AUC,0.8641964285714285,1.0,1000,physical_speaker,True,True
+Duration only,PR_AUC,0.9063936688311688,1.0,1000,physical_speaker,True,True
+Duration only,Balanced_Accuracy,0.5928571428571427,0.775,1000,physical_speaker,True,True
+Duration only,Sensitivity,0.85,1.0,1000,physical_speaker,True,True
+Duration only,Specificity,0.2571428571428571,0.6,1000,physical_speaker,True,True
+Duration only,Brier,0.048238545973410527,0.1832619194432731,1000,physical_speaker,True,True
+RMS energy only,ROC_AUC,0.37857142857142856,0.95,1000,physical_speaker,True,True
+RMS energy only,PR_AUC,0.6229301739926741,0.9651936431623931,1000,physical_speaker,True,True
+RMS energy only,Balanced_Accuracy,0.5,0.5,1000,physical_speaker,True,True
+RMS energy only,Sensitivity,1.0,1.0,1000,physical_speaker,True,True
+RMS energy only,Specificity,0.0,0.0,1000,physical_speaker,True,True
+RMS energy only,Brier,0.13239842928576342,0.325531654146064,1000,physical_speaker,True,True
+Silence ratio only,ROC_AUC,0.2178571428571429,0.7715178571428571,1000,physical_speaker,True,True
+Silence ratio only,PR_AUC,0.47119963890276384,0.8388929924242423,1000,physical_speaker,True,True
+Silence ratio only,Balanced_Accuracy,0.4625,0.5,1000,physical_speaker,True,True
+Silence ratio only,Sensitivity,0.925,1.0,1000,physical_speaker,True,True
+Silence ratio only,Specificity,0.0,0.0,1000,physical_speaker,True,True
+Silence ratio only,Brier,0.2232075778788245,0.3024387751936105,1000,physical_speaker,True,True
+Spectral proxies only,ROC_AUC,0.3570535714285714,0.8785714285714284,1000,physical_speaker,True,True
+Spectral proxies only,PR_AUC,0.5600279304029304,0.9153650342712841,1000,physical_speaker,True,True
+Spectral proxies only,Balanced_Accuracy,0.31607142857142856,0.5429017857142857,1000,physical_speaker,True,True
+Spectral proxies only,Sensitivity,0.6,1.0,1000,physical_speaker,True,True
+Spectral proxies only,Specificity,0.0,0.14285714285714285,1000,physical_speaker,True,True
+Spectral proxies only,Brier,0.13893505028319897,0.40567893938754396,1000,physical_speaker,True,True

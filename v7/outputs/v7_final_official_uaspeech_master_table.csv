@@ -1,0 +1,13 @@
+level,seed,n_evaluation_units,source_metrics_file,Accuracy,Balanced_Accuracy,Sensitivity,Specificity,Precision,NPV,F1_dysarthric,Macro_F1,ROC_AUC,PR_AUC,Brier,ECE
+physical_speaker,seed 42,28,v7_final_official_uaspeech_metrics.csv,0.536,0.500,1.000,0.000,0.536,NA,0.698,0.349,0.564,0.691,0.245,0.076
+physical_speaker,seed 43,28,v7_final_official_uaspeech_metrics.csv,0.536,0.500,1.000,0.000,0.536,NA,0.698,0.349,0.600,0.660,0.271,0.158
+physical_speaker,seed 44,28,v7_final_official_uaspeech_metrics.csv,0.536,0.500,1.000,0.000,0.536,NA,0.698,0.349,0.333,0.534,0.306,0.297
+physical_speaker,seed 45,28,v7_final_official_uaspeech_metrics.csv,0.464,0.500,0.000,1.000,NA,0.464,0.000,0.317,0.877,0.865,0.381,0.440
+physical_speaker,seed 46,28,v7_final_official_uaspeech_metrics.csv,0.536,0.500,1.000,0.000,0.536,NA,0.698,0.349,0.595,0.580,0.252,0.111
+physical_speaker,mean ± SD,28,v7_final_official_uaspeech_metrics.csv,0.521 ± 0.032,0.500 ± 0.000,0.800 ± 0.447,0.200 ± 0.447,0.536 ± 0.000,NA,0.558 ± 0.312,0.342 ± 0.014,0.594 ± 0.193,0.666 ± 0.128,0.291 ± 0.055,0.216 ± 0.151
+utterance,seed 42,21126,v7_final_official_uaspeech_metrics.csv,0.493,0.466,0.925,0.008,0.512,0.086,0.659,0.337,0.547,0.645,0.260,0.135
+utterance,seed 43,21126,v7_final_official_uaspeech_metrics.csv,0.529,0.500,1.000,0.000,0.529,NA,0.692,0.346,0.583,0.682,0.275,0.189
+utterance,seed 44,21126,v7_final_official_uaspeech_metrics.csv,0.513,0.485,0.970,0.000,0.522,0.006,0.678,0.339,0.513,0.639,0.334,0.319
+utterance,seed 45,21126,v7_final_official_uaspeech_metrics.csv,0.495,0.522,0.054,0.991,0.872,0.482,0.101,0.375,0.724,0.738,0.382,0.392
+utterance,seed 46,21126,v7_final_official_uaspeech_metrics.csv,0.524,0.495,0.990,0.000,0.527,0.000,0.688,0.344,0.561,0.602,0.252,0.067
+utterance,mean ± SD,21126,v7_final_official_uaspeech_metrics.csv,0.511 ± 0.017,0.494 ± 0.021,0.788 ± 0.411,0.200 ± 0.442,0.592 ± 0.157,0.143 ± 0.229,0.564 ± 0.259,0.348 ± 0.015,0.586 ± 0.082,0.661 ± 0.052,0.301 ± 0.056,0.220 ± 0.133

@@ -1,0 +1,13 @@
+metric,point_difference_b_minus_a,lower_95,upper_95,n_resamples,resampling_unit,comparison
+Balanced_Accuracy,-0.0196428571428571,-0.1215178571428571,0.0642857142857142,500,physical_speaker,mean_final_mean minus V9 primary
+ROC_AUC,-0.0285714285714285,-0.0857142857142857,0.0142857142857142,500,physical_speaker,mean_final_mean minus V9 primary
+PR_AUC,-0.0148586829836832,-0.0478651452713952,0.0145775908119657,500,physical_speaker,mean_final_mean minus V9 primary
+Brier,0.0245642056368053,0.0026805559808669,0.0473873025500922,500,physical_speaker,mean_final_mean minus V9 primary
+Balanced_Accuracy,0.0178571428571427,-0.0785714285714286,0.1178571428571428,500,physical_speaker,mean_sd_final_attention minus V9 primary
+ROC_AUC,0.0035714285714284,-0.0554464285714284,0.0642857142857141,500,physical_speaker,mean_sd_final_attention minus V9 primary
+PR_AUC,-0.0032065850815851,-0.0467957285769786,0.0415736919330669,500,physical_speaker,mean_sd_final_attention minus V9 primary
+Brier,-0.004688808912575,-0.0305590106766565,0.0234078606509567,500,physical_speaker,mean_sd_final_attention minus V9 primary
+Balanced_Accuracy,0.0160714285714286,-0.0249999999999999,0.0571428571428571,500,physical_speaker,mean_sd_last_four_mean minus V9 primary
+ROC_AUC,0.0107142857142857,-0.0340178571428572,0.0535714285714284,500,physical_speaker,mean_sd_last_four_mean minus V9 primary
+PR_AUC,0.0024496336996335,-0.0271074134199134,0.0259467164779663,500,physical_speaker,mean_sd_last_four_mean minus V9 primary
+Brier,-0.0041032690242606,-0.0182736845257162,0.0100617161081792,500,physical_speaker,mean_sd_last_four_mean minus V9 primary

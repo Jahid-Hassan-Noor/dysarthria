@@ -1,0 +1,18 @@
+Figure,Filename,Experiment,Level,Metric(s),Purpose,Placement
+1,fig_external_torgo_vs_uaspeech.png; fig_external_torgo_vs_uaspeech.pdf,TORGO vs official UASpeech; identical outer-fold-0 checkpoints,utterance,Accuracy; Balanced Accuracy; F1; ROC-AUC; PR-AUC,Paired checkpoint external performance,Main
+2,fig_external_roc.png; fig_external_roc.pdf,Official UASpeech zero-shot,utterance,ROC-AUC,Discrimination,Main
+3,fig_external_pr.png; fig_external_pr.pdf,Official UASpeech zero-shot,utterance,PR-AUC / Average Precision,Positive-class precision-recall,Supplementary
+4,fig_external_confusion_matrix.png; fig_external_confusion_matrix.pdf,Official UASpeech zero-shot,utterance,Confusion matrix,Locked threshold operating point,Main
+5,fig_external_sensitivity_specificity.png; fig_external_sensitivity_specificity.pdf,TORGO vs official UASpeech; identical outer-fold-0 checkpoints,utterance,Sensitivity; Specificity; Balanced Accuracy,Operating-point shift,Main
+6,fig_external_calibration.png; fig_external_calibration.pdf,TORGO vs official UASpeech; identical outer-fold-0 checkpoint,utterance,Brier; ECE,Calibration transfer without external refit,Main
+7,fig_external_probability_distribution.png; fig_external_probability_distribution.pdf,Official UASpeech zero-shot,utterance,Probability,Class-score overlap,Supplementary
+7b,fig_external_probability_distribution_log.png; fig_external_probability_distribution_log.pdf,Official UASpeech zero-shot,utterance,Probability,Near-zero threshold visibility,Diagnostic
+8,fig_external_speaker_probabilities.png; fig_external_speaker_probabilities.pdf,Official UASpeech zero-shot,physical speaker,Mean probability,Patient-level score distribution,Main
+9,fig_external_speaker_roc.png; fig_external_speaker_roc.pdf,Official UASpeech zero-shot,physical speaker,ROC-AUC; 95% speaker bootstrap CI,Patient-level discrimination,Main
+10,fig_external_severity.png; fig_external_severity.pdf,Official UASpeech zero-shot,physical speaker,Mean probability by official category,Descriptive severity pattern,Supplementary
+11,fig_external_microphone_robustness.png; fig_external_microphone_robustness.pdf,Official UASpeech zero-shot,physical speaker,ROC-AUC; PR-AUC; Balanced Accuracy,Channel robustness,Supplementary
+12,fig_external_channel_gap.png; fig_external_channel_gap.pdf,Official UASpeech zero-shot,physical speaker,ROC-AUC,Channel rank; M3 remains prespecified primary,Supplementary
+13,fig_external_seed_stability.png; fig_external_seed_stability.pdf,TORGO vs official UASpeech; identical outer-fold-0 checkpoints,utterance,ROC-AUC,Seedwise external shift,Supplementary
+14,fig_external_generalization_gap.png; fig_external_generalization_gap.pdf,TORGO vs official UASpeech; identical outer-fold-0 checkpoints,utterance,ROC-AUC; F1; Balanced Accuracy,Paired descriptive gaps,Supplementary
+15,fig_external_noise_robustness.png; fig_external_noise_robustness.pdf,TORGO grouped outer test,utterance,ROC-AUC; Balanced Accuracy; F1,Noise robustness,Supplementary
+16,fig_external_torgo_cross_microphone.png; fig_external_torgo_cross_microphone.pdf,TORGO grouped outer test,utterance,Balanced Accuracy,Microphone transfer,Supplementary

@@ -1,0 +1,3 @@
+level,Accuracy,Accuracy,Sensitivity,Sensitivity,Specificity,Specificity,Precision,Precision,NPV,NPV,F1_dysarthric,F1_dysarthric,Macro_F1,Macro_F1,ROC_AUC,ROC_AUC,PR_AUC,PR_AUC,Brier,Brier,ECE,ECE
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+utterance,0.5998769289027739,,0.8880243269832752,,0.2759175465057818,,0.5796263864565091,,0.6866866866866866,,0.7014234749743916,,0.5475412332192093,,0.7082112246998056,,0.7626409251429582,,0.30107425982180974,,0.2710699578430344,

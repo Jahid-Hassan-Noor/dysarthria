@@ -1,0 +1,156 @@
+{
+  "best_epoch": 3,
+  "best_validation_logloss": 0.65010905673145,
+  "frozen_encoder": true,
+  "history": [
+    {
+      "best_epoch": 1,
+      "best_validation_logloss": 0.6875441920359098,
+      "epoch": 1,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.678935706615448,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.6875441920359098
+    },
+    {
+      "best_epoch": 2,
+      "best_validation_logloss": 0.6600842749139102,
+      "epoch": 2,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.6353398561477661,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.6600842749139102
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 3,
+      "history_status": "logged",
+      "is_best": true,
+      "train_logloss": 0.5909215360879898,
+      "validation_accuracy_0_5": 0.75,
+      "validation_logloss": 0.65010905673145
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 4,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.4719705730676651,
+      "validation_accuracy_0_5": 0.75,
+      "validation_logloss": 0.6573222491794852
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 5,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.38375573605298996,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.6886847658915605
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 6,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.29498590528964996,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.7409804524250792
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 7,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.22692977264523506,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.8141850355682372
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 8,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.17469913512468338,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.886337306948348
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 9,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.1497311070561409,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 0.9260206063761403
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 10,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.09522292762994766,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 1.0068844131524146
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 11,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.07079326547682285,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 1.1117923860994008
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 12,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.05892951413989067,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 1.184984304484653
+    },
+    {
+      "best_epoch": 3,
+      "best_validation_logloss": 0.65010905673145,
+      "epoch": 13,
+      "history_status": "logged",
+      "is_best": false,
+      "train_logloss": 0.04109764005988836,
+      "validation_accuracy_0_5": 0.5,
+      "validation_logloss": 1.3009558103091536
+    }
+  ],
+  "history_file": "training_history.csv",
+  "signature": "046a97f0f3e0e8874e380d64e45152ce0ecb06b8d98d83776a43d3a29f42f946",
+  "train_speakers": [
+    "F01",
+    "FC01",
+    "FC03",
+    "M03",
+    "M04",
+    "M05",
+    "MC02",
+    "MC03"
+  ],
+  "use_fusion": false,
+  "validation_speakers": [
+    "F04",
+    "FC02",
+    "M02",
+    "MC04"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "budgets": [
+    1,
+    5,
+    10,
+    20,
+    50,
+    "all"
+  ],
+  "finite_budget_repetitions": 100,
+  "source": "reused verified V8 100-draw predictions after bitwise parameter/scaler and threshold identity",
+  "primary_evaluation": "all available utterances"
+}

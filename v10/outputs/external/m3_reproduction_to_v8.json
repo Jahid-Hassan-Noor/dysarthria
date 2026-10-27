@@ -1,0 +1,8 @@
+{
+  "comparison": "fresh V10 locked M3 inference versus frozen historical V8 M3",
+  "speaker_seed_rows": 140,
+  "n_physical_speakers": 28,
+  "max_absolute_probability_difference": 0.0,
+  "all_predictions_match": true,
+  "interpretation": "Same tensors, scalers, thresholds and frozen representations; exact external reproduction rather than an independent new model discovery"
+}

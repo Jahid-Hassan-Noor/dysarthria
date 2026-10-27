@@ -1,0 +1,88 @@
+{
+  "source": "SHA256-verified frozen V8 snapshot",
+  "snapshot_manifest_sha256": "4ab9dc7d6a8896f6962eb1d07388dbe926b5beefe9ace67b9e837f8ae7a33e95",
+  "files": [
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/snapshot_manifest.json",
+      "sha256": "4ab9dc7d6a8896f6962eb1d07388dbe926b5beefe9ace67b9e837f8ae7a33e95",
+      "bytes": 19579740
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/snapshot_manifest.sha256",
+      "sha256": "b75ae4c3f1bc9bf35408f25f2903537c95d0e57eed10510e1dd4d9eb5540ea71",
+      "bytes": 89
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/v8_summary.json",
+      "sha256": "3287c1bbfefcff06b4023ad3340f9cf61a2ae1b1d9d64179de98c41319756f34",
+      "bytes": 3712
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/v8_speaker_oof_predictions.csv",
+      "sha256": "eb829bf2910097c910c7f3e302a5798d44708ec741813513cf4a22a9db063cbe",
+      "bytes": 5611
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/v8_per_seed_speaker_metrics.csv",
+      "sha256": "19a80035352786d76c91d29ee353435311ab22de801ca2f5806f2ac0ed52f4d8",
+      "bytes": 929
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/external_uaspeech/v8_uaspeech_speaker_predictions.csv",
+      "sha256": "eb12cc9c91378425784088c99a14e65e8c1ed2c116aa413f38ae64dd580953eb",
+      "bytes": 19371
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/external_uaspeech/v8_uaspeech_summary.json",
+      "sha256": "eff85347b73919dac1b624a2c6a322234df3af04215075e04fbf9c9000bc9583",
+      "bytes": 2030
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/split_membership.csv",
+      "sha256": "40c77fe1d0997943b8a0fa945e8cd8b1ad66501a2bfb6eb5ad84202ac49860b6",
+      "bytes": 109594
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/locked_thresholds.csv",
+      "sha256": "ab7315a6b567216c3ed082666bbebf6197da40df71258b8191e537104bbcd9b2",
+      "bytes": 5703
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/checkpoint_hashes.csv",
+      "sha256": "d4a716205f780f3bad8358786654360bda9cdfe17c415f6c7dc9fd24f47efc4a",
+      "bytes": 16054
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/deployment/v8_torgo_model_lock.json",
+      "sha256": "04aec813ecbf990f2f44c824cbc6619299f5300724297cc8678002a5bb3f6c78",
+      "bytes": 3881
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/deployment/speech_only/seed42/final/best.pt",
+      "sha256": "83d3d69363cdf986fd2730e5c27430f557772041c450ed38a3fabee5cbd57df2",
+      "bytes": 958152
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/deployment/speech_only/seed43/final/best.pt",
+      "sha256": "ede6280e383235b16ef2f8ebed68dba78e2e5e1466354eb64cc16620ba1bb50b",
+      "bytes": 958152
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/deployment/speech_only/seed44/final/best.pt",
+      "sha256": "082536eb8ae75954c61dda4281ca85b107d2573c8128037924f1f7a99275e7de",
+      "bytes": 958152
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/deployment/speech_only/seed45/final/best.pt",
+      "sha256": "167c2c5ad78bc872eb5da13d11127fcce4eaacdb720493c40a8d5dc8e1ce0fe0",
+      "bytes": 958152
+    },
+    {
+      "path": "v8/v8_publication_completion/frozen_reference/run/deployment/speech_only/seed46/final/best.pt",
+      "sha256": "7d7238427f6a56bb121b34a1b7deb6199cad75d5710592c7f55ada089fc4e2dc",
+      "bytes": 958152
+    }
+  ],
+  "original_working_tree_matches_snapshot": false,
+  "working_tree_discrepancy": "Current V8 M3 calibration PNG differs from snapshot; original V8 snapshot verifies PASS."
+}

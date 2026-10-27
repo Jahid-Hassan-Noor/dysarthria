@@ -1,0 +1,5 @@
+| Version | Main methodology | Accuracy | Balanced_Accuracy | Sensitivity | Specificity | F1 | ROC_AUC | PR_AUC | External validation status | External ROC-AUC | Main limitation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| V8 | Variable-length V8 frozen WavLM speaker attention | 0.8533333333333333 | 0.8535714285714286 | 0.85 | 0.8571428571428571 | 0.8543277310924371 | 0.85 | 0.8835981379731381 | locked official UASpeech M3 complete | 0.9661538461538464 | Measured duration/artifact confounds |
+| V9 | Fixed 1 s active-speech segments, K=20 deployment | 0.5866666666666667 | 0.5642857142857143 | 0.9 | 0.2285714285714285 | 0.7005339435545385 | 0.725 | 0.8350924075924077 | official M3 non-estimable under K=20 |  | Reduced TORGO performance and excluded external cohort |
+| V10 | Fresh V8-reference retraining plus diagnostics and locked validation | 0.8533333333333333 | 0.8535714285714286 | 0.85 | 0.8571428571428571 | 0.8543277310924371 | 0.85 | 0.8835981379731381 | locked official UASpeech M3 complete | 0.9661538461538464 | Small speaker cohorts; confounding remains |

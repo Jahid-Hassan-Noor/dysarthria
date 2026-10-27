@@ -1,0 +1,37 @@
+{
+  "model": "Prespecified V7 Stream 1 Only (CNN-BiLSTM)",
+  "selection_basis": "V7 prespecification; no official UASpeech selection",
+  "source_corpus": "TORGO only",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "pipeline_signature": "v7_physical_speaker_nested_stream1_v2_effective_gain",
+  "threshold_signature": "exact_speaker_weighted_unique_score_search_v1",
+  "training_budget_decision": "v7_training_budget_decision.json",
+  "training_budget_sha256": "745428807f434ffc65d5a3eff13d02ac2df5241cf5fc00b775f8b1d4305509e8",
+  "checkpoint_sha256": {
+    "42": "c2b7f529ccdb6e84b1b12494078ccb59950a1e715490f699917ae3db2524950a",
+    "43": "e3040ba6b3db87477ab67d695eb9bfd96aec253efbcada236788226c8529f127",
+    "44": "6925a13f8e9b9990c7fbee0fab7089b4b6521470f1e769faf36198a59e1ca852",
+    "45": "4cd09b8f8a5a5c20a6437c91951f1cd3fb9872223372d3c424070bec59824a64",
+    "46": "849678e2f36fa4218287b2f55519772ce000ecc8bdc0ab1812a37371722f4319"
+  },
+  "locked_thresholds": {
+    "42": 0.313218499412339,
+    "43": 0.4008050196779247,
+    "44": 0.2523770739891316,
+    "45": 0.3712606540176825,
+    "46": 0.2997414593272734
+  },
+  "locked_temperatures": {
+    "42": 1.1571840397058213,
+    "43": 1.0701519210209842,
+    "44": 1.34553169729848,
+    "45": 1.247969845979999,
+    "46": 0.9814006721686678
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-13T11:23:33.812365+00:00",
+  "external_model_selection": false,
+  "group_columns": [
+    "corpus",
+    "model_arm",
+    "seed"
+  ],
+  "metric_sha256": "29e66dd076980749269b7506448ce2a4ee22663b0fa9c03ad20a2f476cec5b02",
+  "name": "artifact",
+  "pipeline_signature": "v8_frozen_ssl_speaker_bag_1",
+  "prediction_sha256": "7f875441a797755bb1b8f0c532691fe3e37e3342af1f5863dcd3ee1ea1c40bb0",
+  "run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "source_signatures": {
+    "TORGO": "a7a09daace943f83a1b7805262f2cad73c9b409760171f47f70808ed27c6509a"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "V10 primary, V8-preserving reference architecture",
+  "training_corpus": "TORGO only",
+  "selection_corpus": "TORGO only",
+  "architecture": "frozen WavLM Base; mean+SD; last-four trainable mix; speaker attention",
+  "input_preprocessing": "V8 unchanged",
+  "threshold_policy": "specificity maximum subject to TORGO inner OOF sensitivity >= 0.90",
+  "calibration": "uncalibrated V8 primary",
+  "external_primary_channel": "M3",
+  "external_labels_viewed_before_lock": false,
+  "models": [
+    {
+      "seed": 42,
+      "checkpoint_sha256": "78b21568d0418ed2c48f0ebaa19b1de37f824bb3c16c5ba676920c5dba4dfd76",
+      "threshold": 0.444499315821758,
+      "final_epochs": 39
+    },
+    {
+      "seed": 43,
+      "checkpoint_sha256": "370919ca7eb0779bf0c0e4ef9b5af78f72b04e9a398418a852227e8f8735c955",
+      "threshold": 0.428864099074454,
+      "final_epochs": 12
+    },
+    {
+      "seed": 44,
+      "checkpoint_sha256": "fe3885badceb76e500ded7390252b40307ee73ebfee8845929dd4473ec2524bb",
+      "threshold": 0.49155135775860415,
+      "final_epochs": 34
+    },
+    {
+      "seed": 45,
+      "checkpoint_sha256": "4933fae4283b48440224f624368a6a68b1c59aa1c8b948e82e9a73dd41a70ade",
+      "threshold": 0.4679831816213803,
+      "final_epochs": 14
+    },
+    {
+      "seed": 46,
+      "checkpoint_sha256": "f79af4f2de4320fa226b6733bffd12894c6d648ab40be8e199573330ad17456b",
+      "threshold": 0.43832720324552976,
+      "final_epochs": 12
+    }
+  ],
+  "lock_sha256": "b7a22dcca525b3a1af835ebc66b6553be0d7ead4a080ee36748595725012340c"
+}

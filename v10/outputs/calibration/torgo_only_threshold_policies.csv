@@ -1,0 +1,121 @@
+scope,seed,outer_fold,policy,threshold
+TORGO outer,42,0.0,F1,0.4028606050903531
+TORGO outer,42,0.0,Youden J,0.4028606050903531
+TORGO outer,42,0.0,Balanced Accuracy,0.4028606050903531
+TORGO outer,42,0.0,Specificity subject to sensitivity >= 0.90,0.4028606050903531
+TORGO outer,42,1.0,F1,0.4229129324342484
+TORGO outer,42,1.0,Youden J,0.4229129324342484
+TORGO outer,42,1.0,Balanced Accuracy,0.4229129324342484
+TORGO outer,42,1.0,Specificity subject to sensitivity >= 0.90,0.4229129324342484
+TORGO outer,42,2.0,F1,0.3891017288327608
+TORGO outer,42,2.0,Youden J,0.4232116392177583
+TORGO outer,42,2.0,Balanced Accuracy,0.4232116392177583
+TORGO outer,42,2.0,Specificity subject to sensitivity >= 0.90,0.3891017288327608
+TORGO outer,42,3.0,F1,0.6019944991417957
+TORGO outer,42,3.0,Youden J,0.6019944991417957
+TORGO outer,42,3.0,Balanced Accuracy,0.6019944991417957
+TORGO outer,42,3.0,Specificity subject to sensitivity >= 0.90,0.3840549979606934
+TORGO outer,42,4.0,F1,0.9089711512495664
+TORGO outer,42,4.0,Youden J,0.9089711512495664
+TORGO outer,42,4.0,Balanced Accuracy,0.9089711512495664
+TORGO outer,42,4.0,Specificity subject to sensitivity >= 0.90,0.9089711512495664
+TORGO outer,43,0.0,F1,0.4103464331818033
+TORGO outer,43,0.0,Youden J,0.4103464331818033
+TORGO outer,43,0.0,Balanced Accuracy,0.4103464331818033
+TORGO outer,43,0.0,Specificity subject to sensitivity >= 0.90,0.4103464331818033
+TORGO outer,43,1.0,F1,0.5441512683587867
+TORGO outer,43,1.0,Youden J,0.5441512683587867
+TORGO outer,43,1.0,Balanced Accuracy,0.5441512683587867
+TORGO outer,43,1.0,Specificity subject to sensitivity >= 0.90,0.4149438783932823
+TORGO outer,43,2.0,F1,0.7182949306968849
+TORGO outer,43,2.0,Youden J,0.7182949306968849
+TORGO outer,43,2.0,Balanced Accuracy,0.7182949306968849
+TORGO outer,43,2.0,Specificity subject to sensitivity >= 0.90,0.7182949306968849
+TORGO outer,43,3.0,F1,0.5728136661300148
+TORGO outer,43,3.0,Youden J,0.8186177625754225
+TORGO outer,43,3.0,Balanced Accuracy,0.8186177625754225
+TORGO outer,43,3.0,Specificity subject to sensitivity >= 0.90,0.5728136661300148
+TORGO outer,43,4.0,F1,0.6265016964370814
+TORGO outer,43,4.0,Youden J,0.6265016964370814
+TORGO outer,43,4.0,Balanced Accuracy,0.6265016964370814
+TORGO outer,43,4.0,Specificity subject to sensitivity >= 0.90,0.231771453107414
+TORGO outer,44,0.0,F1,0.5044134642869108
+TORGO outer,44,0.0,Youden J,0.5044134642869108
+TORGO outer,44,0.0,Balanced Accuracy,0.5044134642869108
+TORGO outer,44,0.0,Specificity subject to sensitivity >= 0.90,0.3271275074593741
+TORGO outer,44,1.0,F1,0.4967631213746368
+TORGO outer,44,1.0,Youden J,0.770541855906903
+TORGO outer,44,1.0,Balanced Accuracy,0.770541855906903
+TORGO outer,44,1.0,Specificity subject to sensitivity >= 0.90,0.4967631213746368
+TORGO outer,44,2.0,F1,0.5130984728086215
+TORGO outer,44,2.0,Youden J,0.5130984728086215
+TORGO outer,44,2.0,Balanced Accuracy,0.5130984728086215
+TORGO outer,44,2.0,Specificity subject to sensitivity >= 0.90,0.5130984728086215
+TORGO outer,44,3.0,F1,0.451711658548954
+TORGO outer,44,3.0,Youden J,0.599184531227294
+TORGO outer,44,3.0,Balanced Accuracy,0.599184531227294
+TORGO outer,44,3.0,Specificity subject to sensitivity >= 0.90,0.451711658548954
+TORGO outer,44,4.0,F1,0.4352701259594873
+TORGO outer,44,4.0,Youden J,0.4352701259594873
+TORGO outer,44,4.0,Balanced Accuracy,0.4352701259594873
+TORGO outer,44,4.0,Specificity subject to sensitivity >= 0.90,0.4352701259594873
+TORGO outer,45,0.0,F1,0.8217331045082209
+TORGO outer,45,0.0,Youden J,0.8217331045082209
+TORGO outer,45,0.0,Balanced Accuracy,0.8217331045082209
+TORGO outer,45,0.0,Specificity subject to sensitivity >= 0.90,0.8217331045082209
+TORGO outer,45,1.0,F1,0.2820837884830762
+TORGO outer,45,1.0,Youden J,0.5800027129288527
+TORGO outer,45,1.0,Balanced Accuracy,0.5800027129288527
+TORGO outer,45,1.0,Specificity subject to sensitivity >= 0.90,0.2820837884830762
+TORGO outer,45,2.0,F1,0.2089169662716302
+TORGO outer,45,2.0,Youden J,0.6647276244462765
+TORGO outer,45,2.0,Balanced Accuracy,0.6647276244462765
+TORGO outer,45,2.0,Specificity subject to sensitivity >= 0.90,0.2089169662716302
+TORGO outer,45,3.0,F1,0.3955207222167629
+TORGO outer,45,3.0,Youden J,0.3955207222167629
+TORGO outer,45,3.0,Balanced Accuracy,0.3955207222167629
+TORGO outer,45,3.0,Specificity subject to sensitivity >= 0.90,0.3955207222167629
+TORGO outer,45,4.0,F1,0.4868099451899116
+TORGO outer,45,4.0,Youden J,0.5871166044345917
+TORGO outer,45,4.0,Balanced Accuracy,0.5871166044345917
+TORGO outer,45,4.0,Specificity subject to sensitivity >= 0.90,0.4868099451899116
+TORGO outer,46,0.0,F1,0.4543201860538419
+TORGO outer,46,0.0,Youden J,0.4543201860538419
+TORGO outer,46,0.0,Balanced Accuracy,0.4543201860538419
+TORGO outer,46,0.0,Specificity subject to sensitivity >= 0.90,0.4543201860538419
+TORGO outer,46,1.0,F1,0.5076456984385891
+TORGO outer,46,1.0,Youden J,0.5076456984385891
+TORGO outer,46,1.0,Balanced Accuracy,0.5076456984385891
+TORGO outer,46,1.0,Specificity subject to sensitivity >= 0.90,0.5076456984385891
+TORGO outer,46,2.0,F1,0.9205023628015334
+TORGO outer,46,2.0,Youden J,0.9205023628015334
+TORGO outer,46,2.0,Balanced Accuracy,0.9205023628015334
+TORGO outer,46,2.0,Specificity subject to sensitivity >= 0.90,0.9205023628015334
+TORGO outer,46,3.0,F1,0.8022877290842639
+TORGO outer,46,3.0,Youden J,0.8022877290842639
+TORGO outer,46,3.0,Balanced Accuracy,0.8022877290842639
+TORGO outer,46,3.0,Specificity subject to sensitivity >= 0.90,0.8022877290842639
+TORGO outer,46,4.0,F1,0.5021235037770357
+TORGO outer,46,4.0,Youden J,0.5021235037770357
+TORGO outer,46,4.0,Balanced Accuracy,0.5021235037770357
+TORGO outer,46,4.0,Specificity subject to sensitivity >= 0.90,0.3122259371060045
+TORGO deployment,42,,F1,0.444499315821758
+TORGO deployment,42,,Youden J,0.444499315821758
+TORGO deployment,42,,Balanced Accuracy,0.444499315821758
+TORGO deployment,42,,Specificity subject to sensitivity >= 0.90,0.444499315821758
+TORGO deployment,43,,F1,0.428864099074454
+TORGO deployment,43,,Youden J,0.5199785892675947
+TORGO deployment,43,,Balanced Accuracy,0.5199785892675947
+TORGO deployment,43,,Specificity subject to sensitivity >= 0.90,0.428864099074454
+TORGO deployment,44,,F1,0.4915513577586041
+TORGO deployment,44,,Youden J,0.8583482833899833
+TORGO deployment,44,,Balanced Accuracy,0.8583482833899833
+TORGO deployment,44,,Specificity subject to sensitivity >= 0.90,0.4915513577586041
+TORGO deployment,45,,F1,0.4679831816213803
+TORGO deployment,45,,Youden J,0.5112405123529348
+TORGO deployment,45,,Balanced Accuracy,0.5112405123529348
+TORGO deployment,45,,Specificity subject to sensitivity >= 0.90,0.4679831816213803
+TORGO deployment,46,,F1,0.4383272032455297
+TORGO deployment,46,,Youden J,0.4732811941671359
+TORGO deployment,46,,Balanced Accuracy,0.4732811941671359
+TORGO deployment,46,,Specificity subject to sensitivity >= 0.90,0.4383272032455297

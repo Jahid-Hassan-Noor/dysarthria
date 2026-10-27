@@ -1,0 +1,36 @@
+{
+  "encoder_weight_sha256": "ee69baa3f5f2dd37493516acd5a5018797dd9fa25fedafc6c7f7ce53e7bd6ce3",
+  "errors": [],
+  "feature_manifest_sha256": "8810fdf430cf41a5b97100b624b11aa2f4ef72f6f49c3f03f8acbc33ed1de30f",
+  "n_verified_inner_fit_checkpoints": 75,
+  "preprocessing_signature": "1d5f4adea6dd294ac1afede940df6bedd8589479b080b80fe78b1f5899b078f4",
+  "segment_manifest_sha256": "246b8f9bc504a06f01c4b8d83ecbbad43f30bebde456bff741e5e1302b8107c0",
+  "segment_selection_sha256": "a7565ed24bcf61c8a37a1cb6bb651566760ad8739ba866d890760576797bc4d9",
+  "software_environment": {
+    "backend": "mps",
+    "git_commit": null,
+    "librosa": "1.0.0",
+    "notebook_sha256": "b773d41e0ce8d4b44025b92f9744a6cc79d4fb8001b122ec7b234671fcbea8ff",
+    "numpy": "2.5.3",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python": "3.12.14",
+    "scikit_learn": "1.9.1",
+    "scipy": "1.18.1",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "torch": "2.14.0",
+    "torchaudio": "2.11.0"
+  },
+  "status": "PASS",
+  "v8_reference_manifest_sha256": "e73e73f73b9dab08f9e46c0b36d2706a35256ab29733922169db80ce28335b20",
+  "v8_run_signature": "2058b417224f62906b365541814f27dec7df7b5f3efa7a9917c75080713c9758",
+  "v9_prediction_file": "/Users/Noor/Documents/projects/dysarthia/outputs/cache/dysarthria_detection_v9/models/mean_sd_final_mean/speaker_oof_predictions.csv",
+  "v9_prediction_sha256": "76ff6b0d1828f442cabae35434d1be771e1613fa4208cfc0e98b82ce33fd7bba",
+  "vad_manifest_sha256": "00c27a65f5691a49985625f3d3a02126d50cf98537783a4bda72d6b27569d808",
+  "vad_signature": "475eaa8f2af3cf63bdea9b4665d9a23520c2932dd91bceb1d2388d772303d869"
+}

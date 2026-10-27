@@ -1,0 +1,13 @@
+{
+  "source": "TORGO grouped inner validation only",
+  "n_inner_fits": 75,
+  "hit_20_epoch_cap": 0,
+  "still_improving_at_cap": 0,
+  "early_stopped": 75,
+  "unstable_by_curve_criterion": 46,
+  "previous_max_epochs": 20,
+  "selected_max_epochs": 20,
+  "samples_per_epoch": 512,
+  "decision": "Retain 20-epoch maximum; no evidence that the cap truncates many grouped validation fits",
+  "official_uaspeech_consulted": false
+}

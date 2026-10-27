@@ -1,0 +1,43 @@
+model_arm,metric,lower_95,upper_95,n_resamples,resampling_unit,stratified_by_diagnosis,same_speaker_draw_across_seeds
+MFCC Logistic Regression,ROC_AUC,0.6464285714285715,0.9857142857142858,1000,physical_speaker,True,True
+MFCC Logistic Regression,PR_AUC,0.7640396825396825,0.9888888888888889,1000,physical_speaker,True,True
+MFCC Logistic Regression,Balanced_Accuracy,0.4873660714285714,0.8732142857142857,1000,physical_speaker,True,True
+MFCC Logistic Regression,Sensitivity,0.55,1.0,1000,physical_speaker,True,True
+MFCC Logistic Regression,Specificity,0.2571428571428571,0.8571428571428571,1000,physical_speaker,True,True
+MFCC Logistic Regression,Brier,0.06863459336455442,0.30588967621061586,1000,physical_speaker,True,True
+MFCC RBF SVM,ROC_AUC,0.37500000000000006,0.6785714285714286,1000,physical_speaker,True,True
+MFCC RBF SVM,PR_AUC,0.5831811955405705,0.7905887775419025,1000,physical_speaker,True,True
+MFCC RBF SVM,Balanced_Accuracy,0.41607142857142854,0.5321428571428571,1000,physical_speaker,True,True
+MFCC RBF SVM,Sensitivity,0.8,0.975,1000,physical_speaker,True,True
+MFCC RBF SVM,Specificity,0.0,0.11499999999999935,1000,physical_speaker,True,True
+MFCC RBF SVM,Brier,0.2372997081916271,0.3224201669537296,1000,physical_speaker,True,True
+WavLM Final Layer Logistic Regression,ROC_AUC,0.7570535714285713,1.0,1000,physical_speaker,True,True
+WavLM Final Layer Logistic Regression,PR_AUC,0.8241300054112554,1.0,1000,physical_speaker,True,True
+WavLM Final Layer Logistic Regression,Balanced_Accuracy,0.5160267857142856,0.8875,1000,physical_speaker,True,True
+WavLM Final Layer Logistic Regression,Sensitivity,0.6,1.0,1000,physical_speaker,True,True
+WavLM Final Layer Logistic Regression,Specificity,0.2857142857142857,0.8857142857142856,1000,physical_speaker,True,True
+WavLM Final Layer Logistic Regression,Brier,0.041112218506372464,0.3270001211088416,1000,physical_speaker,True,True
+WavLM Last-4 Layer 1 Probe,ROC_AUC,0.7141964285714285,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 1 Probe,PR_AUC,0.7822346681096681,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 1 Probe,Balanced_Accuracy,0.5535267857142857,0.8947321428571428,1000,physical_speaker,True,True
+WavLM Last-4 Layer 1 Probe,Sensitivity,0.7,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 1 Probe,Specificity,0.2857142857142857,0.8857142857142856,1000,physical_speaker,True,True
+WavLM Last-4 Layer 1 Probe,Brier,0.02527013261730899,0.3287445134928378,1000,physical_speaker,True,True
+WavLM Last-4 Layer 2 Probe,ROC_AUC,0.7320535714285714,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 2 Probe,PR_AUC,0.828664137945388,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 2 Probe,Balanced_Accuracy,0.5123660714285714,0.8875,1000,physical_speaker,True,True
+WavLM Last-4 Layer 2 Probe,Sensitivity,0.6,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 2 Probe,Specificity,0.2571428571428571,0.8571428571428571,1000,physical_speaker,True,True
+WavLM Last-4 Layer 2 Probe,Brier,0.04574168891785335,0.31971617270065306,1000,physical_speaker,True,True
+WavLM Last-4 Layer 3 Probe,ROC_AUC,0.7714285714285715,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 3 Probe,PR_AUC,0.8489012896825396,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 3 Probe,Balanced_Accuracy,0.5338839285714284,0.8429464285714285,1000,physical_speaker,True,True
+WavLM Last-4 Layer 3 Probe,Sensitivity,0.725,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 3 Probe,Specificity,0.22857142857142856,0.8,1000,physical_speaker,True,True
+WavLM Last-4 Layer 3 Probe,Brier,0.04531596370031956,0.29653201894089765,1000,physical_speaker,True,True
+WavLM Last-4 Layer 4 Probe,ROC_AUC,0.75,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 4 Probe,PR_AUC,0.8155367965367967,1.0,1000,physical_speaker,True,True
+WavLM Last-4 Layer 4 Probe,Balanced_Accuracy,0.5088839285714285,0.8892857142857142,1000,physical_speaker,True,True
+WavLM Last-4 Layer 4 Probe,Sensitivity,0.575,0.975,1000,physical_speaker,True,True
+WavLM Last-4 Layer 4 Probe,Specificity,0.2857142857142857,0.8857142857142858,1000,physical_speaker,True,True
+WavLM Last-4 Layer 4 Probe,Brier,0.03653635022909992,0.3404120420864948,1000,physical_speaker,True,True

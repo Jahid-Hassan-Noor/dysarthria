@@ -1,0 +1,11 @@
+{
+  "corpus": "TORGO only",
+  "folds": "exact V8/V10 physical-speaker outer and inner folds",
+  "model_C": "second-stage logistic fit on outer-train speaker OOF V10 probabilities; outer test never enters fit",
+  "spectral_features": "exploratory broad spectral proxies from original V8 acoustic cache",
+  "background_only_control": {
+    "status": "inherited frozen V8 diagnostic",
+    "source": "${PROJECT_ROOT}/v8/v8_publication_completion/results/silence/predictions.csv"
+  },
+  "interpretation": "Associations are noncausal; a positive incremental result cannot establish disease specificity."
+}

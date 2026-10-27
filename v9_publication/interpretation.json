@@ -1,0 +1,12 @@
+{
+  "combined_confound_mean_ROC_AUC": 0.5785714285714285,
+  "paired_delta_ROC_AUC_B_minus_A": 0.1785714285714286,
+  "paired_delta_lower_95": -0.1179464285714285,
+  "paired_delta_upper_95": 0.4500892857142857,
+  "statement": "V9's ROC-AUC point estimate exceeds the combined measured-confound model, but the paired physical-speaker confidence interval includes zero. This cohort does not establish substantial incremental disease-relevant information beyond measured confounds. The locked UASpeech M3 fixed-K benchmark is non-estimable under this TORGO-selected one-second, K=20 protocol; no cross-corpus V9 performance claim is made. A V9 background-only linear probe has speaker ROC-AUC 0.664; non-speech information therefore remains a material diagnostic concern. The historical V8 background test used a different model protocol.",
+  "suggested_paper_framing": "Beyond Speaker Leakage: Recording and Duration Confounds in Dysarthria Detection",
+  "uaspeech_m3_estimable": false,
+  "uncertainty_unit": "TORGO physical speaker; five seeds are repeated fits of the same cohort",
+  "v9_background_only_mean_ROC_AUC": 0.6642857142857143,
+  "v9_torgo_mean_ROC_AUC": 0.725
+}
