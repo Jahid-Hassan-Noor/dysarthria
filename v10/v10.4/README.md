@@ -12,7 +12,7 @@ their limits are in [RESULTS.md](RESULTS.md). The executable notebook is
 From the project root, using this project's environment:
 
 ```sh
-.venv/bin/python v10.4/run_v10_4.py all
+.venv/bin/python v10/v10.4/run_v10_4.py all
 ```
 
 Individual resumable stages are `audit`, `reanalyses`, `background`, `spread`,
@@ -22,8 +22,14 @@ weight file. The first spread run performs new feature extraction. Subsequent
 runs reuse per-speaker feature shards and completed background checkpoints.
 
 The runner verifies SHA-256 hashes in `source_manifest.json` before and after
-each run. All writes are under `v10.4/`; V8, V9, V10, and V10.3 are read-only
+each run. All writes are under `v10/v10.4/`; V8, V9, V10, and V10.3 are read-only
 inputs. `analysis_plan.json` specifies the comparisons and decision rules.
+
+**Current rerun limitation:** Moving this folder changed its location, but
+`common.py` still treats its parent as the project root, and the saved source
+manifest records the earlier paths. The command above is the intended entry
+point after those path assumptions are updated. The committed tables, figures,
+and this results document can be read without a rerun.
 
 ## Files
 
