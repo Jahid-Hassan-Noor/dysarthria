@@ -11,18 +11,19 @@ editable source for this preprint is in the repository.
 **Background and objective:** High dysarthria detection scores on TORGO and
 UA-Speech may reflect recording duration or acquisition conditions. We separate
 whether a cue is available, whether it can reproduce discrimination, and
-whether the locked detector uses it.
+whether the locked detector responds to it.
 
 **Methods:** A frozen WavLM Base encoder and speaker-attention head were assessed
 on 15 TORGO speakers using nested speaker-grouped cross-validation across five
 seeds. Models and thresholds were locked for evaluation on 28 UA-Speech
-speakers. Cue-only classifiers, paired speaker-bootstrap comparisons, and
-test-time interventions with processing controls examined candidate shortcuts.
+speakers. Cue-only classifiers, speaker-bootstrap comparisons, and
+test-time interventions with processing controls probed shortcuts
+without assuming reliance during ordinary speech classification.
 
 **Results:** Detector ROC-AUC was 0.850 on TORGO and 0.966 on UA-Speech; at
 locked thresholds, sensitivity was 0.850 and 0.720, respectively. A
 duration-only classifier reached ROC-AUC 0.964 and 1.000, leaving little
-ranking headroom. In the original TORGO folds, adding detector scores to a
+ranking headroom. In TORGO folds, adding detector scores to a
 duration stack changed ROC-AUC by 0.025 (95% speaker-bootstrap interval
 -0.104 to 0.196). A classifier trained on TORGO low-energy edges reached
 0.804, but its paired advantage over locked speech heads on the same recordings
@@ -36,11 +37,27 @@ experiments do not establish how much the detector uses it or whether its
 scores reflect a disease-specific speech marker. Cue availability, predictive
 sufficiency, and detector use require separate tests in each corpus.
 
+## Discussion replacement: future data paragraph before Section 4.6
+
+A future dysarthria corpus should use comparable recording equipment and
+sessions for patients and controls, record duration and speaking rate
+explicitly, and include enough speakers per class for useful interval
+precision. Those design choices would reduce identifiable recording confounds;
+they would not by themselves guarantee that duration ceases to be predictive.
+An increment beyond duration should be tested directly. Multiple independent
+rate-manipulation methods, listening checks, and processing-only controls
+could help separate tempo from artifacts before a mechanism claim is made.
+
+The current Section 4.6 limitations already identifies the small cohorts,
+threshold optimism, processing artifacts, prior UA-Speech exposure, clinical
+and dataset shift, and repeated-seed dependence. Retain those details.
+
 ## Section 5. Conclusions
 
 Cue availability, predictive sufficiency, and use by a trained detector are
 separate questions. The frozen WavLM detector achieved ROC-AUC 0.850 on held-out
-TORGO speakers and 0.966 on locked UA-Speech evaluation. A duration-only model
+TORGO speakers and 0.966 on locked UA-Speech evaluation of a previously studied
+corpus. A duration-only model
 achieved 0.964 and 1.000, respectively. The small, uncertain increment over
 duration in the original TORGO folds does not establish additional
 disease-specific information. On UA-Speech, the locked detector also separated
@@ -61,9 +78,10 @@ so they do not expand the clinical cohort.
 Future work should use larger speaker cohorts recorded with comparable
 equipment and conditions, report duration and background controls alongside
 locked operating points, and design interventions whose processing artifacts
-are smaller than the cue change being tested. This would allow an increment
-beyond shortcuts, severity-stratified errors, and mechanism claims to be
-estimated with useful precision.
+are smaller than the cue change being tested. Threshold uncertainty, clinical
+dataset shift, and severity-stratified errors must also be assessed before
+generalizing to real-world recordings. Such studies could estimate any
+increment beyond shortcuts with useful precision.
 
 ## Replacement Table 7: confound battery
 
@@ -90,16 +108,20 @@ seed variation, and individual cue-only rows.
 
 ## Replacement Table 10: evidence by cue
 
-| Cue and corpus | Availability or sufficiency | Locked-detector use |
-| --- | --- | --- |
-| Duration, TORGO | Duration-only ROC-AUC 0.964; original-fold increment +0.025 [-0.104, 0.196] | Tempo and spread interventions inconclusive after processing controls. |
-| Duration, UA-Speech | Duration-only ROC-AUC 1.000; no ROC-AUC headroom | Not directly tested. |
-| Low-energy edges, TORGO | Trained-head ROC-AUC 0.804; paired advantage over locked speech heads +0.082 [-0.125, 0.311] | Locked detector on silence ROC-AUC 0.461; edges may contain speech. |
-| Silence, UA-Speech | Available; independent contribution beyond duration unresolved | Locked detector on silence ROC-AUC 0.927. |
-| Matched lexical content, UA-Speech | Matched subset retained ROC-AUC 0.982 | No clear evidence of dependence on prompt mix. |
-| Vocoder processing, TORGO | Processing-only control shifted scores | Mechanism of duration response unresolved. |
+| Cue and corpus | Availability | Predictive sufficiency | Locked-detector response; ordinary-speech reliance |
+| --- | --- | --- | --- |
+| Duration, TORGO | Yes | Yes by point estimate | Tempo and spread responses; reliance inconclusive after processing controls. |
+| Duration, UA-Speech | Yes | Yes, at the ROC-AUC ceiling | Direct reliance test unavailable. |
+| Low-energy edges, TORGO | Yes | Uncertain against matched speech heads | Silence-only score near chance; ordinary-speech reliance unresolved. |
+| Silence, UA-Speech | Yes | Independent value beyond duration unresolved | Silence-only discrimination observed; ordinary-speech reliance unresolved. |
+| Matched lexical content, UA-Speech | Tested on a matched subset | Not a cue-only sufficiency test | No clear evidence of dependence on prompt mix. |
+| Vocoder processing, TORGO | Not a candidate disease cue | Not applicable | Processing sensitivity observed; tempo mechanism unresolved. |
 
-Intervals are 95% speaker-bootstrap intervals. “Not directly tested” and
-“unresolved” preserve the distinction between a missing or failed mechanism
-test and evidence that a cue was not used. The original numerical details
-belong in supplementary material.
+Quantitative evidence to retain beside the compact table: duration-only
+ROC-AUC 0.964 on TORGO and 1.000 on UA-Speech; original-fold increment +0.025
+[-0.104, 0.196]; TORGO edge-trained head 0.804 and paired advantage over
+matched locked speech heads +0.082 [-0.125, 0.311]; locked silence-only
+ROC-AUC 0.461 on TORGO and 0.927 on UA-Speech; matched prompts 0.982.
+Intervals are 95% speaker-bootstrap intervals. The selected low-energy edges
+may contain speech. “Unresolved” is not evidence that a cue was absent or
+unused. Keep the complete numerical evidence matrix in supplementary material.

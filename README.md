@@ -4,7 +4,21 @@ This repository contains the code, executed notebooks, publication figures, and 
 
 **Start here:** Read the [V10.4 results](v10/v10.4/RESULTS.md) for the latest follow-up analyses. The [V10 publication tables and figures](v10/publication/) summarize the frozen reference model and its comparisons. The notebooks retain executed outputs, so the saved findings can be inspected without downloading the datasets.
 
-The [manuscript revision text](v10/publication/manuscript_revisions.md) supplies a revised abstract and conclusion plus shorter Tables 7 and 10. Compact views of the densest repository tables are in [`v10/publication/tables/`](v10/publication/tables/); their linked CSVs retain full precision.
+The [manuscript revision suggestions](MANUSCRIPT_REVISION_SUGGESTIONS.md) supply a revised abstract and conclusion plus shorter Tables 7 and 10, with the original wording and reasons for each change. Compact views of the densest repository tables are in [`v10/publication/tables/`](v10/publication/tables/); their linked CSVs retain full precision.
+
+## Reproducibility status
+
+The V4–V9 folders document historical development. V10 is the frozen publication reference; V10.4 contains secondary, post hoc analyses. The reference uses frozen WavLM Base representations, a speaker-attention head, nested physical-speaker folds, and thresholds selected inside training folds. The public repository contains code and compact results, while licensed audio, extracted features, and checkpoints remain local.
+
+| Stage | Command | Required inputs | Verified status |
+| --- | --- | --- | --- |
+| Lightweight checks | `python -m unittest -q tests.test_v10_4_reproducibility` | Python 3.12 and `requirements-ci.txt` | PASS in a fresh local CI environment (10 tests); GitHub Actions run pending |
+| Local preflight | `.venv/bin/python v10/v10.4/preflight.py` | Pinned environment, frozen V8/V10 inputs, TORGO audio | PASS on the research machine; BLOCKED on a fresh clone |
+| Frozen-input audit | `.venv/bin/python v10/v10.4/run_v10_4.py audit` | 159 manifest entries, including 158 frozen inputs | PASS on the research machine; BLOCKED on a fresh clone |
+| V10 reference training | Run the executed [`v10/dysarthria_10.ipynb`](v10/dysarthria_10.ipynb) | Authorized corpora, frozen V8 cache and weights | NOT TESTED in this audit |
+| V10.4 secondary analyses and report | `.venv/bin/python v10/v10.4/run_v10_4.py all` | Frozen inputs and authorized TORGO audio | PASS on the research machine; BLOCKED on a fresh clone |
+
+See [REPRODUCIBILITY_AUDIT.md](REPRODUCIBILITY_AUDIT.md) for commands, hashes, remaining limits, and the distinction between a validated local rerun and public-clone reproduction. GitHub Actions runs only synthetic tests; it does not download or upload licensed datasets.
 
 ## Repository guide
 
@@ -58,7 +72,7 @@ These results show discrimination under the evaluated V10 protocol, while the du
 
 ## Set up a local environment
 
-Run commands from the repository root. The pinned dependency list was validated with Python 3.12.14 on a local Apple Silicon environment; PyTorch device selection in the notebooks falls back to CPU when MPS is unavailable.
+Run commands from the repository root. The pinned dependency list was validated with Python 3.12.14 on a local Apple Silicon environment; it is a compatible local execution environment, not a complete historical lockfile. The frozen V8 manifest records librosa 1.0.0 and TorchAudio 2.11.0; other historical package versions are not fully recorded. PyTorch device selection in the notebooks falls back to CPU when MPS is unavailable. Linux CPU/CUDA installation and a clean installation of the full list have not been tested here.
 
 ```bash
 python3 -m venv .venv

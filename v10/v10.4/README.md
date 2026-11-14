@@ -12,8 +12,16 @@ their limits are in [RESULTS.md](RESULTS.md). The executable notebook is
 From the project root, using this project's environment:
 
 ```sh
+.venv/bin/python v10/v10.4/preflight.py
 .venv/bin/python v10/v10.4/run_v10_4.py all
 ```
+
+The preflight checks pinned Python packages, the analysis plan, 159 manifest
+entries and hashes, 25 saved speaker-disjoint folds, the 750 selected TORGO
+source IDs and audio files, output permissions, and saved summary schemas. It
+returns a nonzero exit code for missing licensed inputs or a mismatch. Use
+`--no-hash` only for a quick presence check; the full runner always checks
+hashes. No UA-Speech audio is needed for these secondary V10.4 stages.
 
 Individual resumable stages are `audit`, `reanalyses`, `background`, `spread`,
 and `report`. The full run needs the frozen V8 feature caches and notebook,
@@ -30,6 +38,11 @@ entries before running. A fresh GitHub clone does not contain the excluded
 frozen inputs; restore them at the paths in `source_manifest.json` before a
 full rerun. The committed tables, figures, and results can be read without
 those inputs.
+
+GitHub Actions runs synthetic speaker-split and statistic tests without any
+licensed data or model weights. It does not reproduce V10 training or V10.4
+experiments. The local research machine passed the full `all` command; this
+does not make a fresh public clone self-contained.
 
 ## Files
 
