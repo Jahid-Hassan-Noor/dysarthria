@@ -18,7 +18,7 @@ The V4–V9 folders document historical development. V10 is the frozen publicati
 | V10 reference training | Run the executed [`v10/dysarthria_10.ipynb`](v10/dysarthria_10.ipynb) | Authorized corpora, frozen V8 cache and weights | NOT TESTED in this audit |
 | V10.4 secondary analyses and report | `.venv/bin/python v10/v10.4/run_v10_4.py all` | Frozen inputs and authorized TORGO audio | PASS on the research machine; BLOCKED on a fresh clone |
 
-See [REPRODUCIBILITY_AUDIT.md](REPRODUCIBILITY_AUDIT.md) for commands, hashes, remaining limits, and the distinction between a validated local rerun and public-clone reproduction. A dataset-free GitHub Actions workflow is prepared locally but has not been published because the available GitHub token lacks the `workflow` scope. Remote CI has not run.
+See [REPRODUCIBILITY_AUDIT.md](REPRODUCIBILITY_AUDIT.md) for commands, hashes, remaining limits, and the distinction between a validated local rerun and public-clone reproduction. The dataset-free [GitHub Actions workflow](.github/workflows/reproducibility.yml) passed its synthetic tests on [run 43566370131](https://github.com/Jahid-Hassan-Noor/dysarthria/actions/runs/43566370131); it does not reproduce the licensed-data experiments.
 
 ## Repository guide
 

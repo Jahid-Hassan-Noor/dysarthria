@@ -36,8 +36,8 @@ never counted as a newly executed stage.
 | V10 reference retraining | No command run | NOT TESTED | Original trained heads and metrics left intact. | New training was outside this audit and would require a separate authorized run. |
 | V10.4 analyses | `.venv/bin/python v10/v10.4/run_v10_4.py all` | PASS | Exit 0; 75 locked probabilities reproduced to maximum absolute difference 1.11e-16; spread verdict remained inconclusive. | Fresh public clone remains BLOCKED. |
 | Result generation | `all` runs `report.py` after its analysis stages | PASS | Exit 0; RESULTS, notebook, figures and provenance generated; five stage-summary schemas passed. | None locally. |
-| Tests | `.venv/bin/python -m unittest -q tests.test_v10_4_reproducibility tests.test_publication_ablations` | PASS | Exit 0; 16 tests. Clean lightweight environment: 10 tests passed. | Remote CI NOT TESTED. |
-| Remote CI | No remote workflow run | NOT TESTED | The workflow file remains local; GitHub rejected a prior push because the OAuth token lacks `workflow` scope. | Publish using credentials with workflow permission, then observe a run. |
+| Tests | `.venv/bin/python -m unittest -q tests.test_v10_4_reproducibility tests.test_publication_ablations` | PASS | Exit 0; 16 tests. Clean lightweight environment: 10 tests passed. | None for the synthetic suite. |
+| Remote CI | GitHub Actions `Reproducibility checks`, run 43566370131 | PASS | Published via SSH; synthetic-tests job and all steps passed. | Licensed-data reproduction remains BLOCKED in CI. |
 
 ## C. Artifact integrity
 
@@ -70,8 +70,8 @@ checking that the numeric summaries and provenance remained unchanged.
 - The matching editable manuscript/supplement source is unavailable. Proposed
   text and tables are complete in `MANUSCRIPT_REVISION_SUGGESTIONS.md`, but PDF
   integration and visual verification remain BLOCKED.
-- Remote CI is NOT TESTED: the local workflow was not pushed because the
-  current GitHub OAuth token lacks permission to update workflows.
+- Remote CI passed its dataset-free synthetic tests on run 43566370131. It
+  cannot execute the licensed-data or frozen-artifact experiments.
 - Existing tracked provenance contains 27 files with local absolute path
   strings. Raw datasets and model weights are not tracked; path sanitization
   or history rewriting was outside this focused scientific audit.
@@ -86,7 +86,7 @@ checking that the numeric summaries and provenance remained unchanged.
 | V10 reference training and fresh UA-Speech evaluation | NOT TESTED | The V10 notebook retains executed results, but the full V10 sequence was not rerun in this audit. | Run only with authorized TORGO/UA-Speech and frozen reference artifacts; record a separate validation log. |
 | Dependency versions | PASS for this local environment | 16 exact pins are installed under Python 3.12.14; `pip check` and import smoke test pass; all 16 releases exist on PyPI. | Keep the local environment record distinct from a complete historical lockfile. |
 | Portable full dependency installation | NOT TESTED | The complete Mac list was not freshly installed on Linux/Windows or in an empty Mac environment. | Test the target platform before promising cross-platform reproduction. |
-| Lightweight synthetic tests | PASS locally | Full local environment: 16 tests. Newly created Python 3.12 environment with only `requirements-ci.txt`: 10 synthetic tests and `pip check` passed. | Observe the first GitHub Actions run after publishing the workflow. |
+| Lightweight synthetic tests | PASS locally and on GitHub Actions | Full local environment: 16 tests. Newly created Python 3.12 environment with only `requirements-ci.txt`: 10 synthetic tests and `pip check` passed. GitHub Actions run 43566370131 passed. | CI does not cover licensed-data experiments. |
 | Frozen source and split integrity | PASS locally | Preflight checked SHA-256/size for 159 entries, 25 disjoint outer/inner folds, 15 physical speakers, 17,630 frozen metadata records, and 750 selected source IDs/audio files. | Preserve source versions and fold audits. |
 | Manuscript source | BLOCKED for direct PDF revision | The supplied manuscript and supplement are PDFs; no matching editable source was found. | Apply `MANUSCRIPT_REVISION_SUGGESTIONS.md` to the actual LaTeX/Word source, then regenerate and visually review PDFs. |
 | Private data in Git | PASS for raw datasets; unresolved for path strings | No raw audio, dataset archive, or model-weight file appears in the tracked tree or reachable Git object names. Existing tracked notebooks/manifests contain local absolute path strings in 27 files. | Review a separate public-release sanitization plan before changing frozen provenance or rewriting published history. |

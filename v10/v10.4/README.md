@@ -40,8 +40,7 @@ full rerun. The committed tables, figures, and results can be read without
 those inputs.
 
 A GitHub Actions workflow for synthetic speaker-split and statistic tests is
-prepared locally but has not been published because the available GitHub token
-lacks the `workflow` scope. Remote CI has not run. It will not download licensed
+published and passed on [run 43566370131](https://github.com/Jahid-Hassan-Noor/dysarthria/actions/runs/43566370131). It does not download licensed
 data or model weights when published. The local research machine passed the
 full `all` command; this does not make a fresh public clone self-contained.
 

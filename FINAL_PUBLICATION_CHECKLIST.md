@@ -5,7 +5,7 @@ Audit date: 2026-11-14. Checked items have evidence in [REPRODUCIBILITY_AUDIT.md
 - [x] Repository paths validated: `common.ROOT`, documented V10.4 commands and local preflight passed.
 - [x] Dependency versions checked: 16 exact pins installed locally; `pip check` passed. A fresh full install remains untested.
 - [x] Test suite executed: 16 local tests passed; 10 synthetic tests passed in a fresh lightweight environment.
-- [x] CI status accurately documented: remote CI is NOT TESTED; the workflow is local because the GitHub token lacks `workflow` scope.
+- [x] CI status accurately documented: the dataset-free synthetic test workflow passed on GitHub Actions run 43566370131.
 - [x] Frozen artifact hashes verified where accessible: 159 manifest entries and representative V10 hashes matched.
 - [x] V10 reference pipeline status documented: saved results validated read-only; fresh training/evaluation NOT TESTED.
 - [x] V10.4 pipeline status documented: `run_v10_4.py all` passed locally; fresh public clone BLOCKED by missing artifacts.
