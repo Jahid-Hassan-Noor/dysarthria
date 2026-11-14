@@ -4,6 +4,78 @@ Audit date: 2026-11-14. The code and data checks below distinguish the local
 research machine from a fresh public GitHub clone. No licensed dataset, model
 weight, frozen output, seed, or partition was changed by this audit.
 
+## A. Environment
+
+| Item | Declared | Verified on this machine |
+| --- | --- | --- |
+| Operating system and device | Local Apple Silicon setup | macOS 27.0.1, arm64; PyTorch MPS available |
+| Python and package manager | Python 3.12; pinned `requirements-mac.txt` | Python 3.12.14; pip 26.2.1 |
+| PyTorch and TorchAudio | `torch==2.14.0`; `torchaudio==2.11.0` | 2.14.0; 2.11.0; both imported successfully |
+| NumPy, pandas, scikit-learn | 2.5.3; 3.0.5; 1.9.1 | 2.5.3; 3.0.5; 1.9.1 |
+| Installation outcome | 16 exact pins in `requirements-mac.txt` | Existing local environment matches all 16; `pip check` passed. A fresh environment with only `requirements-ci.txt` installed and passed 10 synthetic tests. A fresh full install was NOT TESTED. |
+
+The V8 frozen run manifest records librosa 1.0.0 and TorchAudio 2.11.0. It does
+not record a complete historical package lock. This is a validated current
+Apple Silicon execution environment, not proof of identical historical
+dependency resolution or Linux CPU/CUDA support.
+
+## B. Execution results
+
+Commands were run from the repository root unless stated otherwise. `PASS`
+means the command exited 0 on this machine; saved notebook output alone is
+never counted as a newly executed stage.
+
+| Stage | Command | Status | Evidence | Blocker |
+| --- | --- | --- | --- | --- |
+| Syntax and imports | `.venv/bin/python -m compileall -q v10/v10.4 tests/test_v10_4_reproducibility.py`; import V10.4 modules | PASS | Exit 0; `V10.4 imports OK`; `common.ROOT` resolved to this repository. | None locally. |
+| Dependency validation | `.venv/bin/python -m pip check`; compare installed versions with `requirements-mac.txt` | PASS | Exit 0; no broken requirements; 16 exact pins installed. | Full clean install and non-Mac platforms NOT TESTED. |
+| Root-path and configuration | `.venv/bin/python v10/v10.4/preflight.py` | PASS | Exit 0; Python, package pins, analysis-plan seeds and paths passed. | Fresh public clone lacks frozen inputs. |
+| Manifest validation | `.venv/bin/python v10/v10.4/run_v10_4.py audit` | PASS | Exit 0; 159 read-only source artifacts verified before and after. | 82 excluded manifest paths in a fresh clone. |
+| Frozen artifact validation | `.venv/bin/python v10/v10.4/preflight.py` | PASS | Exit 0; 159 sizes/hashes, 25 disjoint folds, 750 selected source IDs/audio files, and five summary schemas passed. | Authorized audio and excluded caches/checkpoints needed elsewhere. |
+| V10 saved-reference validation | Read-only hash/CSV check against `source_manifest.json` and `v10_reference_reproduction.json` | PASS | Exit 0; 75 speaker rows, frozen splits/seeds and saved equivalence record checked. | Fresh V10 retraining and external evaluation NOT TESTED. |
+| V10 reference retraining | No command run | NOT TESTED | Original trained heads and metrics left intact. | New training was outside this audit and would require a separate authorized run. |
+| V10.4 analyses | `.venv/bin/python v10/v10.4/run_v10_4.py all` | PASS | Exit 0; 75 locked probabilities reproduced to maximum absolute difference 1.11e-16; spread verdict remained inconclusive. | Fresh public clone remains BLOCKED. |
+| Result generation | `all` runs `report.py` after its analysis stages | PASS | Exit 0; RESULTS, notebook, figures and provenance generated; five stage-summary schemas passed. | None locally. |
+| Tests | `.venv/bin/python -m unittest -q tests.test_v10_4_reproducibility tests.test_publication_ablations` | PASS | Exit 0; 16 tests. Clean lightweight environment: 10 tests passed. | Remote CI NOT TESTED. |
+| Remote CI | No remote workflow run | NOT TESTED | The workflow file remains local; GitHub rejected a prior push because the OAuth token lacks `workflow` scope. | Publish using credentials with workflow permission, then observe a run. |
+
+## C. Artifact integrity
+
+The 159-entry source manifest was checked in full. Representative values below
+are copied from that manifest or the committed V10.4 provenance, then
+recomputed from accessible local files in this pass.
+
+| Artifact | Expected SHA-256 | Computed SHA-256 | Outcome |
+| --- | --- | --- | --- |
+| `v10/v10.4/analysis_plan.json` | `0a1c550800eb4ed842a202e7115fbdd9e15c039def835c04b257ac2e9bf42223` | `0a1c550800eb4ed842a202e7115fbdd9e15c039def835c04b257ac2e9bf42223` | PASS |
+| `v10/v10.4/source_manifest.json` | `94995b4c163e78e2a3ebc2b084d0c33ec4b0a5d37d7ff1eb248daaea6b6995dc` | `94995b4c163e78e2a3ebc2b084d0c33ec4b0a5d37d7ff1eb248daaea6b6995dc` | PASS |
+| Frozen WavLM Base weight (`v8/.../pretrained/wavlm_base.pth`) | `ee69baa3f5f2dd37493516acd5a5018797dd9fa25fedafc6c7f7ce53e7bd6ce3` | `ee69baa3f5f2dd37493516acd5a5018797dd9fa25fedafc6c7f7ce53e7bd6ce3` | PASS |
+| V10 seed42 outer0 final checkpoint | `7f6523cd3a4c7d47fe031915c0fdd24c7a9ebc7ba04b6afd391105e956107b89` | `7f6523cd3a4c7d47fe031915c0fdd24c7a9ebc7ba04b6afd391105e956107b89` | PASS |
+| V10 reference speaker OOF CSV | `eb829bf2910097c910c7f3e302a5798d44708ec741813513cf4a22a9db063cbe` | `eb829bf2910097c910c7f3e302a5798d44708ec741813513cf4a22a9db063cbe` | PASS |
+
+The V10.4 runner's post-run audit again verified all 159 inputs. The Git diff
+contains no changed original frozen weights, V8/V10 fold manifests, or V10
+reference predictions. Generated PDF figures can acquire metadata-only binary
+differences on a rerun; these were restored to their committed versions after
+checking that the numeric summaries and provenance remained unchanged.
+
+## D. Remaining limitations
+
+- A fresh public clone is BLOCKED for the full experiment: 82 of the 159
+  manifest entries are excluded, including features, duration-fold inputs,
+  checkpoints and WavLM weights. Licensed audio also must be supplied locally.
+- V10 reference retraining, fresh V8/V10 feature extraction, and a new
+  prospective UA-Speech cohort were NOT TESTED. The 75-row saved V10 reference
+  validation is a read-only integrity check, not new model training.
+- The matching editable manuscript/supplement source is unavailable. Proposed
+  text and tables are complete in `MANUSCRIPT_REVISION_SUGGESTIONS.md`, but PDF
+  integration and visual verification remain BLOCKED.
+- Remote CI is NOT TESTED: the local workflow was not pushed because the
+  current GitHub OAuth token lacks permission to update workflows.
+- Existing tracked provenance contains 27 files with local absolute path
+  strings. Raw datasets and model weights are not tracked; path sanitization
+  or history rewriting was outside this focused scientific audit.
+
 ## Issue audit
 
 | Issue | Current status | Evidence | Required action |
@@ -84,10 +156,29 @@ abstract and conclusion revisions preserve the finding that tempo reliance
 is inconclusive under processing artifacts and describe UA-Speech as locked
 cross-corpus testing, not a new prospective cohort.
 
-No numerical discrepancy requiring an experiment rerun was identified in
-these checked values. This was a targeted consistency check, not a complete
-line-by-line verification of every table and figure in the 33-page manuscript
-and 10-page supplement.
+| Result | Manuscript / supplement | Saved output checked | Reconciliation |
+| --- | --- | --- | --- |
+| TORGO detector ROC-AUC | 0.850; abstract interval [0.679, 0.979] | V10.2 canonical primary 0.850 [0.678571, 0.978571], 15 speakers | Matches after rounding. |
+| UA-Speech M3 detector ROC-AUC | 0.966 | V10 table05 0.966154, 28 speakers | Matches after rounding; locked cross-corpus evaluation. |
+| Duration-only ROC-AUC | TORGO 0.964; UA-Speech 1.000 | V8 duration per-seed means 0.964286 and 1.000, respectively | Matches after rounding. |
+| Locked silence-only ROC-AUC | TORGO 0.461; UA-Speech 0.927 | V8 silence per-seed means 0.460714 and 0.927179 | Matches after rounding; restricted input does not establish ordinary-speech reliance. |
+| TORGO edge-trained classifier ROC-AUC | 0.804 | V10.4 background summary 0.803571 [0.564, 1.000] | Matches after rounding; low-energy edges may contain speech. |
+| Original-fold increment over duration | +0.025 [-0.104, 0.196] | V10.4 duration summary +0.025 [-0.103661, 0.196429] | Matches after rounding; exploratory and imprecise. |
+| TORGO background vs matched speech | +0.082 [-0.125, 0.311] | V10.4 background summary +0.082143 [-0.125089, 0.310804] | Matches after rounding; interval includes zero. |
+| Duration-spread intervention | Inconclusive | V10.4 verdict `inconclusive_artifact_control` | Matches; processing control exceeded the planned gate. |
+
+One **versioned interval difference** remains in repository outputs: the older
+`v10/publication/tables/table01_torgo_primary_v10.csv` gives TORGO ROC-AUC
+0.850 [0.693, 0.975], while the V10.2 canonical bootstrap gives 0.850
+[0.679, 0.979]. The manuscript uses the latter. The point estimate and 15
+speaker cohort agree; these are distinct saved bootstrap summaries, so neither
+interval was overwritten. Any final typeset table should identify the chosen
+canonical version and avoid mixing the two intervals.
+
+This was a targeted consistency check of the primary claims, cohorts,
+intervals and mechanism controls, not a complete line-by-line verification of
+every table and figure in the 33-page manuscript and 10-page supplement. No
+checked discrepancy requires retraining.
 
 ## Privacy and remaining limits
 

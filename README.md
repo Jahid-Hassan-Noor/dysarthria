@@ -12,13 +12,13 @@ The V4–V9 folders document historical development. V10 is the frozen publicati
 
 | Stage | Command | Required inputs | Verified status |
 | --- | --- | --- | --- |
-| Lightweight checks | `python -m unittest -q tests.test_v10_4_reproducibility` | Python 3.12 and `requirements-ci.txt` | PASS in a fresh local CI environment (10 tests); GitHub Actions run pending |
+| Lightweight checks | `python -m unittest -q tests.test_v10_4_reproducibility` | Python 3.12 and `requirements-ci.txt` | PASS in a fresh local CI environment (10 tests); remote CI NOT TESTED |
 | Local preflight | `.venv/bin/python v10/v10.4/preflight.py` | Pinned environment, frozen V8/V10 inputs, TORGO audio | PASS on the research machine; BLOCKED on a fresh clone |
 | Frozen-input audit | `.venv/bin/python v10/v10.4/run_v10_4.py audit` | 159 manifest entries, including 158 frozen inputs | PASS on the research machine; BLOCKED on a fresh clone |
 | V10 reference training | Run the executed [`v10/dysarthria_10.ipynb`](v10/dysarthria_10.ipynb) | Authorized corpora, frozen V8 cache and weights | NOT TESTED in this audit |
 | V10.4 secondary analyses and report | `.venv/bin/python v10/v10.4/run_v10_4.py all` | Frozen inputs and authorized TORGO audio | PASS on the research machine; BLOCKED on a fresh clone |
 
-See [REPRODUCIBILITY_AUDIT.md](REPRODUCIBILITY_AUDIT.md) for commands, hashes, remaining limits, and the distinction between a validated local rerun and public-clone reproduction. GitHub Actions runs only synthetic tests; it does not download or upload licensed datasets.
+See [REPRODUCIBILITY_AUDIT.md](REPRODUCIBILITY_AUDIT.md) for commands, hashes, remaining limits, and the distinction between a validated local rerun and public-clone reproduction. A dataset-free GitHub Actions workflow is prepared locally but has not been published because the available GitHub token lacks the `workflow` scope. Remote CI has not run.
 
 ## Repository guide
 

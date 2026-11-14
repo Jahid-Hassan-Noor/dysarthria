@@ -39,10 +39,11 @@ frozen inputs; restore them at the paths in `source_manifest.json` before a
 full rerun. The committed tables, figures, and results can be read without
 those inputs.
 
-GitHub Actions runs synthetic speaker-split and statistic tests without any
-licensed data or model weights. It does not reproduce V10 training or V10.4
-experiments. The local research machine passed the full `all` command; this
-does not make a fresh public clone self-contained.
+A GitHub Actions workflow for synthetic speaker-split and statistic tests is
+prepared locally but has not been published because the available GitHub token
+lacks the `workflow` scope. Remote CI has not run. It will not download licensed
+data or model weights when published. The local research machine passed the
+full `all` command; this does not make a fresh public clone self-contained.
 
 ## Files
 

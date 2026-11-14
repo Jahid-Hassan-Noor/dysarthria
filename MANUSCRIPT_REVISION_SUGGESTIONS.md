@@ -21,18 +21,18 @@ it were checked against the manuscript, supplement, and saved V10/V10.4 result
 files. The compact tables are proposals for the manuscript source, with the
 full numerical originals to be retained in supplementary material.
 
-Replacement text for the abstract and Section 5 of the supplied preprint, plus
-shorter versions of its Tables 7 and 10. These values refer to the original
+Replacement text for the abstract, selected Results/Discussion/Limitations
+passages, and Section 5 of the supplied preprint, plus shorter versions of its
+Tables 7 and 10. These values refer to the original
 speaker-level analyses; full precision results remain in the publication CSVs
 and the V10.4 supplement outputs. The supplied PDFs are read-only, and no
 editable source for this preprint is in the repository.
 
 ## Abstract
 
-**Background and objective:** High dysarthria detection scores on TORGO and
-UA-Speech may reflect recording duration or acquisition conditions. We separate
-whether a cue is available, whether it can reproduce discrimination, and
-whether the locked detector responds to it.
+**Background and objective:** Detection on TORGO and UA-Speech may reflect
+duration or acquisition conditions. We separate cue availability, predictive
+sufficiency, and locked-detector response.
 
 **Methods:** A frozen WavLM Base encoder and speaker-attention head were assessed
 on 15 TORGO speakers using nested speaker-grouped cross-validation across five
@@ -49,14 +49,28 @@ duration stack changed ROC-AUC by 0.025 (95% speaker-bootstrap interval
 -0.104 to 0.196). A classifier trained on TORGO low-energy edges reached
 0.804, but its paired advantage over locked speech heads on the same recordings
 was uncertain (0.082, interval -0.125 to 0.311); the edges may contain speech.
-The locked detector scored UA-Speech silence at 0.927 but TORGO silence at
-0.461. Tempo and duration-spread interventions changed scores, yet their
+Silence-only detector AUC was 0.927 on UA-Speech and 0.461 on TORGO;
+ordinary-speech background reliance remains untested. Tempo and duration-spread
+interventions changed scores, yet their
 processing-only controls were larger, leaving mechanism tests inconclusive.
 
 **Conclusions:** Duration can reproduce much of the observed ranking, but these
 experiments do not establish how much the detector uses it or whether its
 scores reflect a disease-specific speech marker. Cue availability, predictive
 sufficiency, and detector use require separate tests in each corpus.
+
+## Results interpretation replacement: TORGO low-energy and silence controls
+
+A classifier trained on the selected TORGO low-energy edges reached ROC-AUC
+0.804. Its paired advantage over locked speech heads on the same source
+recordings was +0.082 (95% speaker-bootstrap interval -0.125 to 0.311), and
+the selected edges may contain speech. The locked detector scored the tested
+TORGO silence-only input near chance (ROC-AUC 0.461), indicating no
+demonstrated discrimination from that restricted input. This does not rule out
+reliance on recording-background information during ordinary speech
+classification. On UA-Speech the locked detector's silence-only ROC-AUC was
+0.927, a restricted-input response whose contribution during ordinary speech
+classification was not isolated from duration.
 
 ## Discussion replacement: future data paragraph before Section 4.6
 
@@ -68,10 +82,17 @@ they would not by themselves guarantee that duration ceases to be predictive.
 An increment beyond duration should be tested directly. Multiple independent
 rate-manipulation methods, listening checks, and processing-only controls
 could help separate tempo from artifacts before a mechanism claim is made.
+Likewise, near-chance scoring on tested TORGO silence-only clips cannot exclude
+background reliance when speech and background are present together.
 
-The current Section 4.6 limitations already identifies the small cohorts,
-threshold optimism, processing artifacts, prior UA-Speech exposure, clinical
-and dataset shift, and repeated-seed dependence. Retain those details.
+## Section 4.6 Limitations insertion
+
+Add after the existing caveat that selected silence segments may contain
+residual speech: “Near-chance scoring on the tested TORGO silence-only input
+does not exclude use of background information when speech and background
+co-occur. The restricted-input analysis does not isolate ordinary-speech
+reliance.” Retain the existing small-cohort, threshold, processing-artifact,
+prior UA-Speech exposure, dataset-shift, and repeated-seed limitations.
 
 ## Section 5. Conclusions
 
@@ -89,8 +110,9 @@ mechanism.
 The mechanism probes were inconclusive. A separately trained classifier found
 signal in TORGO low-energy edges, but the paired comparison with locked speech
 heads included zero; the edges may contain speech. The locked detector scored
-TORGO silence near chance, illustrating that cue availability does not imply
-use by that detector. Test-time tempo and within-speaker duration-spread
+the tested TORGO silence-only input near chance, showing no discrimination
+from that restricted input; this does not exclude background reliance during
+ordinary speech classification. Test-time tempo and within-speaker duration-spread
 manipulations moved scores, but the processing-only controls moved them as much
 or more. The observed responses therefore cannot be assigned to duration or
 tempo alone. The five seeds repeatedly partitioned the same 15 TORGO speakers,
@@ -126,6 +148,8 @@ in “other cue-only classifiers” covers silence ratio, RMS/peak, spectral
 proxies, and all 16 descriptors, rather than a pooled estimate. Keep the
 original full Table 7 in supplementary material for accuracy, Brier score,
 seed variation, and individual cue-only rows.
+The TORGO silence-only row is a restricted-input result and does not exclude
+background reliance during ordinary speech classification.
 
 ## Replacement Table 10: evidence by cue
 
@@ -133,7 +157,7 @@ seed variation, and individual cue-only rows.
 | --- | --- | --- | --- |
 | Duration, TORGO | Yes | Yes by point estimate | Tempo and spread responses; reliance inconclusive after processing controls. |
 | Duration, UA-Speech | Yes | Yes, at the ROC-AUC ceiling | Direct reliance test unavailable. |
-| Low-energy edges, TORGO | Yes | Uncertain against matched speech heads | Silence-only score near chance; ordinary-speech reliance unresolved. |
+| Low-energy edges, TORGO | Yes | Uncertain against matched speech heads | No discrimination shown on tested silence-only input; ordinary-speech background reliance unresolved. |
 | Silence, UA-Speech | Yes | Independent value beyond duration unresolved | Silence-only discrimination observed; ordinary-speech reliance unresolved. |
 | Matched lexical content, UA-Speech | Tested on a matched subset | Not a cue-only sufficiency test | No clear evidence of dependence on prompt mix. |
 | Vocoder processing, TORGO | Not a candidate disease cue | Not applicable | Processing sensitivity observed; tempo mechanism unresolved. |
@@ -146,3 +170,13 @@ ROC-AUC 0.461 on TORGO and 0.927 on UA-Speech; matched prompts 0.982.
 Intervals are 95% speaker-bootstrap intervals. The selected low-energy edges
 may contain speech. “Unresolved” is not evidence that a cue was absent or
 unused. Keep the complete numerical evidence matrix in supplementary material.
+
+## Supplementary material note for Table S8
+
+Add after the silence-trained-head comparison: “The edge-trained head's ROC-AUC
+of 0.804 shows predictive information in the selected low-energy clips, which
+may contain residual speech. The locked detector's TORGO silence-only ROC-AUC
+of 0.461 shows no demonstrated discrimination from that restricted input; it
+does not rule out background reliance during ordinary speech classification.
+The paired comparison with locked speech heads on matched source recordings
+has a 95% interval spanning zero.”
