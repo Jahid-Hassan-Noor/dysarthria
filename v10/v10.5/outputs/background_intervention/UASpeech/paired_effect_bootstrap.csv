@@ -1,0 +1,16 @@
+condition,metric,mean_condition_minus_sham,lower_95,upper_95,draws,unit
+intensity_double,delta_logit,0.00326133247997386,-0.3460331400377326,0.4451207485475748,2000,physical_speaker
+intensity_double,delta_probability,0.008643756381243197,-0.03555455764661619,0.06841466435098234,2000,physical_speaker
+intensity_double,decision_changed,0.06428571428571428,0.0071428571428571435,0.15,2000,physical_speaker
+intensity_half,delta_logit,1.131845706914151,0.7634772824974989,1.5835672463822543,2000,physical_speaker
+intensity_half,delta_probability,0.09830674256687601,0.041907380833259844,0.1650656009820775,2000,physical_speaker
+intensity_half,decision_changed,0.09999999999999999,0.021428571428571432,0.19285714285714287,2000,physical_speaker
+neutralized,delta_logit,2.384203098501476,1.6727056666077718,3.1142662917616337,2000,physical_speaker
+neutralized,delta_probability,0.26054883722858324,0.16331400994229112,0.3655917696366347,2000,physical_speaker
+neutralized,decision_changed,0.3,0.16428571428571428,0.45,2000,physical_speaker
+original,delta_logit,0.0,0.0,0.0,2000,physical_speaker
+original,delta_probability,0.0,0.0,0.0,2000,physical_speaker
+original,decision_changed,0.0,0.0,0.0,2000,physical_speaker
+swapped,delta_logit,0.13043208728943573,-0.3253581114166519,0.6427853719251468,2000,physical_speaker
+swapped,delta_probability,0.02377781126158532,-0.02999019380816758,0.0894461138703723,2000,physical_speaker
+swapped,decision_changed,0.06428571428571428,0.0071428571428571435,0.1430357142857133,2000,physical_speaker

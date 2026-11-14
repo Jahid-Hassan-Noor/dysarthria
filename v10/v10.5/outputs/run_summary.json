@@ -1,0 +1,173 @@
+{
+  "background_torgo": {
+    "caveat": "Quiet-edge segments and low-energy frames may contain speech. SNR is a speech/quiet-frame proxy, not a ground-truth separation estimate. Three recordings per speaker limit power.",
+    "conditions": [
+      "original",
+      "sham",
+      "neutralized",
+      "swapped",
+      "intensity_half",
+      "intensity_double"
+    ],
+    "corpus": "TORGO",
+    "interpretation_rule": "Compare each condition with sham; claim background sensitivity only when score shifts exceed sham and integrity gates pass.",
+    "locked_decision_changes_vs_sham": {
+      "intensity_double": 2,
+      "intensity_half": 5,
+      "neutralized": 15,
+      "original": 0,
+      "swapped": 12
+    },
+    "mean_abs_logit_shift_vs_sham": {
+      "intensity_double": 0.4064331348737183,
+      "intensity_half": 0.47937112490336914,
+      "neutralized": 1.002008513311551,
+      "original": 0.0,
+      "swapped": 1.115596596201265
+    },
+    "mean_metrics": {
+      "intensity_double": {
+        "balanced_accuracy": 0.5178571428571428,
+        "brier": 0.34074210847595215,
+        "ece10": 0.37301242237317145,
+        "roc_auc": 0.6142857142857142,
+        "sensitivity": 0.75,
+        "specificity": 0.2857142857142857
+      },
+      "intensity_half": {
+        "balanced_accuracy": 0.49821428571428567,
+        "brier": 0.3736034155996445,
+        "ece10": 0.39440844522115087,
+        "roc_auc": 0.5785714285714285,
+        "sensitivity": 0.825,
+        "specificity": 0.17142857142857143
+      },
+      "neutralized": {
+        "balanced_accuracy": 0.4928571428571429,
+        "brier": 0.3311872195672917,
+        "ece10": 0.350526465604592,
+        "roc_auc": 0.5964285714285714,
+        "sensitivity": 0.9,
+        "specificity": 0.08571428571428572
+      },
+      "original": {
+        "balanced_accuracy": 0.4892857142857142,
+        "brier": 0.36119769382660805,
+        "ece10": 0.3958848268813456,
+        "roc_auc": 0.5857142857142856,
+        "sensitivity": 0.75,
+        "specificity": 0.22857142857142856
+      },
+      "sham": {
+        "balanced_accuracy": 0.4892857142857142,
+        "brier": 0.36119769382660805,
+        "ece10": 0.3958848268813456,
+        "roc_auc": 0.5857142857142856,
+        "sensitivity": 0.75,
+        "specificity": 0.22857142857142856
+      },
+      "swapped": {
+        "balanced_accuracy": 0.43392857142857133,
+        "brier": 0.3953275279674252,
+        "ece10": 0.4334980230694455,
+        "roc_auc": 0.5214285714285715,
+        "sensitivity": 0.725,
+        "specificity": 0.14285714285714285
+      }
+    },
+    "n_speakers": 15,
+    "recordings_per_speaker": 3
+  },
+  "background_uaspeech": {
+    "caveat": "Quiet-edge segments and low-energy frames may contain speech. SNR is a speech/quiet-frame proxy, not a ground-truth separation estimate. Three recordings per speaker limit power.",
+    "conditions": [
+      "original",
+      "sham",
+      "neutralized",
+      "swapped",
+      "intensity_half",
+      "intensity_double"
+    ],
+    "corpus": "UASpeech",
+    "interpretation_rule": "Compare each condition with sham; claim background sensitivity only when score shifts exceed sham and integrity gates pass.",
+    "locked_decision_changes_vs_sham": {
+      "intensity_double": 9,
+      "intensity_half": 14,
+      "neutralized": 42,
+      "original": 0,
+      "swapped": 9
+    },
+    "mean_abs_logit_shift_vs_sham": {
+      "intensity_double": 0.6053496818989494,
+      "intensity_half": 1.1744158723524625,
+      "neutralized": 2.4689075716904174,
+      "original": 0.0,
+      "swapped": 1.00343500876001
+    },
+    "mean_metrics": {
+      "intensity_double": {
+        "balanced_accuracy": 0.8615384615384615,
+        "brier": 0.12240654140577059,
+        "ece10": 0.13992874172632924,
+        "roc_auc": 0.923076923076923,
+        "sensitivity": 0.8,
+        "specificity": 0.9230769230769231
+      },
+      "intensity_half": {
+        "balanced_accuracy": 0.7625641025641026,
+        "brier": 0.18037385196442032,
+        "ece10": 0.19328899497716007,
+        "roc_auc": 0.8697435897435897,
+        "sensitivity": 0.7866666666666667,
+        "specificity": 0.7384615384615385
+      },
+      "neutralized": {
+        "balanced_accuracy": 0.7471794871794872,
+        "brier": 0.1509559631313903,
+        "ece10": 0.2056962909418425,
+        "roc_auc": 0.9507692307692308,
+        "sensitivity": 0.9866666666666667,
+        "specificity": 0.5076923076923077
+      },
+      "original": {
+        "balanced_accuracy": 0.826153846153846,
+        "brier": 0.14710366359676907,
+        "ece10": 0.16548536052245363,
+        "roc_auc": 0.9148717948717948,
+        "sensitivity": 0.76,
+        "specificity": 0.8923076923076924
+      },
+      "sham": {
+        "balanced_accuracy": 0.826153846153846,
+        "brier": 0.14710366359676907,
+        "ece10": 0.16548536052245363,
+        "roc_auc": 0.9148717948717948,
+        "sensitivity": 0.76,
+        "specificity": 0.8923076923076924
+      },
+      "swapped": {
+        "balanced_accuracy": 0.874871794871795,
+        "brier": 0.10641711690839395,
+        "ece10": 0.12780940177275826,
+        "roc_auc": 0.9425641025641026,
+        "sensitivity": 0.8266666666666668,
+        "specificity": 0.9230769230769231
+      }
+    },
+    "n_speakers": 28,
+    "recordings_per_speaker": 3
+  },
+  "prompt_match": {
+    "annotation_path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/torgo_prompts.csv",
+    "n_speakers": 15,
+    "reason": "The local TORGO audio release and frozen metadata contain no verified prompt IDs or transcripts. Recording sequence numbers cannot establish shared spoken content.",
+    "source_recordings": 17630,
+    "status": "awaiting_prompt_annotations"
+  },
+  "report": {
+    "TORGO": "complete",
+    "UASpeech": "complete",
+    "designation": "exploratory follow-up analyses",
+    "prompt_match": "awaiting_prompt_annotations"
+  }
+}

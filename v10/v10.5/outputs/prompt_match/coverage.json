@@ -1,0 +1,7 @@
+{
+  "annotation_path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/torgo_prompts.csv",
+  "n_speakers": 15,
+  "reason": "The local TORGO audio release and frozen metadata contain no verified prompt IDs or transcripts. Recording sequence numbers cannot establish shared spoken content.",
+  "source_recordings": 17630,
+  "status": "awaiting_prompt_annotations"
+}

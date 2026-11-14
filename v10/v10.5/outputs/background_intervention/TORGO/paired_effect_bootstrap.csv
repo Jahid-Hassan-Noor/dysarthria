@@ -1,0 +1,16 @@
+condition,metric,mean_condition_minus_sham,lower_95,upper_95,draws,unit
+intensity_double,delta_logit,-0.3132356381416427,-0.5876770209123777,-0.06624359713745784,2000,physical_speaker
+intensity_double,delta_probability,-0.04369356834186848,-0.08713159249535579,-0.009190786326132577,2000,physical_speaker
+intensity_double,decision_changed,0.02666666666666667,0.0,0.08000000000000002,2000,physical_speaker
+intensity_half,delta_logit,0.37024682998657077,0.056138925962143045,0.7323508902639102,2000,physical_speaker
+intensity_half,delta_probability,0.03622958027787447,0.008246743031977265,0.0683101507867671,2000,physical_speaker
+intensity_half,decision_changed,0.06666666666666667,0.0,0.14666666666666664,2000,physical_speaker
+neutralized,delta_logit,0.2259212818741738,-0.38102258378019205,1.0034434575811029,2000,physical_speaker
+neutralized,delta_probability,0.040710068719127905,-0.030531754908346958,0.13057194245786527,2000,physical_speaker
+neutralized,decision_changed,0.2,0.05333333333333334,0.38666666666666666,2000,physical_speaker
+original,delta_logit,0.0,0.0,0.0,2000,physical_speaker
+original,delta_probability,0.0,0.0,0.0,2000,physical_speaker
+original,decision_changed,0.0,0.0,0.0,2000,physical_speaker
+swapped,delta_logit,-0.11776537021001647,-0.8431524648095227,0.8811850775803084,2000,physical_speaker
+swapped,delta_probability,-0.007642765625281189,-0.10216619772170328,0.11804312426169224,2000,physical_speaker
+swapped,decision_changed,0.16,0.04000000000000001,0.3066666666666667,2000,physical_speaker

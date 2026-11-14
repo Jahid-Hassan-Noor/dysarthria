@@ -1,0 +1,24 @@
+{
+  "version": "v10.5-1",
+  "designation": "exploratory follow-up analyses; not original pre-specified analyses",
+  "frozen_model": "V10 speech-only WavLM outer-fold heads for TORGO and TORGO-trained deployment heads for UASpeech; no speech-model retraining or threshold tuning",
+  "seeds": [42, 43, 44, 45, 46],
+  "bootstrap": "2000 diagnosis-stratified physical-speaker draws; same sampled people reused across five seeds; RNG 20261021",
+  "prompt_match": {
+    "annotation": "Verified source_id or relative_path to prompt_id and/or transcript mapping required. Never infer prompt identity from recording sequence number.",
+    "matching": "Only prompts available for every TORGO physical speaker; one recording per speaker and prompt, head microphone preferred, then session and source ID order.",
+    "duration": "Compare source frames/sample rate with the frozen V8 mono-resample-trim-normalize-gate-center-crop waveform duration.",
+    "baseline": "Original four duration statistics; fixed StandardScaler and class-balanced C=1 logistic regression; saved five outer and three inner grouped physical-speaker folds; threshold selected only on inner OOF predictions.",
+    "wavlm": "Subset frozen WavLM features and score with the corresponding saved outer-fold head and locked threshold. No speech-model training.",
+    "stacking": "Report not estimable unless matched-subset inner-fold WavLM predictions exist. Full-recording inner predictions cannot be substituted."
+  },
+  "background_intervention": {
+    "selection": "Three hash-ranked eligible V8 low-energy-edge recordings per physical speaker, with at least 100 ms low-energy frames remaining after frozen preprocessing. Selection and donor assignment use no diagnosis labels.",
+    "waveform": "Intervene after original V8 preprocessing, directly on the waveform supplied to WavLM; edit only complete 20 ms frames at or below -35 dB relative to post-preprocessing peak. Apply 5 ms zero-ended fades at every mask boundary. The complementary foreground samples remain bit-identical.",
+    "conditions": ["original", "sham", "neutralized", "swapped", "intensity_half", "intensity_double"],
+    "donor": "Different-speaker same-microphone V8-selected real quiet edge, selected by deterministic source-ID hash. Donor is scaled to native quiet-frame RMS with a 0.003 floor to test gated silence.",
+    "comparisons": "Every intervention compared with sham on paired physical-speaker ROC-AUC, balanced accuracy, sensitivity, specificity, Brier score, ECE10, mean logit, probability, and locked decision changes.",
+    "integrity": "Fail on changed foreground samples, duration, non-finite values, clipping, or ineffective swap. Report quiet-frame RMS and speech-to-quiet RMS proxy; low-energy frames are not certified speech-free.",
+    "external_policy": "UASpeech M3 is evaluation only. Its labels enter metrics and diagnosis-stratified confidence intervals, never donor selection, model fitting, threshold selection, or tuning."
+  }
+}

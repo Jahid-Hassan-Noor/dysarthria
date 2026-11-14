@@ -1,0 +1,79 @@
+{
+  "caveat": "Quiet-edge segments and low-energy frames may contain speech. SNR is a speech/quiet-frame proxy, not a ground-truth separation estimate. Three recordings per speaker limit power.",
+  "conditions": [
+    "original",
+    "sham",
+    "neutralized",
+    "swapped",
+    "intensity_half",
+    "intensity_double"
+  ],
+  "corpus": "TORGO",
+  "interpretation_rule": "Compare each condition with sham; claim background sensitivity only when score shifts exceed sham and integrity gates pass.",
+  "locked_decision_changes_vs_sham": {
+    "intensity_double": 2,
+    "intensity_half": 5,
+    "neutralized": 15,
+    "original": 0,
+    "swapped": 12
+  },
+  "mean_abs_logit_shift_vs_sham": {
+    "intensity_double": 0.4064331348737183,
+    "intensity_half": 0.47937112490336914,
+    "neutralized": 1.002008513311551,
+    "original": 0.0,
+    "swapped": 1.115596596201265
+  },
+  "mean_metrics": {
+    "intensity_double": {
+      "balanced_accuracy": 0.5178571428571428,
+      "brier": 0.34074210847595215,
+      "ece10": 0.37301242237317145,
+      "roc_auc": 0.6142857142857142,
+      "sensitivity": 0.75,
+      "specificity": 0.2857142857142857
+    },
+    "intensity_half": {
+      "balanced_accuracy": 0.49821428571428567,
+      "brier": 0.3736034155996445,
+      "ece10": 0.39440844522115087,
+      "roc_auc": 0.5785714285714285,
+      "sensitivity": 0.825,
+      "specificity": 0.17142857142857143
+    },
+    "neutralized": {
+      "balanced_accuracy": 0.4928571428571429,
+      "brier": 0.3311872195672917,
+      "ece10": 0.350526465604592,
+      "roc_auc": 0.5964285714285714,
+      "sensitivity": 0.9,
+      "specificity": 0.08571428571428572
+    },
+    "original": {
+      "balanced_accuracy": 0.4892857142857142,
+      "brier": 0.36119769382660805,
+      "ece10": 0.3958848268813456,
+      "roc_auc": 0.5857142857142856,
+      "sensitivity": 0.75,
+      "specificity": 0.22857142857142856
+    },
+    "sham": {
+      "balanced_accuracy": 0.4892857142857142,
+      "brier": 0.36119769382660805,
+      "ece10": 0.3958848268813456,
+      "roc_auc": 0.5857142857142856,
+      "sensitivity": 0.75,
+      "specificity": 0.22857142857142856
+    },
+    "swapped": {
+      "balanced_accuracy": 0.43392857142857133,
+      "brier": 0.3953275279674252,
+      "ece10": 0.4334980230694455,
+      "roc_auc": 0.5214285714285715,
+      "sensitivity": 0.725,
+      "specificity": 0.14285714285714285
+    }
+  },
+  "n_speakers": 15,
+  "recordings_per_speaker": 3
+}

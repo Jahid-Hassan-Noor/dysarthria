@@ -1,0 +1,706 @@
+{
+  "designation": "exploratory follow-up analyses",
+  "inputs_and_code": [
+    {
+      "bytes": 100844,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_arrayMic_FC01S01/wav_arrayMic_FC01S01_0132.wav",
+      "sha256": "43215d24964e3388b66c2ff7ffcf9bdb433678f39218fe74b026cc61695a6833"
+    },
+    {
+      "bytes": 96044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_arrayMic_FC01S01/wav_arrayMic_FC01S01_0141.wav",
+      "sha256": "9891b7d6268087631c011567f89facb6f52c987b26f44cb9b4c05e2bb4d59a9a"
+    },
+    {
+      "bytes": 120044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_arrayMic_FC01S01/wav_arrayMic_FC01S01_0231.wav",
+      "sha256": "48474af764ef960310d624b82360c2e7c944e3a4aa942130337317cc6e89cc03"
+    },
+    {
+      "bytes": 172844,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_arrayMic_FC02S02/wav_arrayMic_FC02S02_0205.wav",
+      "sha256": "f5028ed1d676336d3dcf801043f98d2ff221f2d1fb44d1abdd2b095a07e0fa0a"
+    },
+    {
+      "bytes": 139244,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_arrayMic_FC03S02/wav_arrayMic_FC03S02_0293.wav",
+      "sha256": "dd0f4cdb40f3fa800037239193ad3d74a539887e5dbcfb6d453c0c8a0c559b3c"
+    },
+    {
+      "bytes": 57964,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_headMic_FC02S03/wav_headMic_FC02S03_0377.wav",
+      "sha256": "17a8b2c4368b7961c33642891dd1d8ffd2ae79383c285f02765403a4b7a988aa"
+    },
+    {
+      "bytes": 57964,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_headMic_FC02S03/wav_headMic_FC02S03_0471.wav",
+      "sha256": "5bbb16ccb9e2cbfe8d8126ae007df490694414c1a57b839446b8dfb89fe2fb68"
+    },
+    {
+      "bytes": 66446,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_headMic_FC03S02/wav_headMic_FC03S02_0203.wav",
+      "sha256": "334288dfc0eef6fd87e35da00f9a93cc68f5aa81ac66628524eb695bc871441b"
+    },
+    {
+      "bytes": 45084,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Con/wav_headMic_FC03S03/wav_headMic_FC03S03_0048.wav",
+      "sha256": "0bf05923876fa72c36e21666d946f3bfbd6a050710da89388e913dbc8c0040bb"
+    },
+    {
+      "bytes": 72044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_arrayMic_F03S03/wav_arrayMic_F03S03_0008.wav",
+      "sha256": "22972b241e662118943206ac9793d8f7c2553352cca27b4c50808938034c092f"
+    },
+    {
+      "bytes": 158444,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_arrayMic_F03S03/wav_arrayMic_F03S03_0182.wav",
+      "sha256": "2be52719ff37d43371e9981f31f3511c1514dde12c501e14c78d228cb08b1fc2"
+    },
+    {
+      "bytes": 182444,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_arrayMic_F04S02/wav_arrayMic_F04S02_0149.wav",
+      "sha256": "abc718395cdfd32ff15f169d11b91c254e9ea84bab780cb748ea55f124e95387"
+    },
+    {
+      "bytes": 76844,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_arrayMic_F04S02/wav_arrayMic_F04S02_0219.wav",
+      "sha256": "0049797b5410324eefa55e96dafd6695993277e742847b666270ad2017cea3e5"
+    },
+    {
+      "bytes": 41736,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_headMic_F01/wav_headMic_F01_0013.wav",
+      "sha256": "b28b075a8bc12c9f6bef68c5c7d426225c4f2ab0a912aa065d9c1205f6359ddf"
+    },
+    {
+      "bytes": 182318,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_headMic_F01/wav_headMic_F01_0106.wav",
+      "sha256": "10810a949a1a48866cad976bb9cf7b5e0441ba3cd168abab2336b6c3eb9ddbdb"
+    },
+    {
+      "bytes": 66614,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_headMic_F01/wav_headMic_F01_0108.wav",
+      "sha256": "de1d371e50d27e9f94b9ea419551a59395986b30006ef892343b70c6366fa1a1"
+    },
+    {
+      "bytes": 55724,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_headMic_F03S03/wav_headMic_F03S03_0078.wav",
+      "sha256": "959435bdd1c581f9a367a47bab68de7e2f11494b9aacf1ed5a55a2edc45a360d"
+    },
+    {
+      "bytes": 68204,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/F_Dys/wav_headMic_F04S02/wav_headMic_F04S02_0113.wav",
+      "sha256": "44206be7784afe47d126b6a943669b3896ca8d973615659af49cd57ef4664d0a"
+    },
+    {
+      "bytes": 163244,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_arrayMic_MC01S03/wav_arrayMic_MC01S03_0165.wav",
+      "sha256": "a836e823bc14b499957a875d1bf2fba224842ef75ae41a09edb142f6fcbe32bd"
+    },
+    {
+      "bytes": 72044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_arrayMic_MC01S03/wav_arrayMic_MC01S03_0302.wav",
+      "sha256": "cddab0e07d3ecc6ec18cd73bc18b3d3cddaf4e8ae43b7cd40a024b05f4a40009"
+    },
+    {
+      "bytes": 96044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_arrayMic_MC02S01/wav_arrayMic_MC02S01_0165.wav",
+      "sha256": "dde12f2402384e962176893ba92589dbf1511a860155784c9f8bfb65a8750532"
+    },
+    {
+      "bytes": 105644,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_arrayMic_MC02S01/wav_arrayMic_MC02S01_0175.wav",
+      "sha256": "8f7f9bfccc4ff3d82fdd4a156266980b0395bbcd3cbee858c668cac7c8f9d27e"
+    },
+    {
+      "bytes": 96044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_arrayMic_MC02S02/wav_arrayMic_MC02S02_0212.wav",
+      "sha256": "a54043423bf7ba9878192332e75e7631d0b20122ee88afb3c5a9bd4e2eea6336"
+    },
+    {
+      "bytes": 57644,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_arrayMic_MC03S01/wav_arrayMic_MC03S01_0468.wav",
+      "sha256": "278f2a9546505756c75e7c9c35df10947212c44eb30699ed1a53713a9aa26d92"
+    },
+    {
+      "bytes": 43244,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_arrayMic_MC03S02/wav_arrayMic_MC03S02_0241.wav",
+      "sha256": "e1d1d56524c511cda4e0dadafab57ad03357be61e0678d504cb2d5d79664f934"
+    },
+    {
+      "bytes": 96044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_arrayMic_MC04S01/wav_arrayMic_MC04S01_0611.wav",
+      "sha256": "403442dcda3ed558c722eea71f8085bec809519acdbd6930c668a4412c9eb39a"
+    },
+    {
+      "bytes": 102782,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_headMic_MC01S02/wav_headMic_MC01S02_0081.wav",
+      "sha256": "029ffdc3d935c82cd408d7b2c41f129e1793959da2cc1031a7a0c248deee24be"
+    },
+    {
+      "bytes": 137848,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_headMic_MC03S02/wav_headMic_MC03S02_0042.wav",
+      "sha256": "f13c1ed5b1f2fe3837826535ed3c9073496f6296cc7b550b0ba7d983e012b315"
+    },
+    {
+      "bytes": 46604,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_headMic_MC04S01/wav_headMic_MC04S01_0093.wav",
+      "sha256": "b104e9a473413908c5786959af3474b212e7a4828142ac7a5493c6327f5d767b"
+    },
+    {
+      "bytes": 49804,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Con/wav_headMic_MC04S01/wav_headMic_MC04S01_0461.wav",
+      "sha256": "e94f4ab9e444996376655a166dd9da5fbe67122ab0bb67e2fa63679f2cceba0e"
+    },
+    {
+      "bytes": 321644,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_arrayMic_M01S02/wav_arrayMic_M01S02_0042.wav",
+      "sha256": "466561cc9cab992c668147180838c969d17b5253c586346ecc362c63e32b8804"
+    },
+    {
+      "bytes": 177644,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_arrayMic_M01S02/wav_arrayMic_M01S02_0115.wav",
+      "sha256": "cb8e104d9b487e262412fd5c681cff19de0d4451941a0f2e5daa7f8cb03bd965"
+    },
+    {
+      "bytes": 48044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_arrayMic_M02S01/wav_arrayMic_M02S01_0227.wav",
+      "sha256": "a5fdff05c4293b6fc6e357b2d25a1a15b64a0c99e3c2f23465ff92570a0fe5c7"
+    },
+    {
+      "bytes": 120044,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_arrayMic_M04S01/wav_arrayMic_M04S01_0097.wav",
+      "sha256": "45a5a1b0eeabec430df16258c30d1db7b99559cab9b6b723f080761683be8c01"
+    },
+    {
+      "bytes": 48494,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M01S02/wav_headMic_M01S02_0001.wav",
+      "sha256": "a0658074ce5f0f4872271104f59ec621d9c5b1311a9637be2170db255df2003b"
+    },
+    {
+      "bytes": 81408,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M02S01/wav_headMic_M02S01_0158.wav",
+      "sha256": "165cd7f8146f590b0ec019f49ec2d5378fd4c8b2138669c3fbd8a3dbfd0ced72"
+    },
+    {
+      "bytes": 102444,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M02S02/wav_headMic_M02S02_0132.wav",
+      "sha256": "072000dd4c923a8a2f2972f3b3b06d4389b6c6c9ac9bfedf3e61d4bda360a4b7"
+    },
+    {
+      "bytes": 119404,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M03S02/wav_headMic_M03S02_0057.wav",
+      "sha256": "d8bf5ff645e2807dd45ca4631d4b74ce0824e04f0cbe2e2e89935bd517ea9109"
+    },
+    {
+      "bytes": 79244,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M03S02/wav_headMic_M03S02_0324.wav",
+      "sha256": "e4cdb3b6d38d36ddd5313bac44dc4d0f377738d349fc5200054c77b9609da865"
+    },
+    {
+      "bytes": 55404,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M03S02/wav_headMic_M03S02_0385.wav",
+      "sha256": "36cf846a0d4af024b987468bf09ae3c397ed92bb838a26f8d0882a5fd439ee5b"
+    },
+    {
+      "bytes": 197004,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M04S02/wav_headMic_M04S02_0002.wav",
+      "sha256": "179c4cecdd610eecce8e56268673ffb224ce05b5877535329bde9e8fc8a08996"
+    },
+    {
+      "bytes": 104684,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M04S02/wav_headMic_M04S02_0169.wav",
+      "sha256": "dccc916887007d547e9d17fa813f89bed3dbb01f5c1b1d450461c0ee6b067d53"
+    },
+    {
+      "bytes": 122284,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M05S01/wav_headMic_M05S01_0058.wav",
+      "sha256": "f202c342acac3ee3919d2b1d9b4198fd87f0f28360906e3a0f292d77c7682365"
+    },
+    {
+      "bytes": 103884,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M05S02/wav_headMic_M05S02_0092.wav",
+      "sha256": "673507bccc8448f87098fbbb29d8d2ba9c260110e7781d83f49877269ac0b52d"
+    },
+    {
+      "bytes": 217324,
+      "path": "/Users/Noor/.cache/kagglehub/datasets/pranaykoppula/torgo-audio/versions/1/M_Dys/wav_headMic_M05S02/wav_headMic_M05S02_0141.wav",
+      "sha256": "f8e88f40442057d3ff018181154a382735b7b0009e4bb82046868219ccf079bb"
+    },
+    {
+      "bytes": 55508,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF02/CF02_B2_LN_M3.wav",
+      "sha256": "8da92df8451e2462b666d29af6ae3d3ee80512f20e8773eb66a777e33f74b50d"
+    },
+    {
+      "bytes": 78456,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF02/CF02_B2_UW30_M3.wav",
+      "sha256": "2a53db973cd6881756dd00c2cfe5330121ed776d1bbf8d6a486c23e7b994b746"
+    },
+    {
+      "bytes": 75054,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF02/CF02_B3_UW56_M3.wav",
+      "sha256": "1d304117cfc8991a5b1dce7f8ab7c3f0b3f7c878a93957ac6dd20032fbfe7dbf"
+    },
+    {
+      "bytes": 78556,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF03/CF03_B1_UW41_M3.wav",
+      "sha256": "67050b49dfbbdc1ebf49249e6f7c83a94f26b00889812aad0ebfbcc51444b87b"
+    },
+    {
+      "bytes": 58574,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF03/CF03_B2_CW76_M3.wav",
+      "sha256": "6e7f5cb4886894a4450c8e3c6ecbda1b5ac96014b20e33bb2486df970be27345"
+    },
+    {
+      "bytes": 67600,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF03/CF03_B2_UW80_M3.wav",
+      "sha256": "0f29c5b1ce12208ffcc403e6bdf267a718201be5ba86ddc3563df30f39c0ff83"
+    },
+    {
+      "bytes": 76512,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF04/CF04_B1_UW20_M3.wav",
+      "sha256": "a81aa0c8bbf8152ffa59622e7ca9fd2637cc00dfff4509d2810c8ca98ca63f5a"
+    },
+    {
+      "bytes": 62196,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF04/CF04_B1_UW39_M3.wav",
+      "sha256": "b4242ddcf37d0b50c81a2d0545138bea8bc30a78ae23a497d2bee891323ee5ba"
+    },
+    {
+      "bytes": 52324,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF04/CF04_B2_LO_M3.wav",
+      "sha256": "83b251cd994556eb7a6d9b3741eb695f85c8ea2a3df5e72a103d4b5beea2fd6d"
+    },
+    {
+      "bytes": 78508,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF05/CF05_B1_UW47_M3.wav",
+      "sha256": "3811a8803f19c4ee2cfea6d4b462a43a8f124c4d473564251366bf47aee83a99"
+    },
+    {
+      "bytes": 57126,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF05/CF05_B2_LA_M3.wav",
+      "sha256": "4613bd0e8f6b42e4b2091532bc1fb494655562e2e79abc2bc905f7a720634891"
+    },
+    {
+      "bytes": 61738,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CF05/CF05_B3_UW93_M3.wav",
+      "sha256": "ffdbd6792aca39dcffc703a25e6678482fca8ad1723aab0163ac62a34bd9da5e"
+    },
+    {
+      "bytes": 47602,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM01/CM01_B2_CW14_M3.wav",
+      "sha256": "6ea3d46fa8aeaad0ded70db4dc1db1323c500b8b280d88c75eadfdc417c4b26e"
+    },
+    {
+      "bytes": 52482,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM01/CM01_B2_LP_M3.wav",
+      "sha256": "36945016e786d3d4a5a1ad11e0422a9890a467422a6a5a3b219e09b5641fe68b"
+    },
+    {
+      "bytes": 45188,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM01/CM01_B3_CW15_M3.wav",
+      "sha256": "ab77d477f90530666913aa7204b1b107118da1532a19f9526fafc572cc093389"
+    },
+    {
+      "bytes": 49806,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM04/CM04_B1_C14_M3.wav",
+      "sha256": "9ea67b0cde3bbfe085d333b57cf165bc5886e312b90c5771512103229b93e9ca"
+    },
+    {
+      "bytes": 66424,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM04/CM04_B1_UW62_M3.wav",
+      "sha256": "977edbf0c5a2a0f217ba7be64e89f09f0c22bbbe6f3dbdb212181977fe1dd2b1"
+    },
+    {
+      "bytes": 64686,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM04/CM04_B3_UW56_M3.wav",
+      "sha256": "4acd798eb07c05be12441dd0a024e5a12d810cb0456ed9d69f8ce572e01cc9e9"
+    },
+    {
+      "bytes": 61580,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM05/CM05_B1_UW19_M3.wav",
+      "sha256": "e4ff4ce8dcf4c39430ea691a5c7ed40234bde128c1177a3af911318bf787f9ef"
+    },
+    {
+      "bytes": 53732,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM05/CM05_B3_CW97_M3.wav",
+      "sha256": "a335ad9b7a159fd802c2a7e3cd0aec605d9e41bab4466c09b8f270511345c3ea"
+    },
+    {
+      "bytes": 66646,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM05/CM05_B3_UW98_M3.wav",
+      "sha256": "0e2765584d3f05c7b2bff78654ba353e248b685e660bab0e26b1cc4b21f6aa9f"
+    },
+    {
+      "bytes": 59062,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM06/CM06_B1_UW14_M3.wav",
+      "sha256": "7e1bf5638b213e7370faff83dc1c93fa67c5c3d6c0355056a654a935cef38a47"
+    },
+    {
+      "bytes": 57812,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM06/CM06_B1_UW3_M3.wav",
+      "sha256": "ceb071578f4ecce7f9a078a1ac7364662fc376e4dcaf59ea21cd93a3881e739c"
+    },
+    {
+      "bytes": 40846,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM06/CM06_B2_CW100_M3.wav",
+      "sha256": "5a8669c4e8d11c24e27540ef057356a923737d5eec2172adf412071c26dbf04e"
+    },
+    {
+      "bytes": 55688,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM08/CM08_B2_UW20_M3.wav",
+      "sha256": "ce23c52b6223a381550b123b36c24a46ebfc32bec9efcd3a2c3c72ac9c226482"
+    },
+    {
+      "bytes": 48252,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM08/CM08_B2_UW56_M3.wav",
+      "sha256": "e23d1d0f70583d177082eced8dc4f89129563088ec92264561c8410caffc21c9"
+    },
+    {
+      "bytes": 45262,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM08/CM08_B2_UW91_M3.wav",
+      "sha256": "6e21265c87a8e039dbe140cc7063e959fc881b6bbaecf7134101fbb3d7515f97"
+    },
+    {
+      "bytes": 48434,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM09/CM09_B1_UW97_M3.wav",
+      "sha256": "baa2ce1b27b0743f652c14fb02f692b6ef406469abb0659cc9f4fafb567b462f"
+    },
+    {
+      "bytes": 50434,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM09/CM09_B2_LR_M3.wav",
+      "sha256": "1a0bdcdf536cba30af4f20a5328a5971f28532500d909ab2d5a9974a203f58e9"
+    },
+    {
+      "bytes": 66690,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM09/CM09_B2_UW78_M3.wav",
+      "sha256": "2aa747ebb38a57aeaccd648d7b42c1437406a2e1138477b803cb0633e365b075"
+    },
+    {
+      "bytes": 52704,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM10/CM10_B1_LE_M3.wav",
+      "sha256": "7037f7ddd9ea904355ba6c59ee970cfb56c383bd030e02eab02e9f67b2e4037f"
+    },
+    {
+      "bytes": 52250,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM10/CM10_B2_C4_M3.wav",
+      "sha256": "d001e29d9743f839bdfa6df3db8efc7f41079a69fff4398f725386f6cd70343d"
+    },
+    {
+      "bytes": 59058,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM10/CM10_B3_LE_M3.wav",
+      "sha256": "6a3a7663d1ceec2867969ca854773704ddb1137ce3f546a2341c07db03892549"
+    },
+    {
+      "bytes": 50352,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM12/CM12_B1_C2_M3.wav",
+      "sha256": "8a6515fc793436c025a959166905eb2cd717ff7988b5bdfb4d0436c5d4d361d5"
+    },
+    {
+      "bytes": 53402,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM12/CM12_B1_LA_M3.wav",
+      "sha256": "c240b55d29568b70f59360ec11a66585bb4e1ef16e111f90009a7249e2a379e5"
+    },
+    {
+      "bytes": 56038,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM12/CM12_B1_UW62_M3.wav",
+      "sha256": "5dd992677762021da0c4e4324f6bfb58b9e7930ee48b12d56b7065fa6454af8a"
+    },
+    {
+      "bytes": 52532,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM13/CM13_B1_CW68_M3.wav",
+      "sha256": "8f748ae7a69e6c5d090ce64406f07dd5cd6301487ed099237098287e387f6588"
+    },
+    {
+      "bytes": 46522,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM13/CM13_B1_UW50_M3.wav",
+      "sha256": "2504ef07fc2f07f1e999975cb29cc7b1960c319a22b1c45757d48d01e58b7893"
+    },
+    {
+      "bytes": 41114,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_C/audio/normalized/CM13/CM13_B2_CW47_M3.wav",
+      "sha256": "2b0146b1284141364f03daa010b305eb91d52510fb42dc67a53746579fb56ba6"
+    },
+    {
+      "bytes": 178204,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F02/F02_B1_UW19_M3.wav",
+      "sha256": "613bc3de4be8bd62a87b84dad88e9115d09ba10e0bc67efa9e518762f8cb58ce"
+    },
+    {
+      "bytes": 94762,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F02/F02_B2_CW47_M3.wav",
+      "sha256": "a19c26cb41c2802928a7cb53cb787f74c7787f15308edada71e43740c84b3b21"
+    },
+    {
+      "bytes": 105264,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F02/F02_B3_CW29_M3.wav",
+      "sha256": "dc65aa314b73055f190e56a6e2a113c3aa444a60e5b1cf2475b9b73cbe45f4cf"
+    },
+    {
+      "bytes": 99010,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F03/F03_B1_C8_M3.wav",
+      "sha256": "f3f56780be9045dbe64a3afe48532d2a7a8336902df7ae304f574880de093d23"
+    },
+    {
+      "bytes": 92452,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F03/F03_B3_LX_M3.wav",
+      "sha256": "2740127f0da076ec4fcf851a7357bdede37180839c34eee340f6dea4da725d19"
+    },
+    {
+      "bytes": 98556,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F03/F03_B3_UW87_M3.wav",
+      "sha256": "67e67c87b66c1be3190ffc5f5131e3bafad71bf0ca023cf8369824cd6c7f2224"
+    },
+    {
+      "bytes": 60598,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F04/F04_B2_CW100_M3.wav",
+      "sha256": "bb0c16d0355fe51e45354afc2d50468eb454dbf885b004f20f5c71a2c4af6ab4"
+    },
+    {
+      "bytes": 116426,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F04/F04_B2_UW62_M3.wav",
+      "sha256": "9da986b69cc637a6c0e31a9f98e654e0f0dd027730f3c15814d00aa79ce4b3b6"
+    },
+    {
+      "bytes": 67828,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F04/F04_B3_C3_M3.wav",
+      "sha256": "6f1bdda92a4dfe4b758c03465ddac469f3304759ffbf395c4e0ba178d85242db"
+    },
+    {
+      "bytes": 90330,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F05/F05_B1_UW42_M3.wav",
+      "sha256": "9f6d5340c10df44e9005be45b36940cf482500333c4d2f357b51e76486d6097f"
+    },
+    {
+      "bytes": 69850,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F05/F05_B2_C12_M3.wav",
+      "sha256": "dbaf3088c6831fdb400283ea8e1505364e2f09d1ff272075272b3a58ec38735d"
+    },
+    {
+      "bytes": 104636,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/F05/F05_B3_UW1_M3.wav",
+      "sha256": "e60b0c59266b2567d696e94c43e6bac230009badd506d5048a797288e9ab7a67"
+    },
+    {
+      "bytes": 217968,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M01/M01_B1_CW90_M3.wav",
+      "sha256": "395b7c8dac05f70d1ee11e6a955279a9b303a4e392f07fb27ca640a443080a3a"
+    },
+    {
+      "bytes": 250124,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M01/M01_B2_C10_M3.wav",
+      "sha256": "2308397879a0d8a27dc69933d1068c5525666d2b81b2c7f249e1d7866d0064e7"
+    },
+    {
+      "bytes": 135972,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M01/M01_B2_CW2_M3.wav",
+      "sha256": "f765f84048bfa99dc442a0f6e04eb1e266a28bdb3c6bc56b1729675badab4059"
+    },
+    {
+      "bytes": 62898,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M04/M04_B1_UW57_M3.wav",
+      "sha256": "e66b5db19f83305a9d95715e2163729a896a304062c2d7d022d0298529349c78"
+    },
+    {
+      "bytes": 104484,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M04/M04_B2_UW35_M3.wav",
+      "sha256": "12d37677f9612be03e30560bdb2b363066c84a8f3ef29f986d98ab32047a63c2"
+    },
+    {
+      "bytes": 91232,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M04/M04_B2_UW41_M3.wav",
+      "sha256": "5264a1432dcd1c62b9aeb0f32c51d47a3b2c4f23566106957b5a8662cd415864"
+    },
+    {
+      "bytes": 114182,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M05/M05_B2_UW54_M3.wav",
+      "sha256": "e12a85f209d3aa1572cd5d174e6fdcdf5775151ba10fe8aba237a155634fbac1"
+    },
+    {
+      "bytes": 104054,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M05/M05_B3_UW29_M3.wav",
+      "sha256": "aa1f357723ee0c6543a71a95911244f9da591f2e9124ac8e7165a652e2e86465"
+    },
+    {
+      "bytes": 117118,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M05/M05_B3_UW3_M3.wav",
+      "sha256": "e7ed9ba25f193b791948d0d940247259db1ac649ce800d96556cc6c61eeae5bd"
+    },
+    {
+      "bytes": 104752,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M07/M07_B1_UW13_M3.wav",
+      "sha256": "b8182a2d5d14be348ff6cdb80c49277e4e5b0f377b700a2cd312dd9f15133dbd"
+    },
+    {
+      "bytes": 139994,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M07/M07_B2_CW29_M3.wav",
+      "sha256": "e65eaf58fb551183cfeb2de22df727727ebbeb6a4dc4cc595b63c6c7a8e5a4a9"
+    },
+    {
+      "bytes": 90076,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M07/M07_B3_UW100_M3.wav",
+      "sha256": "5d6970d5f06f17ad19791aba7a488e0def84db75cb52bbf70b1b329746474e62"
+    },
+    {
+      "bytes": 59814,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M08/M08_B1_CW81_M3.wav",
+      "sha256": "e88e8fc1eef628b0271c4f92f2e6ca4b573e333e995cdf25f5b78d080c98d779"
+    },
+    {
+      "bytes": 58132,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M08/M08_B1_LH_M3.wav",
+      "sha256": "81bf5d10b9c1b0e2b31c22cf05e040997cf1515fef3f1182c6372ec0c3ad0f38"
+    },
+    {
+      "bytes": 84080,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M08/M08_B3_UW15_M3.wav",
+      "sha256": "4049ee194b717e0ee2967cd6ad8f271e8abe8dc6c8cfe4e87014cbea838b34ec"
+    },
+    {
+      "bytes": 71474,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M09/M09_B1_UW30_M3.wav",
+      "sha256": "4bc39235baafdf1b8f424f61a6ba3f5d45fc79304217367dc91d18678f186c55"
+    },
+    {
+      "bytes": 77764,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M09/M09_B3_CW91_M3.wav",
+      "sha256": "ad575b2b2070da0053a7541928f3da24341192aef5a9d042e4c3e8bcef3f2d76"
+    },
+    {
+      "bytes": 138910,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M09/M09_B3_UW38_M3.wav",
+      "sha256": "bf45aaffbb4bb33094d144368bea075ce609027d7222e8eef63a5db1f98ad90f"
+    },
+    {
+      "bytes": 61738,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M10/M10_B1_CW28_M3.wav",
+      "sha256": "b18953a5594dd5194df7ef3b8392d9e9f26f54528800ae8b3f4b9a977e5de060"
+    },
+    {
+      "bytes": 86444,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M10/M10_B3_UW26_M3.wav",
+      "sha256": "a555bb75371a97eee1d4b48fde5f3dc71a12cdf2640ddfc015413633594a019e"
+    },
+    {
+      "bytes": 84252,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M10/M10_B3_UW42_M3.wav",
+      "sha256": "b5c16ee23cb162f4ce07827aaa75909f039a2345f23632c1c9e4a30e2e0f867a"
+    },
+    {
+      "bytes": 122096,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M11/M11_B1_CW90_M3.wav",
+      "sha256": "a1e5d519c3f7699a54c18a42acebbca0beb23da6bcc1e720438070c774da74c9"
+    },
+    {
+      "bytes": 182020,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M11/M11_B2_C1_M3.wav",
+      "sha256": "10f7c580d4477c9647b60375822b745030307022cdbf1c594b1f252c9800397b"
+    },
+    {
+      "bytes": 107236,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M11/M11_B3_UW10_M3.wav",
+      "sha256": "a1c04d199b640f78a7428f71dbc2d4ad8e13b131558a4aeaa6702adee049391d"
+    },
+    {
+      "bytes": 225450,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M12/M12_B2_UW32_M3.wav",
+      "sha256": "fd5240d47fdab633fe891883b0dbd36fbf1b361003d63be08f8b90caab310cd3"
+    },
+    {
+      "bytes": 152422,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M12/M12_B3_LH_M3.wav",
+      "sha256": "c2400d1808e27d7cc19af0d311dcc338e7f5cd8f45f3dc6ced89ddc24c9cdefd"
+    },
+    {
+      "bytes": 307624,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M12/M12_B3_UW99_M3.wav",
+      "sha256": "3c00c3a373311c19aa44719d31f434eb6e73ef1cb5a5d364d14f2ca5d605e996"
+    },
+    {
+      "bytes": 68476,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M14/M14_B1_CW32_M3.wav",
+      "sha256": "8fd84598d5b58a8954bb5ec73373faf02744a97d7ca34827e91d54794a11978d"
+    },
+    {
+      "bytes": 66910,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M14/M14_B1_CW87_M3.wav",
+      "sha256": "d880d2ea43b16badada93c0d8dc53dea14a2941af26e24dcc125a7010c81668c"
+    },
+    {
+      "bytes": 61048,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M14/M14_B2_CW72_M3.wav",
+      "sha256": "00d2d583968007fe7020dddf218f6d32e236e5816dafdec8a381943b3df39fa8"
+    },
+    {
+      "bytes": 68426,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M16/M16_B1_CW53_M3.wav",
+      "sha256": "7dc651d24b878747af343366c685a7750552bb791ae22f14b28ca6e0b0c138db"
+    },
+    {
+      "bytes": 64352,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M16/M16_B2_C17_M3.wav",
+      "sha256": "760d78bdbf050015d37018f520bbdbb1ab5c3162668cda83605160ceb09501a8"
+    },
+    {
+      "bytes": 80814,
+      "path": "/Users/Noor/Documents/projects/dysarthia/UASpeech/UASpeech_normalized_FM/audio/normalized/M16/M16_B2_UW41_M3.wav",
+      "sha256": "100b1219269403d82bc38ce2c4402085114624545ac660191de6bb0a4a9f36eb"
+    },
+    {
+      "bytes": 3881,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/outputs/reference_training/deployment/v8_torgo_model_lock.json",
+      "sha256": "b7a22dcca525b3a1af835ebc66b6553be0d7ead4a080ee36748595725012340c"
+    },
+    {
+      "bytes": 34900,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.4/source_manifest.json",
+      "sha256": "94995b4c163e78e2a3ebc2b084d0c33ec4b0a5d37d7ff1eb248daaea6b6995dc"
+    },
+    {
+      "bytes": 2994,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/analysis_plan.json",
+      "sha256": "78451553381952300eeabcee52704bc70477ec9547827811489a3853f350afff"
+    },
+    {
+      "bytes": 18280,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/background_intervention.py",
+      "sha256": "611f641f6e56d020d418421ee27782d8e6516840a64181e4045eaa6e50437656"
+    },
+    {
+      "bytes": 3627,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/figures.py",
+      "sha256": "b8edc07de77c206cebf33c11d9591453b1c70ef4cdec4f4829cf0ef52cdf361f"
+    },
+    {
+      "bytes": 18109,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/outputs/background_intervention/TORGO/subset_manifest.csv",
+      "sha256": "cecfa397803458c6db3934de7ae4ddb4eb174f2de98bf5df6454d81679a92208"
+    },
+    {
+      "bytes": 35609,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/outputs/background_intervention/UASpeech/subset_manifest.csv",
+      "sha256": "d3f3977e24e2238e7dca3b3adb05f2aebfd18761ff47d68ddfe2a7ead97c4c3b"
+    },
+    {
+      "bytes": 12992,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/prompt_match.py",
+      "sha256": "365cc2c52e77fbfa5bca2f95d235bf3bb59963a4077637b9ff509d6c0b1c7432"
+    },
+    {
+      "bytes": 4454,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/report.py",
+      "sha256": "2d3942927d4f894f021ddaf5ad9cb90b6b152b52a07c506abfccc891317a6176"
+    },
+    {
+      "bytes": 1501,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/run_v10_5.py",
+      "sha256": "3788adf17639aa888b946a03d8ee6448b565d9db1fe357b166e80082864dc308"
+    },
+    {
+      "bytes": 8244,
+      "path": "/Users/Noor/Documents/projects/dysarthia/v10/v10.5/support.py",
+      "sha256": "b3d560ca2908d1ca94336a0ca0ac9beffc9eaeea9d9340bbde3b38c67e36e72d"
+    }
+  ],
+  "version": "v10.5-1"
+}
