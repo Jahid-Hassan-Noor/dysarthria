@@ -11,7 +11,7 @@ import pandas as pd
 from sklearn.metrics import balanced_accuracy_score, roc_auc_score
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
+ROOT = HERE.parents[1]
 OUT = HERE / "outputs"
 FROZEN = ROOT / "v8/v8_publication_completion/frozen_reference/run"
 V10 = ROOT / "v10/outputs/reference_training"

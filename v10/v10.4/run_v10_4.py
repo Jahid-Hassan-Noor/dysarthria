@@ -1,19 +1,30 @@
 """Run or resume all five isolated V10.4 analyses.
 
-From the project root: .venv/bin/python v10.4/run_v10_4.py all
+From the project root: .venv/bin/python v10/v10.4/run_v10_4.py all
 """
 from __future__ import annotations
 
 import argparse
 
-from common import HERE, read_json, source_audit, write_json
+from common import HERE, ROOT, read_json, source_audit, write_json
 
 
 def audit() -> None:
-    current = source_audit()
     path = HERE / "source_manifest.json"
     if path.is_file():
         previous = read_json(path)
+        missing = [record["path"] for record in previous["inputs"]
+                   if not (ROOT / record["path"]).is_file()]
+        if missing:
+            preview = "\n".join(f"  {item}" for item in missing[:10])
+            remainder = f"\n  ... and {len(missing) - 10} more" if len(missing) > 10 else ""
+            raise FileNotFoundError(
+                f"Missing {len(missing)} frozen V10.4 input(s) under {ROOT}. "
+                "Restore the authorized local artifacts listed in source_manifest.json "
+                f"before rerunning:\n{preview}{remainder}"
+            )
+    current = source_audit()
+    if path.is_file():
         if previous != current:
             raise RuntimeError("A frozen input or the V10.4 analysis plan changed; inspect the source manifest")
     else:

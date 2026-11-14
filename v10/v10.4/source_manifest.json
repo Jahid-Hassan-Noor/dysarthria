@@ -2,7 +2,7 @@
   "inputs": [
     {
       "bytes": 4351,
-      "path": "v10.4/analysis_plan.json",
+      "path": "v10/v10.4/analysis_plan.json",
       "sha256": "0a1c550800eb4ed842a202e7115fbdd9e15c039def835c04b257ac2e9bf42223"
     },
     {

@@ -222,12 +222,12 @@ def render_results() -> str:
         f"all 75 published V10 probabilities (maximum difference "
         f"{checked['locked_scoring_max_probability_difference']:.2e}). "
         "The source manifest records SHA-256 hashes for the analysis plan and 158 "
-        "frozen inputs. Every new checkpoint and result is under `v10.4/`. "
+        "frozen inputs. Every new checkpoint and result is under `v10/v10.4/`. "
         "The five seeds repeat the same 15 speakers, so uncertainty is based on physical "
         "speakers. All V10.4 analyses are secondary; neither a high background-edge AUC "
         "nor an audio-perturbation response by itself identifies a clinical mechanism.",
         "",
-        "Run `.venv/bin/python v10.4/run_v10_4.py all` from the project root to verify "
+        "Run `.venv/bin/python v10/v10.4/run_v10_4.py all` from the project root to verify "
         "the frozen inputs and resume every stage. `analysis_plan.json` fixes the analyses; "
         "`source_manifest.json` records their inputs. The `outputs/` subfolders contain "
         "per-speaker predictions, per-seed metrics, confidence intervals, and figures.",
@@ -240,23 +240,34 @@ def make_notebook(results: str) -> None:
     cells = [
         nbformat.v4.new_markdown_cell(
             "# Dysarthria V10.4\n\nFive follow-up analyses of the frozen V10 speech-only detector. "
-            "All new outputs and checkpoints are isolated in `v10.4/`. "
+            "All new outputs and checkpoints are isolated in `v10/v10.4/`. "
             "Run the code cell to verify the source hashes and reproduce or resume all stages."
         ),
         nbformat.v4.new_code_cell(
             "from pathlib import Path\nimport subprocess, sys\n"
             "place = Path.cwd().resolve()\n"
-            "version = place if place.name == 'v10.4' else place / 'v10.4'\n"
-            "assert (version / 'run_v10_4.py').is_file(), 'Start Jupyter in the project root or v10.4'\n"
+            "version = place if place.name == 'v10.4' else place / 'v10' / 'v10.4'\n"
+            "assert (version / 'run_v10_4.py').is_file(), 'Start Jupyter in the project root or v10/v10.4'\n"
             "subprocess.run([sys.executable, str(version / 'run_v10_4.py'), 'all'], check=True)"
         ),
         nbformat.v4.new_markdown_cell(results),
     ]
-    notebook = nbformat.v4.new_notebook(cells=cells, metadata={
+    notebook_path = HERE / "dysarthria_v10.4.ipynb"
+    metadata = {
         "kernelspec": {"display_name": "Python 3 (dysarthria)", "language": "python", "name": "python3"},
         "language_info": {"name": "python"},
-    })
-    nbformat.write(notebook, HERE / "dysarthria_v10.4.ipynb")
+    }
+    if notebook_path.is_file():
+        previous = nbformat.read(notebook_path, as_version=4)
+        metadata = previous.metadata
+        if len(previous.cells) == len(cells):
+            for old, new in zip(previous.cells, cells):
+                new.id = old.id
+            if previous.cells[1].source == cells[1].source:
+                cells[1].outputs = previous.cells[1].get("outputs", [])
+                cells[1].execution_count = previous.cells[1].get("execution_count")
+    notebook = nbformat.v4.new_notebook(cells=cells, metadata=metadata)
+    nbformat.write(notebook, notebook_path)
 
 
 def main() -> None:

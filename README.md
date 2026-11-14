@@ -4,6 +4,8 @@ This repository contains the code, executed notebooks, publication figures, and 
 
 **Start here:** Read the [V10.4 results](v10/v10.4/RESULTS.md) for the latest follow-up analyses. The [V10 publication tables and figures](v10/publication/) summarize the frozen reference model and its comparisons. The notebooks retain executed outputs, so the saved findings can be inspected without downloading the datasets.
 
+The [manuscript revision text](v10/publication/manuscript_revisions.md) supplies a revised abstract and conclusion plus shorter Tables 7 and 10. Compact views of the densest repository tables are in [`v10/publication/tables/`](v10/publication/tables/); their linked CSVs retain full precision.
+
 ## Repository guide
 
 | Path | Contents |
@@ -56,7 +58,7 @@ These results show discrimination under the evaluated V10 protocol, while the du
 
 ## Set up a local environment
 
-Run commands from the repository root. The dependency list was developed for a local Apple Silicon environment; PyTorch device selection in the notebooks falls back to CPU when MPS is unavailable.
+Run commands from the repository root. The pinned dependency list was validated with Python 3.12.14 on a local Apple Silicon environment; PyTorch device selection in the notebooks falls back to CPU when MPS is unavailable.
 
 ```bash
 python3 -m venv .venv
@@ -82,7 +84,7 @@ The V10.4 runner is now located at:
 .venv/bin/python v10/v10.4/run_v10_4.py all
 ```
 
-Its stages are `audit`, `reanalyses`, `background`, `spread`, and `report`. **The move has not yet been applied to the runner's repository-root calculation or its saved source manifest**, so this command does not currently complete a rerun. Even after those paths are repaired, a fresh GitHub clone will need the frozen V8/V10 caches and checkpoints excluded from Git, plus local TORGO WAV files and WavLM weights. See [`v10/v10.4/README.md`](v10/v10.4/README.md) and [`v10/v10.4/source_manifest.json`](v10/v10.4/source_manifest.json) for the required inputs. The saved V10.4 tables and figures remain available without rerunning it.
+Its stages are `audit`, `reanalyses`, `background`, `spread`, and `report`. The path and manifest checks work from the current repository layout. A fresh GitHub clone still needs the frozen V8/V10 caches and checkpoints excluded from Git, plus local TORGO WAV files and WavLM weights. The `audit` stage lists missing frozen inputs before a rerun. See [`v10/v10.4/README.md`](v10/v10.4/README.md) and [`v10/v10.4/source_manifest.json`](v10/v10.4/source_manifest.json) for the required paths. The saved V10.4 tables and figures remain available without rerunning it.
 
 ## What GitHub contains
 

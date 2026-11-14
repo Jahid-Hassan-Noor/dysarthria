@@ -25,11 +25,11 @@ The runner verifies SHA-256 hashes in `source_manifest.json` before and after
 each run. All writes are under `v10/v10.4/`; V8, V9, V10, and V10.3 are read-only
 inputs. `analysis_plan.json` specifies the comparisons and decision rules.
 
-**Current rerun limitation:** Moving this folder changed its location, but
-`common.py` still treats its parent as the project root, and the saved source
-manifest records the earlier paths. The command above is the intended entry
-point after those path assumptions are updated. The committed tables, figures,
-and this results document can be read without a rerun.
+The runner resolves paths from its location and verifies the 159 manifest
+entries before running. A fresh GitHub clone does not contain the excluded
+frozen inputs; restore them at the paths in `source_manifest.json` before a
+full rerun. The committed tables, figures, and results can be read without
+those inputs.
 
 ## Files
 
